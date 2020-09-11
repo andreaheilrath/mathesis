@@ -2,6 +2,8 @@ Hier werden Materialien für den [Mathesis-Kurs](https://www.mintgruen.tu-berlin
 
 Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Übungsblätter. Neben der individuellen Auseinandersetzung mit den Inhalten basiert der Kurs auf dem Austausch zwischen Studierenden.
 
+
+### Ablauf - Inhalt der Sessions
 In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache.  
 
 0. Session: Was ist Programmieren, Installation von Python, "Hello World", Jupyter Notebooks
@@ -9,3 +11,20 @@ In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Progra
 2. Session
 3. Session
 4. Session
+
+### Ressourcen
+
+Python Dokumentation 
+* Python Doku https://docs.python.org/3/
+
+Online Kurse
+* hourofpython.trinket.io/a-visual-introduction-to-python
+* https://www.programiz.com/python-programming
+
+* https://www.sololearn.com/Course/Python/
+
+Apps
+* Android: 
+* Python Doku https://docs.python.org/3/
+
+
