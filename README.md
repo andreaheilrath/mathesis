@@ -18,7 +18,7 @@ Python Dokumentation
 * Python Doku https://docs.python.org/3/
 
 Online Kurse
-* hourofpython.trinket.io/a-visual-introduction-to-python
+* https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code
 * https://www.programiz.com/python-programming
 
 * https://www.sololearn.com/Course/Python/
