@@ -33,21 +33,25 @@ wert = 2 ** 6
 
 6. **Skript (interaktiv) in der Konsole ausführen.** Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen mit ```python hello.py```. **Achtung:** Das funktioniert nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! Beim Ausführen von `dir`, bzw. `ls` sollte euch die Datei angezeigt werden. Führe die Datei auch im interaktiven Modus aus: `python -i hello.py`. Anschließent kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
 
-7. **Noch zwei Skripte.** Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
+7. **SyntaxError**
+
+8. **Noch zwei Skripte.** Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
 ```
 for zaehler in range(0,10):
   print(zaehler, "Hello World")
 ```
 ```
 import turtle
-for zaehler in range(0,20):
+for zaehler in range(0,38):
   turtle.forward(10)
   turtle.left(10)
+
+turtle.mainloop()
 ```
 
-8. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. 
-
 9. **Jupyter Notebook**
+
+10. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. 
 
 
 ### Text
