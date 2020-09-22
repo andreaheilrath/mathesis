@@ -12,7 +12,7 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
 
 ### Schritt-für-Schritt Anleitung
 
-1. **Python 3 / Anaconda.** Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über Anaconda: https://www.anaconda.com/products/individual
+1. **Python 3 / Anaconda.** Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über [Anaconda](https://www.anaconda.com/products/individual), unter dem Link findet ihr die Installationsdateien für euer Betriebssystem.
 
 2. **Die Konsole.** Alternativ zur gewohnten Interaktion mit dem Computer über die grafische Oberfläche (Fenster, Mauszeiger, Buttons, ...), kann man dem Rechner per Text kommunizieren. Das is möglich über die Konsole. Wenn ihr Windows benutzt, startet die **Anaconda Prompt**, unter Mac/Linux einfach **Terminal** suchen. Um einen Befehl abzusenden, müsst ihr die Eingabetaste drücken. 
 Die Konsole befindet sich immer in einem bestimmten Verzeichnis auf eurem Rechner. Die Eingabe `dir` (Windows) bzw `ls` (Mac/Linux) listet den Inhalt des Verzeichnisses auf. Mit `cd <Verzeichnisname>` (cd = change directory) kommt ihr in ein Unterverzeichnis mit  `cd ..` kommt ihr zurück.
