@@ -10,11 +10,14 @@ Diese Session dient dazu, euch alles auf dem Rechner zu installieren was ihr bra
 * Texteditoren und erste kleine Skripte
 * Jupyter Notebooks - Struktur und Bedienung
 
+### Schritt-für-Schritt Anleitung
 
 1. Python 3 / Anaconda
+
 Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über Anaconda: https://www.anaconda.com/products/individual
 
 2. Das Terminal
+
 Alternativ zur gewohnten Interaktion mit dem Computer über die grafische Oberfläche (Fenster, Mauszeiger, Buttons, ...), kann man dem Rechner per Text kommunizieren. Das is möglich über das sogenannte Terminal. Wenn ihr Windows benutzt, startet die **Anaconda Prompt**, unter Mac/Linux einfach **Terminal** suchen.
 
 
