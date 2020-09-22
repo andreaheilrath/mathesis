@@ -1,6 +1,6 @@
 ## 0. Session
 
-Diese Session dient dazu, euch alles auf dem Rechner zu installieren was ihr braucht. Die wichtigen Schritte findet ihr hier - im Video gibt es etwas mehr Hintergrundinfos.
+Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python zu starten. Die wichtigsten Schritte findet ihr hier - im Video gibt es etwas mehr Hintergrundinfos.
 
 ### Inhalte
 
@@ -22,7 +22,14 @@ Die Konsole befindet sich immer in einem bestimmten Verzeichnis auf eurem Rechne
 >>> 
 ```
 
-4. **Erste Schritte.** Ihr könnt damit z. B. einfache Berechnungen durchführen wie `2 + 2` oder `2 ** 8`. Ein anderer grundlegender Befehl ist der print-Befehl: `print("Hello World")`. Ihr könnt die Funktionalitäten erweitern, indem ihr Module importiert - beispielsweise die Turtle: `import turtle`. Hier passiert scheinbar garnichts - allerdings könnt ihr jetzt Befehle mit der turtle ausführen, z. B. `turtle.forward(50)`, `turtle.left(90)`, `turtle.backward(100)`. Mit `help(modul_name)` kann man die Dokumentation der Module aufrufen (also `help(turtle)`), durch drücken der Taste `q` kommt ihr wieder zurück. Mit `exit()` oder der Tastenkombination `CRTL + d` beendet ihr Python.
+4. **Erste Schritte.** Jetzt kannst du direkt Berechnungen durchführen wie `2 + 2` oder `2 ** 8`. Ein anderer grundlegender Befehl ist der print-Befehl: `print("Hello World")`.
+Im Allgemeinen lassen sich die Funktionalitäten erweitern, indem man Module importiert - beispielsweise die Turtle: `import turtle`. Hier passiert scheinbar garnichts - allerdings könnt ihr jetzt Befehle aus dem Turtle-Modul ausführen, z. B. `turtle.forward(50)`, `turtle.left(90)`, `turtle.backward(100)`. Mit `help(modul_name)` kann man die Dokumentation der Module aufrufen (also `help(turtle)`), durch drücken der Taste `q` kommt ihr wieder zurück. Mit `exit()` oder der Tastenkombination `CRTL + d` beendet ihr Python.
+
+5. **Python Skripte & Text Editor.** Für längere Programme ist es ungünstig, alle Schritt immer wieder eingeben zu müssen. Daher wollen wir jetzt eine Textdatei verfassen, in der die Befehle zusammengefasst sind. Es gibt viele Editoren, wenn du noch keinen auf deinem System installiert hast, empfehlen wir **[Atom](https://atom.io)**. Erstellt eine neue Datei (Datei -> neue Datei) mit dem Namen *HelloWorld.py*. Diese Datei soll zwei Zeilen haben:
+```
+print("Hello World")
+wert = 2 ** 6
+```
 
 
 ### Text
