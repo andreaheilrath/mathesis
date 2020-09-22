@@ -18,7 +18,8 @@ Diese Session dient dazu, euch alles auf dem Rechner zu installieren was ihr bra
 Die Konsole befindet sich immer in einem bestimmten Verzeichnis auf eurem Rechner. Die Eingabe `dir` (Windows) bzw `ls` (Mac/Linux) listet den Inhalt des Verzeichnisses auf. Mit `cd <Verzeichnisname>` (cd = change directory) kommt ihr in ein Unterverzeichnis mit  `cd ..` kommt ihr zurück.
 
 3. **Python in der Konsole starten.** Starte den interaktiven Python-Interpreter, indem du `python` in die Konsole eingibts und die Enter-Taste drückst. Jetzt sollten in der nächsten Zeile drei Häkchen auftauchen, so etwa: 
-```     >>> 
+```     
+>>> 
 ```
 
 4. **Erste Schritte.** Ihr könnt damit z. B. einfache Berechnungen durchführen wie `2 + 2` oder `2 ** 8`. Ein anderer grundlegender Befehl ist der print-Befehl: `print("Hello World")`. Ihr könnt die Funktionalitäten erweitern, indem ihr Module importiert - beispielsweise die Turtle: `import turtle`. Hier passiert scheinbar garnichts - allerdings könnt ihr jetzt Befehle mit der turtle ausführen, z. B. `turtle.forward(50)`, `turtle.left(90)`, `turtle.backward(100)`. Mit `help(modul_name)` kann man die Dokumentation der Module aufrufen (also `help(turtle)`), durch drücken der Taste `q` kommt ihr wieder zurück. Mit `exit()` oder der Tastenkombination `CRTL + d` beendet ihr Python.
