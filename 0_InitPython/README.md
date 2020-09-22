@@ -12,7 +12,7 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
 
 ### Schritt-für-Schritt Anleitung
 
-1. **Python 3 / Anaconda.** Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über [Anaconda](https://www.anaconda.com/products/individual), unter dem Link findet ihr die Installationsdateien für euer Betriebssystem.
+1. **Installation von Python3 / Anaconda.** Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über [**Anaconda**](https://www.anaconda.com/products/individual), unter dem Link findet ihr die Installationsdateien für euer Betriebssystem.
 
 2. **Die Konsole.** Alternativ zur gewohnten Interaktion mit dem Computer über die grafische Oberfläche (Fenster, Mauszeiger, Buttons, ...), kann man dem Rechner per Text kommunizieren. Das is möglich über die Konsole. Wenn ihr Windows benutzt, startet die **Anaconda Prompt**, unter Mac/Linux einfach **Terminal** suchen. Um einen Befehl abzusenden, müsst ihr die Eingabetaste drücken. 
 Die Konsole befindet sich immer in einem bestimmten Verzeichnis auf eurem Rechner. Die Eingabe `dir` (Windows) bzw `ls` (Mac/Linux) listet den Inhalt des Verzeichnisses auf. Mit `cd <Verzeichnisname>` (cd = change directory) kommt ihr in ein Unterverzeichnis mit  `cd ..` kommt ihr zurück.
@@ -30,6 +30,24 @@ Im Allgemeinen lassen sich die Funktionalitäten erweitern, indem man Module imp
 print("Hello World")
 wert = 2 ** 6
 ```
+
+6. **Skript (interaktiv) in der Konsole ausführen.** Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen mit ```python hello.py```. **Achtung:** Das funktioniert nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! Beim Ausführen von `dir`, bzw. `ls` sollte euch die Datei angezeigt werden. Führe die Datei auch im interaktiven Modus aus: `python -i hello.py`. Anschließent kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
+
+7. **Noch zwei Skripte.** Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
+```
+for zaehler in range(0,10):
+  print(zaehler, "Hello World")
+```
+```
+import turtle
+for zaehler in range(0,20):
+  turtle.forward(10)
+  turtle.left(10)
+```
+
+8. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. 
+
+9. **Jupyter Notebook**
 
 
 ### Text
