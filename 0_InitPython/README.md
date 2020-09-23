@@ -33,7 +33,7 @@ wert = 2 ** 6
 
 6. **Skript (interaktiv) in der Konsole ausführen.** Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen mit ```python hello.py```. **Achtung:** Das funktioniert nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! Beim Ausführen von `dir`, bzw. `ls` sollte euch die Datei angezeigt werden. Führe die Datei auch im interaktiven Modus aus: `python -i hello.py`. Anschließent kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
 
-7. **SyntaxError**
+7. **Error Messages.** [16 Common Python Runtime Errors](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find)
 
 8. **Noch zwei Skripte.** Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
 ```
@@ -51,7 +51,7 @@ turtle.mainloop()
 
 9. **Jupyter Notebook**
 
-10. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. 
+10. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. Mit der Tastenkombination `CRTL + SHIFT + B` wird der Code ausgeführt und es öffnet sich eine Konsole. Unter Linux und Mac sollte das einfach laufen. Unter Windows funktioniert es, wenn man Atom mit dem Befehl `atom --new-instance` aus der Anaconda-Prompt startet. Alternativ kann man auch Pfadvariablen hinzufügen, siehe **missing link**.
 
 
 ### Text
