@@ -1,7 +1,11 @@
-Hier werden Materialien für den [Mathesis-Kurs](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/) gesammelt. Der Kurs kann ohne Vorwissen belegt werden. Ziel ist es, im Lauf des Semesters die Grundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache)) zu erlernen und damit ein Projekt zu bearbeiten, welches im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun hat.
+## ¡¡ WORK IN PROGRESS !!
 
-Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Übungsblätter. Neben der individuellen Auseinandersetzung mit den Inhalten basiert der Kurs auf dem Austausch zwischen Studierenden.
 
+Hier werden Materialien für das mathematisch-naturwissenschaftliche Labor [Mathesis-Kurs](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/) gesammelt, das im Rahmen des Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin angeboten wird.
+
+In dem Kurs geht es darum, einen experimentellen, "praktischen" Zugang zur Mathematik und Modellen in den Naturwissenschaften zu schaffen. Der Rechner dient dabei als "Labor". Zu Beginn des Semesters erlernen die Teilnehmer* innen die Gundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache)). Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben.
+
+Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen.
 
 ### Ablauf - Inhalt der Sessions
 In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache.  
