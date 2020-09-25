@@ -31,5 +31,6 @@ Apps
 * Android: 
 * Python Doku https://docs.python.org/3/
 
+[![CC-BY-SA](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
 
