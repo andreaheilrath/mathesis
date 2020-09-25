@@ -10,26 +10,24 @@ Für die wöchentlichen Sessions werden verschiedene Materialien online bereitge
 ### Ablauf - Inhalt der Sessions
 In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache.  
 
-0. Session: Was ist Programmieren, Installation von Python, "Hello World", Jupyter Notebooks
-1. Session:
-2. Session
-3. Session
-4. Session
+0. Session: Algorithmen, Computer, Installation von Python 
+1. Session: ...
+2. Session: ...
+3. Session: ...
+4. Session: ...
 
 ### Ressourcen
-
 Python Dokumentation 
 * Python Doku https://docs.python.org/3/
+* https://automatetheboringstuff.com
 
 Online Kurse
 * https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code
 * https://www.programiz.com/python-programming
-
 * https://www.sololearn.com/Course/Python/
 
 Apps
-* Android: 
-* Python Doku https://docs.python.org/3/
+* SoloLearn
 
 [![CC-BY-SA](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
