@@ -4,13 +4,16 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
 
 ### Inhalte
 
-* Basics: Algorithmen, Computer, Programmiersprachen
-* Installation von Python via Anaconda
-* Die Konsole - erster Kontakt mit Python
-* Texteditoren und erste kleine Skripte
-* Jupyter Notebooks - Struktur und Bedienung
+* Allgemeine Grundlagen: Algorithmen, Rechner, Programmiersprachen -> findet ihr [hier](grundlagen)
 
-### Schritt-für-Schritt Anleitung
+* Get started with Python
+  * Installation von Python via Anaconda
+  * Die Konsole - erster Kontakt mit Python
+  * Texteditoren und erste kleine Skripte
+  * Jupyter Notebooks - Struktur und Bedienung
+  s* Error Messages
+
+### Get started with Python
 
 1. **Installation von Python3 / Anaconda.** Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über [**Anaconda**](https://www.anaconda.com/products/individual), unter dem Link findet ihr die Installationsdateien für euer Betriebssystem.
 
