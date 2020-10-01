@@ -8,17 +8,34 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
 
 * Get started with Python
   * Installation von Python via Anaconda
-  * Die Konsole - erster Kontakt mit Python
+  * Die Konsole - das Command Line Interface
+  * Python interaktiv in der Konsole
   * Texteditoren und erste kleine Skripte
   * Jupyter Notebooks - Struktur und Bedienung
-  s* Error Messages
+  * Error Messages
 
 ### Get started with Python
 
-1. **Installation von Python3 / Anaconda.** Es gibt verschiedene Wege, Python zu installieren. Einer der einfachsten ist die Installation über [**Anaconda**](https://www.anaconda.com/products/individual), unter dem Link findet ihr die Installationsdateien für euer Betriebssystem.
+1. **Installation von Python via Anaconda** 
 
-2. **Die Konsole.** Alternativ zur gewohnten Interaktion mit dem Computer über die grafische Oberfläche (Fenster, Mauszeiger, Buttons, ...), kann man dem Rechner per Text kommunizieren. Das is möglich über die Konsole. Wenn ihr Windows benutzt, startet die **Anaconda Prompt**, unter Mac/Linux einfach **Terminal** suchen. Um einen Befehl abzusenden, müsst ihr die Eingabetaste drücken. 
-Die Konsole befindet sich immer in einem bestimmten Verzeichnis auf eurem Rechner. Die Eingabe `dir` (Windows) bzw `ls` (Mac/Linux) listet den Inhalt des Verzeichnisses auf. Mit `cd <Verzeichnisname>` (cd = change directory) kommt ihr in ein Unterverzeichnis mit  `cd ..` kommt ihr zurück.
+    Es gibt verschiedene Wege, Python zu installieren. Für den Crashkurs nutzt bitte [**Anaconda**](https://www.anaconda.com/products/individual). Unter dem Link findet ihr die    Installationsdateien für alle Betriebssysteme (üblich sind 64bit Systeme). Klickt euch einfach durch die Installation, es sind keine besonderen Einstellungen nötig.
+
+
+2. **Die Konsole - das Command Line Interface**
+
+    Alternativ zur gewohnten Interaktion mit dem Computer über die grafische Oberfläche (Fenster, Mauszeiger, Buttons, ...), kann man dem Rechner per Texteingabe kommunizieren.
+    Das is möglich über die **Konsole**. Wenn ihr Windows benutzt, startet die **Anaconda Prompt**, unter Mac/Linux das **Terminal**. Am einfachsten ist es, wenn ihr nach diesen Programmen sucht.
+    
+    Wenn das Terminal läuft, wird euch ein Dateipfad angezeigt - das aktuelle Arbeitsverzeichnis. Normalerweise ist das zunächst euer Home-Folder (unter Mac/Linux auch mit `~` abgekürzt).
+    ```
+    C:\Users\username
+    ```
+    Wichtige Befehle in der Konsole:
+    * `dir` (Windows) bzw `ls` (Mac/Linux) listet den **Inhalt des aktuellen Verzeichnisses** auf
+    * `cd <Verzeichnisname>` (cd = change directory) **navigiert** in das genannte **Unterverzeichnis**
+    * `cd ..` navigiert eine Ebene **nach oben**
+    
+    Mehr Befehle und Infos über die Konsole findet ihr z. B. [hier](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955)
 
 3. **Python in der Konsole starten.** Starte den interaktiven Python-Interpreter, indem du `python` in die Konsole eingibst und die Enter-Taste drückst. Jetzt sollten in der nächsten Zeile drei Häkchen auftauchen, so etwa: 
 ```     
