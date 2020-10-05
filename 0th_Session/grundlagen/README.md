@@ -20,3 +20,8 @@ Implementieren
 
 Erster Computer - [Konrad Zuse](https://de.wikipedia.org/wiki/Konrad_Zuse)
 
+
+### Text
+
+* [Chaos Computer Buch](https://monoskop.org/images/b/ba/Wieckmann,_Jürgen_%28ed.%29_-_Das_Chaos_Computer_Buch._Hacking_made_in_Germany_%28German%29.pdf), Seite 125, Die Drei Hände des Zeichners, Peter Glaser
+
