@@ -109,11 +109,18 @@ In dieser Session wirst du alle nötigen Programme installieren und zum ersten m
 
 9. **Jupyter Notebook**
 
+    Jupyter (früher IPython) Notebooks ist eine Browser-basierte Python-Umgebung, die auf *interactive Computing* basieren. Die Grundidee ist, dass es nicht ein Skript gibt, das von oben nach unten ausgeführt wird, sondern dass der Code in kleinere Bruchstücke aufgespalten wird und durch Text ergänzt werden kann.
+    
+    Um Jupyter Notebook zu starten, gib `jupyter notebook` in die Konsole ein.
+    
+    === FILL GAP ===
+    
 
 ### Andere Einführungen in Python
 
 * https://www.kaggle.com/learn/python
 * https://cscircles.cemc.uwaterloo.ca
+* https://www.physi.uni-heidelberg.de/Einrichtungen/AP/Python.php
 
 ### Referenzen & Tools
 
