@@ -34,16 +34,34 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
     * `dir` (Windows) bzw `ls` (Mac/Linux) listet den **Inhalt des aktuellen Verzeichnisses** auf
     * `cd <Verzeichnisname>` (cd = change directory) **navigiert** in das genannte **Unterverzeichnis**
     * `cd ..` navigiert eine Ebene **nach oben**
+    * Prozess beenden: `CTRL + C`
     
-    Mehr Befehle und Infos über die Konsole findet ihr z. B. [hier](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955)
+    Mehr Befehle und Infos über die Konsole findet ihr z. B. [hier](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955).
 
-3. **Python in der Konsole starten.** Starte den interaktiven Python-Interpreter, indem du `python` in die Konsole eingibst und die Enter-Taste drückst. Jetzt sollten in der nächsten Zeile drei Häkchen auftauchen, so etwa: 
-```     
->>> 
-```
+3. **Python interaktiv in der Konsole** 
 
-4. **Erste Schritte.** Jetzt kannst du direkt Berechnungen durchführen wie `2 + 2` oder `2 ** 8`. Ein anderer grundlegender Befehl ist der print-Befehl: `print("Hello World")`.
-Im Allgemeinen lassen sich die Funktionalitäten erweitern, indem man Module importiert - beispielsweise die Turtle: `import turtle`. Hier passiert scheinbar garnichts - allerdings könnt ihr jetzt Befehle aus dem Turtle-Modul ausführen, z. B. `turtle.forward(50)`, `turtle.left(90)`, `turtle.backward(100)`. Mit `help(modul_name)` kann man die Dokumentation der Module aufrufen (also `help(turtle)`), durch drücken der Taste `q` kommt ihr wieder zurück. Mit `exit()` oder der Tastenkombination `CRTL + d` beendet ihr Python.
+    StartePython, indem du `python` in die Konsole eingibst und die Enter-Taste drückst. Jetzt sollten in der nächsten Zeile drei Häkchen auftauchen, so etwa: 
+    ```     
+    >>> 
+    ```
+    Jetzt läuft der **interaktive Python-Interpreter**. Werden nun Befehle eingegeben und mit `ENTER` abgeschickt, wird der Befehl von Python "interpretiert" und ausgeführt.
+    Hier ein paar Beispiele:
+    * `2 + 2`
+    * `2 ** 8`
+    * `print("Hello World")`
+    * `x = 5`
+    * `print(x)`
+    
+    Der Befehl `x = 5` erstellt eine neue Variable `x` die den Wert 5 hat. Von da an existiert `x` und der Wert kann abgerufen werden.
+    
+    Im Allgemeinen lassen sich die Funktionalitäten erweitern, indem man Module importiert. Ein Beispiel ist das Modul `turtle`.
+    
+    * `import turtle`. 
+    * `turtle.forward(50)`
+    * `turtle.left(90)`
+    * `turtle.backward(100)`*
+    
+    * `help(modul_name)` kann man die Dokumentation der Module aufrufen (also `help(turtle)`), durch drücken der Taste `q` kommt ihr wieder zurück. Mit `exit()` oder der Tastenkombination `CRTL + d` beendet ihr Python.
 
 5. **Python Skripte & Text Editor.** Für längere Programme ist es ungünstig, alle Schritt immer wieder eingeben zu müssen. Daher wollen wir jetzt eine Textdatei verfassen, in der die Befehle zusammengefasst sind. Es gibt viele Editoren, wenn du noch keinen auf deinem System installiert hast, empfehlen wir **[Atom](https://atom.io)**. Erstellt eine neue Datei (Datei -> neue Datei) mit dem Namen *hello.py*. Diese Datei soll zwei Zeilen haben:
 ```
