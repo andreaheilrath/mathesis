@@ -50,7 +50,7 @@ In dieser Session wirst du alle nötigen Programme zu installieren und zum erste
     * `2 ** 8`
     * `print("Hello World")`
     
-    Vorab ein Beispiel für den **Import eines Moduls: Turtle!**
+    **Importiere das Turtle-Modul**
     * `import turtle` Scheinbar passiert nichts, aber im Hintergrund werden Funktionen geladen.
     * `turtle.forward(50)` hier öffnet sich ein Fenster - lass es offen und beobachte den Effekt der nächsten Befehle.
     * `turtle.left(90)`
@@ -96,17 +96,18 @@ In dieser Session wirst du alle nötigen Programme zu installieren und zum erste
     turtle.mainloop()
     ```
 
-    **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. Mit der Tastenkombination `CRTL + SHIFT + B` wird der Code ausgeführt und es öffnet sich eine Konsole. Unter Linux und Mac sollte das einfach laufen. Unter Windows funktioniert es, wenn man Atom mit dem Befehl `atom` aus der Anaconda-Prompt startet, dann weiß Atom wo es Python "finden" kann. Alternativ kann man auch Pfadvariablen in der Registry hinzufügen, siehe **missing link**.
+    **Skripte in Atom ausführen** (Zusatz) In Atom kannst du unter Datei -> Einstellungen -> Install das Paket *script* installieren. Mit der Tastenkombination `CRTL + SHIFT + B` wird der Code ausgeführt und es öffnet sich eine Konsole. Unter Linux und Mac sollte das einfach laufen. Unter Windows funktioniert es, wenn man Atom mit dem Befehl `atom` aus der Anaconda-Prompt startet, dann weiß Atom wo es Python "finden" kann. Alternativ kann man auch Pfadvariablen in der Registry hinzufügen, damit sollte man jedoch vorsichtig sein.
+
+7. **Error Messages.** 
+
+    Wenn ihr anfangt, selbst Code zu verändern und zu produzieren, werdet ihr schnell auf Fehlermeldungen stoßen. Die Konsole gibt nicht das gewünschte Ergebnis aus, sondern verschiedene Arten von Error Messages. Hier ein paar Beispiele:
+    * `SyntaxError`: Falsche Syntax (Fehlende Klammern, Doppelpunkte, Kommata)
+    * `IndentationError`: Einrückungen sitzen nicht richtig
+    * `NameError`: Abruf einer Variablen die nicht benannt ist (meist verursacht durch Tippfehler)
+
+    Es gibt noch viel mehr, die werdet ihr mit der Zeit kennen lernen. Falls ihr jetzt schon mehr wissen wollt, lest [16 Common Python Runtime Errors](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find).
 
 9. **Jupyter Notebook**
-
-7. **Error Messages.** Wenn ihr anfangt, selbst Code zu verändern und zu produzieren, werdet ihr schnell auf Fehlermeldungen stoßen. Die Konsole gibt nicht das Ergebnis aus, sondern verschiedene Arten von Error Messages. Ihr bekommt auch die 
-
-[16 Common Python Runtime Errors](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find)
-
-### Text
-
-* [Chaos Computer Buch](https://monoskop.org/images/b/ba/Wieckmann,_Jürgen_%28ed.%29_-_Das_Chaos_Computer_Buch._Hacking_made_in_Germany_%28German%29.pdf), Seite 125, Die Drei Hände des Zeichners, Peter Glaser
 
 
 ### Andere Einführungen in Python
