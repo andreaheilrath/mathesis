@@ -1,11 +1,14 @@
 ## ¡¡ WORK IN PROGRESS !!
 
+**Der Kurs wird für das WS 21/21 vorbereitet**
 
-Hier werden Materialien für das mathematisch-naturwissenschaftliche Labor [Mathesis-Kurs](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/) gesammelt, das im Rahmen des Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin angeboten wird.
+Hier werden Materialien für das **mathematisch-naturwissenschaftliche Labor [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/)** gesammelt, das im Rahmen des **Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin** angeboten wird.
 
-In dem Kurs geht es darum, einen experimentellen, "praktischen" Zugang zur Mathematik und Modellen in den Naturwissenschaften zu schaffen. Der Rechner dient dabei als "Labor". Zu Beginn des Semesters erlernen die Teilnehmer* innen die Gundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache)). Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben.
+In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. 
 
-Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen.
+Zu Beginn des Semesters erlernen die Teilnehmer* innen die **Gundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache))**. Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben.
+
+Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Diese Repository soll dazu dienen, alle Materialien zu bündeln und sich dynamisch zu erweitern.
 
 ### Ablauf - Inhalt der Sessions
 In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache.  
@@ -29,6 +32,6 @@ Online Kurse
 Apps
 * SoloLearn
 
-[![CC-BY-SA](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
+![CC-BY-SA](https://mirrors.creativecommons.org/presskit/buttons/80x15/png/by-sa.png)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
 
