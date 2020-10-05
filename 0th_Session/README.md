@@ -93,9 +93,9 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
     turtle.mainloop()
     ```
 
-9. **Jupyter Notebook**
+    **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. Mit der Tastenkombination `CRTL + SHIFT + B` wird der Code ausgeführt und es öffnet sich eine Konsole. Unter Linux und Mac sollte das einfach laufen. Unter Windows funktioniert es, wenn man Atom mit dem Befehl `atom` aus der Anaconda-Prompt startet, dann weiß Atom wo es Python "finden" kann. Alternativ kann man auch Pfadvariablen in der Registry hinzufügen, siehe **missing link**.
 
-10. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. Mit der Tastenkombination `CRTL + SHIFT + B` wird der Code ausgeführt und es öffnet sich eine Konsole. Unter Linux und Mac sollte das einfach laufen. Unter Windows funktioniert es, wenn man Atom mit dem Befehl `atom` aus der Anaconda-Prompt startet, dann weiß Atom wo es Python "finden" kann. Alternativ kann man auch Pfadvariablen in der Registry hinzufügen, siehe **missing link**.
+9. **Jupyter Notebook**
 
 7. **Error Messages.** Wenn ihr anfangt, selbst Code zu verändern und zu produzieren, werdet ihr schnell auf Fehlermeldungen stoßen. Die Konsole gibt nicht das Ergebnis aus, sondern verschiedene Arten von Error Messages. Ihr bekommt auch die 
 
