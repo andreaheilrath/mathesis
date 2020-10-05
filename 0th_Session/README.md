@@ -1,6 +1,6 @@
 ## 0. Session
 
-Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python zu starten. Die wichtigsten Schritte findet ihr hier - im Video gibt es etwas mehr Hintergrundinfos.
+In dieser Session wirst du alle nötigen Programme zu installieren und zum ersten mal Python starten. Die wichtigsten Schritte sind hier aufgelistet - im Video gibt es etwas mehr Hintergrundinfos.
 
 ### Inhalte
 
@@ -40,7 +40,7 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
 
 3. **Python interaktiv in der Konsole** 
 
-    StartePython, indem du `python` in die Konsole eingibst und die Enter-Taste drückst. Jetzt sollten in der nächsten Zeile drei Häkchen auftauchen, so etwa: 
+    **Starte Python**, indem du `python` in die Konsole eingibst und die Enter-Taste drückst. Jetzt sollten in der nächsten Zeile drei Häkchen auftauchen, so etwa: 
     ```     
     >>> 
     ```
@@ -57,26 +57,32 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
     * `turtle.backward(100)`
     * `turtle.bye()`
     
-    **Hilfe:** `help(modul_name)` zeigt die Dokumentation des Moduls an. Für die Turtle wäre das `help(turtle)`.
+    **Benutze die Hilfe:** `help(modul_name)` zeigt die Dokumentation des Moduls an. Für die Turtle wäre das `help(turtle)`.
     Die Taste `q` schließt die Dokumentation.
     
-    **Beende Python** mit dem Befehl `exit()` oder der Tastenkombination `CRTL + d`.
+    **Beende Python** mit dem Befehl `exit()` oder der Tastenkombination `CTRL + d`.
 
-5. **Texteditoren und erste kleine Skripte** 
+4. **Texteditoren und erste kleine Skripte** 
 
     Anstatt einzelne Befehle in den Interpreter einzugeben, kann man eine Textdatei erstellen, in der Befehle zusammengefasst sind.
-    Python Skripte haben üblicherweise die Dateiendung *.py*. Mit einem Texeditor lässt sich eine Python-Datei bearbeiten.
+    Python Skripte/Dateien haben üblicherweise die Dateiendung *.py*. Mit einem Texeditor lässt sich eine Python-Datei bearbeiten.
     
-    Wenn du noch keinen Texteditor hast, empfehlen wir **[Atom](https://atom.io)**.
-    
-    Erstellt eine neue Datei (Datei -> neue Datei) mit dem Namen *hello.py*. Diese Datei soll zwei Zeilen haben:
+    Wenn du noch keinen Texteditor hast, empfehlen wir **[Atom](https://atom.io)**. Installiere Atom und erstelle eine neue Datei (Datei -> neue Datei) mit dem Namen *hello.py*.     Diese Datei soll folgenden Inhalt haben:
     ```
     print("Hello World")
     wert = 2 ** 6
     ```
-    Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen mit ```python hello.py```. **Achtung:** Das funktioniert nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! Beim Ausführen von `dir`, bzw. `ls` sollte euch die Datei angezeigt werden. Führe die Datei auch im interaktiven Modus aus: `python -i hello.py`. Anschließent kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
+    Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen:
+    
+    * `python hello.py` Programm wird ausgeführt und geschlossen
+    * `python -i hello.py` Programm wird ausgeführt und bleibt geöffnet (i = interaktiv)
+    
+    Im interaktiven Modus kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
+    
+    **Achtung:** Die Befehle funktionieren nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! 
+    Beim Ausführen von `dir`, bzw. `ls` sollte die Datei angezeigt werden (siehe Abschnitt 2).
 
-    Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
+    Hier zwei simple Beispiele, wie ein Skript aussehen kann. Probier es mal aus!
     ```
     for zaehler in range(0,10):
       print(zaehler, "Hello World")
