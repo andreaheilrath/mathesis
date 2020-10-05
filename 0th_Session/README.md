@@ -55,12 +55,10 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
     Der Befehl `x = 5` erstellt eine neue Variable `x` die den Wert 5 hat. Von da an existiert `x` und der Wert kann abgerufen werden.
     
     Im Allgemeinen lassen sich die Funktionalitäten erweitern, indem man Module importiert. Ein Beispiel ist das Modul `turtle`.
-    
     * `import turtle`. 
     * `turtle.forward(50)`
     * `turtle.left(90)`
-    * `turtle.backward(100)`*
-    
+    * `turtle.backward(100)`
     * `help(modul_name)` kann man die Dokumentation der Module aufrufen (also `help(turtle)`), durch drücken der Taste `q` kommt ihr wieder zurück. Mit `exit()` oder der Tastenkombination `CRTL + d` beendet ihr Python.
 
 5. **Python Skripte & Text Editor.** Für längere Programme ist es ungünstig, alle Schritt immer wieder eingeben zu müssen. Daher wollen wir jetzt eine Textdatei verfassen, in der die Befehle zusammengefasst sind. Es gibt viele Editoren, wenn du noch keinen auf deinem System installiert hast, empfehlen wir **[Atom](https://atom.io)**. Erstellt eine neue Datei (Datei -> neue Datei) mit dem Namen *hello.py*. Diese Datei soll zwei Zeilen haben:
