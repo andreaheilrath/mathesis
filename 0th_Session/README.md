@@ -54,14 +54,14 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
     
     Der Befehl `x = 5` erstellt eine neue Variable `x` die den Wert 5 hat. Von da an existiert `x` und der Wert kann abgerufen werden.
     
-    Vorab ein Beispiel für den Import von Modulen: die Turtle! 
-    * `import turtle`. 
-    * `turtle.forward(50)` hier öffnet sich ein Fenster - lass es offen und beobacht den Effekt der nächsten Befehle
+    Vorab ein Beispiel für den **Import eines Moduls: Turtle!**
+    * `import turtle` Scheinbar passiert nichts, aber im Hintergrund werden Funktionen geladen.
+    * `turtle.forward(50)` hier öffnet sich ein Fenster - lass es offen und beobachte den Effekt der nächsten Befehle.
     * `turtle.left(90)`
     * `turtle.backward(100)`
     
-    Mit `help(modul_name)` zeigt die Dokumentation des Moduls an. Für die Turtle wäre das `help(turtle)`.
-    Durch drücken der Taste `q` schließt sich die Dokumentation.
+    **Hilfe:** `help(modul_name)` zeigt die Dokumentation des Moduls an. Für die Turtle wäre das `help(turtle)`.
+    Die Taste `q` schließt die Dokumentation.
     
     **Beende Python** mit dem Befehl `exit()` oder der Tastenkombination `CRTL + d`.
 
