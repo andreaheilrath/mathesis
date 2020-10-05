@@ -1,6 +1,6 @@
 ## 0. Session
 
-In dieser Session wirst du alle nötigen Programme zu installieren und zum ersten mal Python starten. Die wichtigsten Schritte sind hier aufgelistet - im Video gibt es etwas mehr Hintergrundinfos.
+In dieser Session wirst du alle nötigen Programme installieren und zum ersten mal Python starten. Die wichtigsten Schritte sind hier aufgelistet - im Video gibt es etwas mehr Hintergrundinfos.
 
 ### Inhalte
 
