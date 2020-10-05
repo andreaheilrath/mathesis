@@ -65,36 +65,41 @@ Diese Session dient dazu, euren Rechner vorzubereiten und zum ersten mal Python 
     
     **Beende Python** mit dem Befehl `exit()` oder der Tastenkombination `CRTL + d`.
 
-5. **Python Skripte & Text Editor.** Für längere Programme ist es ungünstig, alle Schritt immer wieder eingeben zu müssen. Daher wollen wir jetzt eine Textdatei verfassen, in der die Befehle zusammengefasst sind. Es gibt viele Editoren, wenn du noch keinen auf deinem System installiert hast, empfehlen wir **[Atom](https://atom.io)**. Erstellt eine neue Datei (Datei -> neue Datei) mit dem Namen *hello.py*. Diese Datei soll zwei Zeilen haben:
-```
-print("Hello World")
-wert = 2 ** 6
-```
+5. **Texteditoren und erste kleine Skripte** 
 
-6. **Skript (interaktiv) in der Konsole ausführen.** Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen mit ```python hello.py```. **Achtung:** Das funktioniert nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! Beim Ausführen von `dir`, bzw. `ls` sollte euch die Datei angezeigt werden. Führe die Datei auch im interaktiven Modus aus: `python -i hello.py`. Anschließent kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
+    Anstatt einzelne Befehle in den Interpreter einzugeben, kann man eine Textdatei erstellen, in der Befehle zusammengefasst sind.
+    Python Skripte haben üblicherweise die Dateiendung *.py*. Mit einem Texeditor lässt sich eine Python-Datei bearbeiten.
+    
+    Wenn du noch keinen Texteditor hast, empfehlen wir **[Atom](https://atom.io)**.
+    
+    Erstellt eine neue Datei (Datei -> neue Datei) mit dem Namen *hello.py*. Diese Datei soll zwei Zeilen haben:
+    ```
+    print("Hello World")
+    wert = 2 ** 6
+    ```
+    Nachdem du die Datei bearbeitet und gespeichert hast, kannst du sie in der Konsole ausführen mit ```python hello.py```. **Achtung:** Das funktioniert nur, wenn du mit der Konsole in dem Verzeichnis bist, in dem sich *hello.py* befindet! Beim Ausführen von `dir`, bzw. `ls` sollte euch die Datei angezeigt werden. Führe die Datei auch im interaktiven Modus aus: `python -i hello.py`. Anschließent kannst du mit der Eingabe `wert` den Wert der Variable *wert* abrufen.
 
-7. **Error Messages.** Wenn ihr anfangt, selbst Code zu verändern und zu produzieren, werdet ihr schnell auf Fehlermeldungen stoßen. Die Konsole gibt nicht das Ergebnis aus, sondern verschiedene Arten von Error Messages. Ihr bekommt auch die 
+    Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
+    ```
+    for zaehler in range(0,10):
+      print(zaehler, "Hello World")
+    ```
+    ```
+    import turtle
+    for zaehler in range(0,38):
+      turtle.forward(10)
+      turtle.left(10)
 
-[16 Common Python Runtime Errors](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find)
-
-8. **Noch zwei Skripte.** Hier zwei simple Beispiele, was ein Skript so tun kann. Probier es mal aus!
-```
-for zaehler in range(0,10):
-  print(zaehler, "Hello World")
-```
-```
-import turtle
-for zaehler in range(0,38):
-  turtle.forward(10)
-  turtle.left(10)
-
-turtle.mainloop()
-```
+    turtle.mainloop()
+    ```
 
 9. **Jupyter Notebook**
 
 10. **Skripte in Atom ausführen.** Unter Datei -> Einstellungen -> Install kannst du das Paket *script* installieren. Mit der Tastenkombination `CRTL + SHIFT + B` wird der Code ausgeführt und es öffnet sich eine Konsole. Unter Linux und Mac sollte das einfach laufen. Unter Windows funktioniert es, wenn man Atom mit dem Befehl `atom` aus der Anaconda-Prompt startet, dann weiß Atom wo es Python "finden" kann. Alternativ kann man auch Pfadvariablen in der Registry hinzufügen, siehe **missing link**.
 
+7. **Error Messages.** Wenn ihr anfangt, selbst Code zu verändern und zu produzieren, werdet ihr schnell auf Fehlermeldungen stoßen. Die Konsole gibt nicht das Ergebnis aus, sondern verschiedene Arten von Error Messages. Ihr bekommt auch die 
+
+[16 Common Python Runtime Errors](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find)
 
 ### Text
 
