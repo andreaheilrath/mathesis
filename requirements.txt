@@ -3,10 +3,3 @@ pandas
 matplotlib
 scipy
 Pillow
-opencv-python
-nltk
-Keras
-tensorflow
-scikit-learn
-beautifulsoup4
-requests
