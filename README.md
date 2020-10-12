@@ -2,6 +2,9 @@
 
 **Der Kurs wird für das WS 21/21 vorbereitet**
 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master) <-- Startet interaktiven Jupyter-Server
+
 Hier werden Materialien für das **mathematisch-naturwissenschaftliche Labor [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/)** gesammelt, das im Rahmen des **Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin** angeboten wird.
 
 In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Zu Beginn des Semesters erlernen die Teilnehmer* innen die **Gundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache))**. Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben. Projekte aus den letzten Semestern findet ihr in unserem [**Wiki**](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
@@ -48,8 +51,6 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
 * [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
 
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
 
 [![CC-BY-SA](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 
