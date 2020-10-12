@@ -28,7 +28,7 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. Ziel ist es,
 #### Online Kurse
 * [Trinket - A Visual Introduction to Python](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
-* [SoloLearn - Python 3]https://www.sololearn.com/Course/Python/ (gibt es auch als App!)
+* [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
