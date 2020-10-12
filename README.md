@@ -14,23 +14,28 @@ In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Progra
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
 * **0. Session**
-    
     * Was sind Algorithmen? Wie funktionieren  Computer?
     * Wie installiere ich Python? Was ist die Konsole?
     * Was ist ein Skript? Was ist ein Jupyter Notebook?
     
 * **1. Session** 
     * Boolsche Logik, Touring Maschine
-    * Variablen und Datentypen
-    * User Input
+    * Variablen und Datentypen, User Input
     * Flow Control: if, else & while
+    
 * **2. Session**
-
-    ...
+    * Laufzeit, Sortier-Algorithmen
+    * Tupel, Listen, Dictionaries
+    * for-loops
+    
 * **3. Session**
-    ...
+    * Rekursion
+    * Funktionen, namespaces
+    * imports, matplotlib & numpy
+    
 * **4. Session**
-    ...
+    * Objektorientieres Programmieren
+    * Klassen
 
 ### Ressourcen
 
