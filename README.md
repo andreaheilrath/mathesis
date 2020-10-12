@@ -15,11 +15,9 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 
 * **0. Session**
     
-    * Was sind Algorithmen?
-    * Wie funktionieren  Computer?
-    * Wie installiere ich Python?
-    * Was ist ein Skript?
-    * Was ist ein Jupyter Notebook?
+    * Was sind Algorithmen? Wie funktionieren  Computer?
+    * Wie installiere ich Python? Was ist die Konsole?
+    * Was ist ein Skript? Was ist ein Jupyter Notebook?
     
 * **1. Session** 
     ...
