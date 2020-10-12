@@ -20,7 +20,10 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
     * Was ist ein Skript? Was ist ein Jupyter Notebook?
     
 * **1. Session** 
-    ...
+    * Boolsche Logik, Touring Maschine
+    * Variablen und Datentypen
+    * User Input
+    * Flow Control: if, else & while
 * **2. Session**
 
     ...
