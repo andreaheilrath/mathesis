@@ -6,7 +6,7 @@ Hier werden Materialien für das **mathematisch-naturwissenschaftliche Labor [Ma
 
 In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Zu Beginn des Semesters erlernen die Teilnehmer* innen die **Gundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache))**. Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben. Projekte aus den letzten Semestern findet ihr in unserem [Wiki](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
 
-Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! 
+Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel noch einen der Online-Kurse die unten verlinkt sind.
 
 ### Ablauf & Inhalt
 In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache. Die Materialien zu den jeweiligen Sessions findet ihr in den jeweiligen Ordnern.
@@ -20,16 +20,17 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. Ziel ist es,
 4. Session: ...
 
 ### Ressourcen
-Python Dokumentation 
+
+#### Python Dokumentation 
 * Python Doku https://docs.python.org/3/
 * https://automatetheboringstuff.com
 
-Online Kurse
+#### Online Kurse
 * https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code
 * https://www.programiz.com/python-programming
 * https://www.sololearn.com/Course/Python/
 
-Apps
+#### Apps
 * SoloLearn
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
