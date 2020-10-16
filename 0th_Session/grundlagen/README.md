@@ -6,11 +6,10 @@
    
     [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/1280px-Z3_Deutsches_Museum.JPG" width="40%" align="right" >](https://de.wikipedia.org/wiki/Zuse_Z3)
     
+    > Ich bin zu faul zum Rechnen. [Konrad Zuse]
+    
     In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. 
-    
-    > Ich bin zu faul zum Rechnen.
-    
-    begründete Zuse einmal seinen Erfinderdrang.
+
     
     In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL).
     
