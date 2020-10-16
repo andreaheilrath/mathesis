@@ -4,7 +4,7 @@
    
    Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl).
    
-    [<img src="https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg" width="200" align="right" \>](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
+    [<img src="https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg" width="200" align="right" >](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
     
     In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 entwicklte Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. Er hatte eine Speicherkapazität von 64 Wörtern und konnte in drei Sekunden multiplizieren, dividieren und Quadratwurzeln ziehen. "Ich bin zu faul zum Rechnen", begründete Zuse einmal seinen Erfinderdrang. Kurz vor seinem Tod übergibt Konrad Zuse ein selbsgemaltes Portrait an Bill Gates.
     
