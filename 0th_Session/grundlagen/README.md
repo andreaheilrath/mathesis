@@ -4,7 +4,7 @@
    
    Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl). Ihr Mann Byron William King ließ sich ihr zuliebe in die Royal Society aufnehmen, da Frauen zu dieser Zeit der Zutritt zu Bibliotheken und Universitäten untersagt war.
    
-    [<img src="zuse1.jpg" width="30%" align="right" >](https://de.wikipedia.org/wiki/Zuse_Z3)
+    [<img src="zuse1.jpg" width="30%" align="right" >](https://www.swr.de/swr2/wissen/zuse-und-die-geburt-des-computers/-/id=661224/did=10101292/nid=661224/qfvdw8/index.html)
     
     > Ich bin zu faul zum Rechnen. [Konrad Zuse]
     
