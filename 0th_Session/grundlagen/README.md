@@ -10,10 +10,11 @@
     
     > Ich bin zu faul zum Rechnen.
     
-    begründete Zuse einmal seinen Erfinderdrang. Kurz vor seinem Tod trifft Konrad Zuse auf der CEBIT95 Bill Gates und übergibt ihm ein selbstgemaltes Portrait.
+    begründete Zuse einmal seinen Erfinderdrang.
     
-    In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL), die auf den ersten 
-
+    In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL).
+    
+    
 * **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
 
     Es gibt verschiedene Definitionen für Algorithmen. Hier soll zunächst eine weniger "saubere", dafür zugängliche Version dargestellt werden. Im Allgemeinen können Algorithmen nicht nur von Computern ausgeführt werden, es muss sich nur um eine eindeutige Handlungsforschirft handeln, die folgende Eigenschaften besitzt:
