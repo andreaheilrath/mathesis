@@ -113,7 +113,7 @@ In dieser Session wirst du alle nötigen Programme installieren und zum ersten m
     
     Um Jupyter Notebook zu starten, gib `jupyter notebook` in die Konsole ein. Als nächstes öffnet sich ein Browsterfenster, das ungefähr so aussieht:
     
-    ![jupyter home screen](./crashkurs/jupyter_home.PNG)
+    ![jupyter home screen](./crashkurs/jupyter_home.png)
 
     
     === FILL GAP ===
