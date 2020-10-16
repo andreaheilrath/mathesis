@@ -2,9 +2,9 @@
 
     In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr handwerkliche Tätikeiten von Maschinen verrichtet. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
    
-   Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl).
+   Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl). Ihr Mann Byron William King ließ sich ihr zuliebe in die Royal Society aufnehmen, da Frauen zu dieser Zeit der Zutritt zu Bibliotheken und Universitäten untersagt war.
    
-    [<img src="https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg" width="40%" align="right" >](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
+    [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Z3_Deutsches_Museum.JPG/1280px-Z3_Deutsches_Museum.JPG" width="40%" align="right" >](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
     
     In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. 
     
