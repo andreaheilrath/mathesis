@@ -1,4 +1,10 @@
-* Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?
+* **Kurze Geschichte der Programmiersprachen** ([Wikipedia](https://de.wikipedia.org/wiki/Geschichte_der_Programmiersprachen))
+
+    In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr handwerkliche Tätikeiten von Maschinen verrichtet. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
+    
+    Das erste "Computerprogramm" wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der Bernoulli-Zahlen. Erst in den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL). 
+
+* **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
 
     Es gibt verschiedene Definitionen für Algorithmen. Hier soll zunächst eine weniger "saubere", dafür zugängliche Version dargestellt werden. Im Allgemeinen können Algorithmen nicht nur von Computern ausgeführt werden, es muss sich nur um eine eindeutige Handlungsforschirft handeln, die folgende Eigenschaften besitzt:
 
