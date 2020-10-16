@@ -10,7 +10,7 @@
     
     > Ich bin zu faul zum Rechnen.
     
-    begründete Zuse einmal seinen Erfinderdrang. Kurz vor seinem Tod trifft Konrad Zuse auf der CEBIT95 Bill Gates und übergibt ihm ein selbstgemaltes Bild, denn Malerei war eines Hobbys von Konrad Zuse.
+    begründete Zuse einmal seinen Erfinderdrang. Kurz vor seinem Tod trifft Konrad Zuse auf der CEBIT95 Bill Gates und übergibt ihm ein selbstgemaltes Portrait.
     
     In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL), die auf den ersten 
 
