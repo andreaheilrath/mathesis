@@ -6,10 +6,7 @@
    
     [<img src="https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg" width="200" align="right" >](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
     
-    In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. Er hatte eine Speicherkapazität von 64 Wörtern und konnte in drei Sekunden multiplizieren, dividieren und Quadratwurzeln ziehen. `Ich bin zu faul zum Rechnen`, begründete Zuse einmal seinen Erfinderdrang. 
-    Kurz vor seinem Tod übergibt Konrad Zuse auf der CEBIT95 ein selbsgemaltes Portrait an Bill Gates.
-    
-    https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg
+    In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. `Ich bin zu faul zum Rechnen`, begründete Zuse einmal seinen Erfinderdrang. Kurz vor seinem Tod trifft Konrad Zuse auf der CEBIT95 Bill Gates und übergibt ihm ein selbstgemaltes Bild, denn Malerei war eines Hobbys von Konrad Zuse.
     
     In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL), die auf den ersten 
 
