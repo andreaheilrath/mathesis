@@ -2,10 +2,12 @@
 
     In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr handwerkliche Tätikeiten von Maschinen verrichtet. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
-    [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gedenktafel_Straße_des_17_Juni_135_%28Charl%29_Konrad_Zuse.jpg/451px-Gedenktafel_Straße_des_17_Juni_135_%28Charl%29_Konrad_Zuse.jpg" width="200" align="right" >](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
+    [<img src="https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg" width="200" align="right" >](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
    
    Das erste "Computerprogramm" wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der Bernoulli-Zahlen.
-    In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 entwicklte [Konrad Zuse](https://de.wikipedia.org/wiki/Konrad_Zuse) den ersten funktionsfähigen Computer der Welt an der TU Berlin.
+    In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 entwicklte Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. Kurz vor seinem Tod übergibt Konrad Zuse ein selbsgemaltes Portrait an Bill Gates.
+    
+    https://oiger.de/wp-content/uploads/ZUSE_GATES_CEBIT95.jpg
     
     In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL), die auf den ersten 
 
