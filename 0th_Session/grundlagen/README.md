@@ -10,7 +10,14 @@ Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikiped
 
 In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin. 
 
-In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL). 
+In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL).
+
+
+[Maschienensprache](https://de.wikipedia.org/wiki/Maschinensprache)
+
+[Höhere Programmiersprache](https://de.wikipedia.org/wiki/Höhere_Programmiersprache)
+
+Compiler, [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper)
 
 
 Implementieren
