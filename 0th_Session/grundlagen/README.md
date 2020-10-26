@@ -13,7 +13,7 @@ In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für 
 In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL).
 
 
-[Maschienensprache](https://de.wikipedia.org/wiki/Maschinensprache)
+[Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache)
 
 [Höhere Programmiersprache](https://de.wikipedia.org/wiki/Höhere_Programmiersprache)
 
