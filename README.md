@@ -44,6 +44,7 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 
 #### Python Referenzen
 * [Python Dokumentation](https://docs.python.org/3/)
+* [Think Python](https://www.greenteapress.com/thinkpython/thinkpython.pdf)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 
 #### Online Kurse
