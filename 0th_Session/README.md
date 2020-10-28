@@ -4,7 +4,7 @@ In dieser Session wirst du alle nötigen Programme installieren und zum ersten m
 
 ### Inhalte
 
-* Allgemeine Grundlagen: Algorithmen, Rechner, Programmiersprachen -> findet ihr [hier](grundlagen)
+* Allgemeine Grundlagen: Algorithmen, Rechner, Programmiersprachen -> findet ihr im Ordner [Grundlagen](grundlagen)
 
 * Get started with Python
   * Installation von Python via Anaconda
