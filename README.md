@@ -47,6 +47,11 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 * [Think Python](https://www.greenteapress.com/thinkpython/thinkpython.pdf)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 
+### Andere Einführungen in Python
+* https://www.kaggle.com/learn/python
+* https://cscircles.cemc.uwaterloo.ca
+* https://www.physi.uni-heidelberg.de/Einrichtungen/AP/Python.php
+
 #### Online Kurse
 * [Trinket - A Visual Introduction to Python](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
