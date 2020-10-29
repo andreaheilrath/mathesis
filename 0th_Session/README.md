@@ -116,11 +116,3 @@ In dieser Session wirst du alle nötigen Programme installieren und zum ersten m
     ![jupyter home screen](jupyter_home.png)
     
     Hier könnt ihr in den Ordnern navigieren, Dateien öffnen und neue Jupyter Notebooks erstellen (mit `Neu --> Python3`). In der 0. Session findet ihr ein Beispiel-Notebook, das sich selbst erklärt. Probiert es aus!
-    
-
-
-
-### Referenzen & Tools
-
-* https://runestone.academy/runestone/books/published/thinkcspy/index.html
-* http://www.pythontutor.com
