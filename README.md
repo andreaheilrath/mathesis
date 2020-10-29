@@ -1,6 +1,6 @@
 ## ¡¡ WORK IN PROGRESS !!
 
-**Der Kurs wird für das WS 21/21 vorbereitet**
+**Der Kurs wird für das WS 20/21 vorbereitet**
 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master) <-- Startet interaktiven Jupyter-Server
