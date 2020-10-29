@@ -46,16 +46,23 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 * [Python Dokumentation](https://docs.python.org/3/)
 * [Think Python](https://www.greenteapress.com/thinkpython/thinkpython.pdf)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
+* https://runestone.academy/runestone/books/published/thinkcspy/index.html
 
-### Andere Einführungen in Python
+#### Andere Einführungen in Python
 * https://www.kaggle.com/learn/python
-* https://cscircles.cemc.uwaterloo.ca
+
 * https://www.physi.uni-heidelberg.de/Einrichtungen/AP/Python.php
 
 #### Online Kurse
 * [Trinket - A Visual Introduction to Python](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
+* [Computer Science Circles](https://cscircles.cemc.uwaterloo.ca)
 * [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
+
+### Referenzen & Tools
+
+
+* [Visualize Code Execution](http://www.pythontutor.com)
 
 
 [![CC-BY-SA](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
