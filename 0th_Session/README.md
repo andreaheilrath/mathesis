@@ -118,14 +118,9 @@ In dieser Session wirst du alle nötigen Programme installieren und zum ersten m
     Hier könnt ihr in den Ordnern navigieren, Dateien öffnen und neue Jupyter Notebooks erstellen (mit `Neu --> Python3`). In der 0. Session findet ihr ein Beispiel-Notebook, das sich selbst erklärt. Probiert es aus!
     
 
-### Andere Einführungen in Python
 
-* https://www.kaggle.com/learn/python
-* https://cscircles.cemc.uwaterloo.ca
-* https://www.physi.uni-heidelberg.de/Einrichtungen/AP/Python.php
 
 ### Referenzen & Tools
 
-* https://runestone.academy/runestone/books/published/thinkcspy/index.html
 * https://runestone.academy/runestone/books/published/thinkcspy/index.html
 * http://www.pythontutor.com
