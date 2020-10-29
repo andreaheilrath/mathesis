@@ -17,9 +17,9 @@ In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Progra
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
 * **[0. Session](./0th_Session)**
-    * Was sind Algorithmen? Wie funktionieren  Computer?
-    * Wie installiere ich Python? Was ist die Konsole?
-    * Was ist ein Skript? Was ist ein Jupyter Notebook?
+    * Entwicklung von Computern und Programmiersprachen
+    * Installation von Python und Texteditor
+    * Erste Skripte und Jupyter Notebooks
     
 * **[1. Session](./1st_Session)** 
     * Boolsche Logik, Turing Maschine
