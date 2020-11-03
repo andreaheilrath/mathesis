@@ -1,11 +1,16 @@
 ## 1. Session
 
+
 ### Inhalte
+
+#### Grundlagen
+tba
+
+#### Crashkus
 
 * Datentypen: int, float, bool, string
 * Deklaration von Variablen
 * User Input
-* Konvertierung von Datentypen
 * Rechenoperationen
 * Vergleiche
 * Operationen mit Strings
@@ -13,5 +18,10 @@
 * Bedingungen:
   * if & else
   * while
+  
+  
+  
+  
+  
 
 
