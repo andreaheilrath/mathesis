@@ -1,9 +1,7 @@
-## ¡¡ WORK IN PROGRESS !!
+## Mathesis
 
-**Der Kurs wird für das WS 20/21 vorbereitet**
-
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master) <-- Startet interaktiven Jupyter-Server
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
+Binder startet die Kursmaterialien im interaktiven Jupyter-Server
 
 Hier werden Materialien für das **mathematisch-naturwissenschaftliche Labor [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/)** gesammelt, das im Rahmen des **Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin** angeboten wird.
 
