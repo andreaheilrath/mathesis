@@ -19,8 +19,8 @@ tba
   * if & else
   * while
 
-  ##### Tricks
-  [Anaconda Prompt Here](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea)
+##### Tricks
+[Anaconda Prompt Here](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea)
   
   
   
