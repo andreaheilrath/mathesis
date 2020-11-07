@@ -13,7 +13,7 @@
 
 Erklärung der Inhalte sind in den Jupyter Notebooks
 
-* *variablen_typen_operationen.ipynb*
+* [*variablen_typen_operationen.ipynb*](./crashkurs/variablen_typen_operationen.ipynb)
     * Datentypen: int, float, bool, string
     * Deklaration von Variablen
     * User Input
@@ -21,11 +21,11 @@ Erklärung der Inhalte sind in den Jupyter Notebooks
     * Rechenoperationen
     * Operationen mit Strings
     
-* *control_flow_if_while.ipynb*
+* [*control_flow_if_while.ipynb*](./crashkurs/control_flow_if_while.ipynb)
     * Bedingungen: if, elif, else & while
     * Boolesche Variablen und Vergleiche
     
-* *turtle.ipynb*
+* [*turtle.ipynb*](./crashkurs/turtle.ipynb)
     * Turtle Graphic
 
 ### Tricks
