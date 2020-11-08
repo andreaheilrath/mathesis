@@ -1,5 +1,7 @@
 ## 1. Session
 
+[**Youtube Tutorial zu Session**](https://youtu.be/5DVmv6BGbtc)
+
 ### Grundlagen
 
 Rechner basieren auf physikalischen Zuständen, meist Spannungen oder Magnetfelder. Dabei erfolg die Kodierung von Informationen in einer [binären Darstellung](https://de.wikipedia.org/wiki/Dualsystem)  - das heißt, es gibt nur zwei Zustände: an/aus - wahr/falsch - 1/0.
