@@ -45,9 +45,10 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 * Think Python Book [PDF](https://www.greenteapress.com/thinkpython/thinkpython.pdf) und [interaktiv](https://runestone.academy/runestone/books/published/thinkcspy/index.html)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 * [Interaktive Kursmaterialien Uni Heidelberg](https://www.physi.uni-heidelberg.de/Einrichtungen/AP/Python.php)
-* [Computer Science Circles](https://cscircles.cemc.uwaterloo.ca)
+
 
 #### Online Kurse
+* [Computer Science Circles](https://cscircles.cemc.uwaterloo.ca)
 * [Trinket - A Visual Introduction to Python](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
 * [Learn Python on Kaggle](https://www.kaggle.com/learn/python)
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
