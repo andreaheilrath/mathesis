@@ -21,7 +21,11 @@ Der Begriff [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) besc
 
 Die absolute Laufzeit eines Programms ist von verschiedenen Faktoren, wie z. B. der Rechenleistung des Computers abhängig. Um verschiedene Algorithmen unabhängig von der ausführenden Maschine bezüglich ihrer Effizienz vergleichen zu können, wird die sogenannte *Asymptotische Laufzeit* angegeben. Um diese zu beschreiben, wird die [Landau-Notation](https://de.wikipedia.org/wiki/Landau-Symbole) verwendet.
 
-[Sortieralgorithmen](https://de.wikipedia.org/wiki/Sortierverfahren)
+Ein klassischer Fall, in dem die Laufzeit eine große Rolle spielt sind [Sortieralgorithmen](https://de.wikipedia.org/wiki/Sortierverfahren). Sortierung ist für viele andere Algorithmen relevant, aber auch für menschenlesbare Ausgabe großer Datenbanken. Hier ist wichtig, wie sich die Laufzeit mit zunehmender Anzahl zu sortierender Elemente verhält.
+
+Der Algorithmus [Bubble Sort](https://de.wikipedia.org/wiki/Bubblesort) schneidet hier mit O(n log(n)) schlechter ab als [Quicksort](https://de.wikipedia.org/wiki/Quicksort) mit O(n * n)
+
+Visualisierung verschiedener Sortieralgorithmen: [Plot](https://youtu.be/ZZuD6iUe3Pc) und [ungarischer Volkstanz](https://youtu.be/ywWBy6J5gz8)
 
 [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)
 [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine) von [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing)
