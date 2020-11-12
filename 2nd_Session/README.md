@@ -28,20 +28,20 @@ Die absolute Laufzeit eines Programms ist von verschiedenen Faktoren, wie z. B. 
 
 ### Crashkurs
 
-* [datenstrukturen.ipynb](./crashkurs/datenstrukturen.ipynb)
+* [*datenstrukturen.ipynb*](./crashkurs/datenstrukturen.ipynb)
 
   * Tupel
   * Listen
   * Dictionaries
   * (Mengen)
   
-* [for_schleifen_iteratoren.ipynb](./crashkurs/for_schleifen_iteratoren.ipynb)
+* [*for_schleifen_iteratoren.ipynb*](./crashkurs/for_schleifen_iteratoren.ipynb)
 
   * for-Schleife
   * (List Comprehensoins)
   * (Generatoren & Interable)
   
-* [funktionen_imports_module.ipynb](./crashkurs/funktionen_imports_module.ipynb)
+* [*funktionen_imports_module.ipynb*](./crashkurs/funktionen_imports_module.ipynb)
 
   * Funktionen 1
   * Verschiedene Formen des Imports
