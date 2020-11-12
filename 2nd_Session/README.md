@@ -8,20 +8,20 @@
 
 ### Crashkurs
 
-* datenstrukturen.ipynb
+* [datenstrukturen.ipynb](./crashkurs/datenstrukturen.ipynb)
 
   * Tupel
   * Listen
   * Dictionaries
   * (Mengen)
   
-* for_schleifen_und_geratoren.ipynb
+* [for_schleifen_iteratoren.ipynb](./crashkurs/for_schleifen_iteratoren.ipynb)
 
   * for-Schleife
   * (List Comprehensoins)
   * (Generatoren & Interable)
   
-* Module_Imports_Funktionen.ipynb
+* [funktionen_imports_module.ipynb](./crashkurs/funktionen_imports_module.ipynb)
 
   * Funktionen 1
   * Verschiedene Formen des Imports
