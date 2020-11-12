@@ -21,9 +21,11 @@ Der Begriff [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) besc
 
 Die absolute Laufzeit eines Programms ist von verschiedenen Faktoren, wie z. B. der Rechenleistung des Computers abhängig. Um verschiedene Algorithmen unabhängig von der ausführenden Maschine bezüglich ihrer Effizienz vergleichen zu können, wird die sogenannte *Asymptotische Laufzeit* angegeben. Um diese zu beschreiben, wird die [Landau-Notation](https://de.wikipedia.org/wiki/Landau-Symbole) verwendet.
 
+[<img src="https://jarednielsen.com/static/9c24f10d0295ead7526e32d62fa2eac5/4117f/big-o-cheatsheet.png" width="50%" align="right" >](https://jarednielsen.com/big-o-logarithmic-time-complexity/)
+
 Ein klassischer Fall, in dem die Laufzeit eine große Rolle spielt sind [Sortieralgorithmen](https://de.wikipedia.org/wiki/Sortierverfahren). Sortierung ist für viele andere Algorithmen relevant, aber auch für menschenlesbare Ausgabe großer Datenbanken. Hier ist wichtig, wie sich die Laufzeit mit zunehmender Anzahl zu sortierender Elemente verhält.
 
-Der Algorithmus [Bubble Sort](https://de.wikipedia.org/wiki/Bubblesort) schneidet hier mit O(n log(n)) schlechter ab als [Quicksort](https://de.wikipedia.org/wiki/Quicksort) mit O(n * n)
+Der Algorithmus [Bubble Sort](https://de.wikipedia.org/wiki/Bubblesort) schneidet hier mit O(n<sup>2</sup>) schlechter ab als [Quicksort](https://de.wikipedia.org/wiki/Quicksort) mit O(n log(n)). Bei Bubble Sort verhält sich die Lautfzeit quadratisch zu der Anzahl Elemente - sollen also doppelt so viele Elemente sortiert werden, braucht der Algorithmus (im Mittel) vier mal so lange.
 
 Visualisierung verschiedener Sortieralgorithmen: [Plot](https://youtu.be/ZZuD6iUe3Pc) und [ungarischer Volkstanz](https://youtu.be/ywWBy6J5gz8)
 
