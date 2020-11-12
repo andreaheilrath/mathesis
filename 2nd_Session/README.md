@@ -2,6 +2,21 @@
 
 ### Grundlagen
 
+#### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
+
+...  (auch **Vektoralgebra**) ist ein Teilgebiet der Mathematik, das sich mit Vektorräumen und linearen Abbildungen zwischen diesen beschäftigt. Dies schließt insbesondere auch die Betrachtung von linearen Gleichungssystemen und Matrizen mit ein.
+
+Vektoren und Matrizen sind mehrere Zahlen, die in ein Format zusammengefasst werden: (x, y, z) kann z. B. Koordinaten der drei Raumachsen bezeichnen.
+Matrizen haben mehr als eine Dimension. Es gibt auch Operationen zwischen Matrizen und Vektoren - etwa die Multiplikation:
+
+    1 2 3       x       1*x + 2*y + 3*z
+    4 5 6   *   y   =   4*x + 5*y + 6*z
+    7 8 9       z       7*x + 8*y + 8*z
+    
+Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
+
+#### Probleme aus der Informatik
+
 [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) von Programmen
 [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine) von [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing)
 [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)
