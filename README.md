@@ -20,12 +20,12 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
     * Erste Skripte und Jupyter Notebooks
     
 * **[1. Session](./1st_Session)** 
-    * Boolsche Logik, Turing Maschine
+    * Boolsche Logik
     * Variablen und Datentypen, User Input
     * Flow Control: if, else & while
     
 * **[2. Session](./2nd_Session)**
-    * Laufzeit, Sortier-Algorithmen
+    * Laufzeit, Halteproblem
     * Tupel, Listen, Dictionaries
     * for-loops
     
