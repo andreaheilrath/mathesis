@@ -9,15 +9,20 @@
 ### Crashkurs
 
 * Datenstrukturen.ipynb
+
   * Tupel
   * Listen
   * Dictionaries
   * (Mengen)
+  
 * for_schleifen_und_geratoren.ipynb
+
   * for-Schleife
   * (List Comprehensoins)
   * (Generatoren & Interable)
+  
 * Module_Imports_Funktionen.ipynb
+
   * Funktionen 1
   * Verschiedene Formen des Imports
   * numpy & matplotlib
