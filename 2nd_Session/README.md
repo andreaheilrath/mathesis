@@ -27,3 +27,7 @@
   * Verschiedene Formen des Imports
   * numpy & matplotlib
   * schallwerkzeuge
+
+### Praktisches
+
+* Teletype für Atom
