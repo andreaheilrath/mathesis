@@ -25,9 +25,10 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
     * Flow Control: if, else & while
     
 * **[2. Session](./2nd_Session)**
-    * Laufzeit, Halteproblem
+    * Lineare Algebra, Laufzeit
     * Tupel, Listen, Dictionaries
-    * for-loops
+    * for-loops, Iterable
+    * Funktionen, Imports, Schall
     
 * **[3. Session](./3rd_Session)**
     * Rekursion
