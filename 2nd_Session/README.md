@@ -8,7 +8,7 @@
 
 ### Crashkurs
 
-* Datenstrukturen.ipynb
+* datenstrukturen.ipynb
 
   * Tupel
   * Listen
