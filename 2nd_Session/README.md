@@ -17,14 +17,14 @@ Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleich
 
 #### Begriffe aus der Informatik
 
-Der Begriff [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) beschreibt in der Informatik die Zeitdauer, die ein Programm zur Bewältigung einer Aufgabe benötigt. Verschiedene Programme können unterschiedlich lange brauchen, um die selbe Aufgabe auszuführen.
+Der Begriff [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) beschreibt in der Informatik die Zeitdauer, die ein Programm zur Bewältigung einer Aufgabe benötigt.
 
-Die absolute Laufzeit eines Programms ist von verschiedenen Faktoren, wie z. B. der Rechenleistung des Computers abhängig. Um verschiedene Algorithmen unabhängig von der ausführenden Maschine bezüglich ihrer Effizienz vergleichen zu können, wird die sogenannte *Asymptotische Laufzeit* angegeben, welche in der [Landau-Notation](https://de.wikipedia.org/wiki/Landau-Symbole) ausgedrückt wird.
+Die absolute Laufzeit eines Programms ist von verschiedenen Faktoren, wie z. B. der Rechenleistung des Computers abhängig. Um verschiedene Algorithmen unabhängig von der ausführenden Maschine bezüglich ihrer Effizienz vergleichen zu können, wird die sogenannte *Asymptotische Laufzeit* angegeben. Um diese zu beschreiben, wird die [Landau-Notation](https://de.wikipedia.org/wiki/Landau-Symbole) verwendet.
 
+[Sortieralgorithmen](https://de.wikipedia.org/wiki/Sortierverfahren)
 
-
-[Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine) von [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing)
 [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)
+[Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine) von [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing)
 
 ### Crashkurs
 
