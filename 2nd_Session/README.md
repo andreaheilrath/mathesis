@@ -57,3 +57,4 @@ Visualisierung verschiedener Sortieralgorithmen: [Plot](https://youtu.be/ZZuD6iU
 ### Praktisches
 
 * [Teletype für Atom](https://teletype.atom.io)
+* [Python for Data Science Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
