@@ -61,4 +61,5 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
 ### Praktisches
 
 * [Teletype für Atom](https://teletype.atom.io)
+* [Anaconda Prompt Here](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea)
 * [Python for Data Science Cheat Sheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/PythonForDataScience.pdf)
