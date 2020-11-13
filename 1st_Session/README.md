@@ -37,8 +37,4 @@ Erklärung der Inhalte sind in den Jupyter Notebooks
 * [*turtle.ipynb*](./crashkurs/turtle.ipynb)
     * Turtle Graphic
 
-### Praktisches
-[Anaconda Prompt Here](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea)
-  
-
 
