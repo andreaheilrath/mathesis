@@ -46,13 +46,14 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
   
 * [*for_schleifen_iteratoren.ipynb*](./crashkurs/for_schleifen_iteratoren.ipynb)
 
-  * for-Schleife
-  * (List Comprehensoins)
-  * (Generatoren & Interable)
+  * for-Schleifen
+  * range
+  * Generatoren
+  * List Comprehensions
   
 * [*funktionen_imports_module.ipynb*](./crashkurs/funktionen_imports_module.ipynb)
 
-  * Funktionen 1
+  * Funktionen (intro)
   * Verschiedene Formen des Imports
   * numpy & matplotlib
   * schallwerkzeuge
