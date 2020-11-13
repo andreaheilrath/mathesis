@@ -25,12 +25,15 @@ Die absolute Laufzeit eines Programms ist von verschiedenen Faktoren, wie z. B. 
 
 Ein klassischer Fall, in dem die Laufzeit eine große Rolle spielt sind [Sortieralgorithmen](https://de.wikipedia.org/wiki/Sortierverfahren). Sortierung ist für viele andere Algorithmen relevant, aber auch für menschenlesbare Ausgabe großer Datenbanken. Hier ist wichtig, wie sich die Laufzeit mit zunehmender Anzahl zu sortierender Elemente verhält.
 
-Der Algorithmus [Bubble Sort](https://de.wikipedia.org/wiki/Bubblesort) schneidet hier mit O(n<sup>2</sup>) schlechter ab als [Quicksort](https://de.wikipedia.org/wiki/Quicksort) mit O(n log(n)). Bei Bubble Sort verhält sich die Lautfzeit quadratisch zu der Anzahl Elemente - sollen also doppelt so viele Elemente sortiert werden, braucht der Algorithmus (im Mittel) vier mal so lange.
+Der Algorithmus [Bubble Sort](https://de.wikipedia.org/wiki/Bubblesort) schneidet hier mit O(n<sup>2</sup>) schlechter ab als [Quicksort](https://de.wikipedia.org/wiki/Quicksort) mit O(n log(n)). Bei Bubble Sort verhält sich die Lautfzeit quadratisch zu der Anzahl Elemente - sollen also doppelt so viele Elemente sortiert werden, braucht der Algorithmus (im Mittel) vier mal so lange, Quicksort ist für viele Elemente bedeutend zeiteffizienter (siehe Grafik).
 
-Visualisierung verschiedener Sortieralgorithmen: [Plot](https://youtu.be/ZZuD6iUe3Pc) und [ungarischer Volkstanz](https://youtu.be/ywWBy6J5gz8)
+Hier findet ihr Videos zur Visualisierung verschiedener Sortieralgorithmen: [Plot](https://youtu.be/ZZuD6iUe3Pc) und [ungarischer Volkstanz](https://youtu.be/ywWBy6J5gz8)
 
-[Halteproblem](https://de.wikipedia.org/wiki/Halteproblem)
-[Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine) von [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing)
+Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus überhaupt zu einem Ende gelangt. Diese Fragestellung ist in der Informatik als [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem) bekannt.
+
+[Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing) gelang der Beweis, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet. Wie viele theoretische Betrachtungen, wurde der Beweis anhand einer *abstrakten Maschine* vollzogen - die bekannteste ist die von Turing selbst entworfene 
+[Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine).
+
 
 ### Crashkurs
 
