@@ -1,5 +1,7 @@
 ## 2. Session
 
+**[Youtube Tutorial zu Session](https://youtu.be/DikSQol1gFE)**
+
 ### Grundlagen
 
 #### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
