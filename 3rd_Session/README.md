@@ -32,7 +32,7 @@ Der Interpreter gestattet nur eine gewisse 'Rekursionstiefe'. Diese lässt sich 
 
 ### Crashkurs
 
-* *[funktionen.ipynb](crashkurs/funktionen.ipynb)*
+* *[funktionen.ipynb](./crashkurs/funktionen.ipynb)*
   * Definition
   * Doc-Strings
   * Namespaces
