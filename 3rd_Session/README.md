@@ -8,7 +8,17 @@ Bei der [rekursiven Programmierung](https://de.wikipedia.org/wiki/Rekursive_Prog
 
 Ein Beispiel hierfür sind die [Fibonacci-Zahlen](https://de.wikipedia.org/wiki/Fibonacci-Folge). 
 
-Die Fibonacci-Folge ist definiert durch a<sub>0</sub>=1, a<sub>1</sub>=1, a<sub>n+2</sub>=a<sub>n</sub>+a<sub>n+1</sub>
+<img src="fib.jpg" width=50%>
+
+Durch die "Rekursionsanker" n<sub>0</sub> = 0, n<sub>0</sub> = 1 kann die Fibonacci-Folge auch rekursiv in einer Funktion berechnet werden:
+
+    def fib(n):
+        if n == 0:
+            return 0
+        elif n == 1:
+            return 1
+        else:
+            return fib(n-1) + fib(n-2)
 
 Ruft eine Funktion sehr oft sich selbst auf, kann viel Speicherplatz verbraucht werden. Außerdem ist in Python eine maximale Rekursionstiefe (d.h. wie oft sich eine Funktion selbst aufrufen darf) eingestellt, die sich aber ändern lässt.
 
@@ -16,15 +26,6 @@ Ruft eine Funktion sehr oft sich selbst auf, kann viel Speicherplatz verbraucht 
 
 Schreiben Sie eine Funktion fib(n) die Ihnen $a_n$ liefert. Berechnen Sie mit dieser Funktion $a_{10}$, $a_{20}$, $a_{30}$ und $a_{35}$.
 Was fällt Ihnen auf? Analysieren Sie die Ursache des Problems und schreiben Sie eine zweite Funktion, die diesen Fehler nicht hat.
-
-    def fib(n):
-        if n == 0 or n == 1:
-            return 1
-        else:
-            return fib(n-1) + fib(n-2)
-
-    fib(40)
-
 Der Interpreter gestattet nur eine gewisse 'Rekursionstiefe'. Diese lässt sich auslesen mit `sys.getrecursionlimit()` und verändern mit `sys.setrecursionlimit()`.
 
 **Drachenkurve**
