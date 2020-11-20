@@ -4,15 +4,15 @@
 
 #### Rekursion
 
-Da Funktionen sich auch selbst aufrufen können, ermöglichen sie das einfache Berechnen von rekursiv definierten Größen. Es gibt viele Probleme, deren rekursive Formulierung 
-besonders verständlich ist. Allerdings lässt sich, wer rekursiv programmiert, darauf ein, den genauen Ablauf der Ausführung schwer zu durchschauen.  
+Bei der [rekursiven Programmierung](https://de.wikipedia.org/wiki/Rekursive_Programmierung) ruft sich eine Prozedur, Funktion oder Methode in einem Computerprogramm selbst wieder auf. Es gibt viele Probleme, deren rekursive Formulierung besonders verständlich ist. Allerdings lässt sich, wer rekursiv programmiert, darauf ein, den genauen Ablauf der Ausführung schwer zu durchschauen. 
 
-Insbesondere muss bei jedem Aufruf der Funktion der Kontext (insbesondere: lokale Variablen) der aufrufenden Funktion gespeichert werden und der Kontext der aufgerufenen Funktion angelegt werden. Kehrt die aufgerufene Funktion zurück, kann deren Kontext gelöscht werden; der Kontext der aufrufenden Funktion wird wieder hergestellt.
-Diese Speicherungen finden statt auf dem so genannten 'Stack', dem Stapel.
+Ein Beispiel hierfür sind die [Fibonacci-Zahlen](https://de.wikipedia.org/wiki/Fibonacci-Folge). 
+
+Die Fibonacci-Folge ist definiert durch a<sub>0</sub>=1, a<sub>1</sub>=1, a<sub>n+2</sub>=a<sub>n</sub>+a<sub>n+1</sub>
 
 Ruft eine Funktion sehr oft sich selbst auf, kann viel Speicherplatz verbraucht werden. Außerdem ist in Python eine maximale Rekursionstiefe (d.h. wie oft sich eine Funktion selbst aufrufen darf) eingestellt, die sich aber ändern lässt.
 
-Die Fibonacci-Folge ist definiert durch **a<sub>0</sub>=1, a<sub>1</sub>=1, a<sub>n+2</sub>=a<sub>n</sub>+a<sub>n+1</sub>**
+
 
 Schreiben Sie eine Funktion fib(n) die Ihnen $a_n$ liefert. Berechnen Sie mit dieser Funktion $a_{10}$, $a_{20}$, $a_{30}$ und $a_{35}$.
 Was fällt Ihnen auf? Analysieren Sie die Ursache des Problems und schreiben Sie eine zweite Funktion, die diesen Fehler nicht hat.
