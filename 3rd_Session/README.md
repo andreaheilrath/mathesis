@@ -27,6 +27,8 @@ Was fällt Ihnen auf? Analysieren Sie die Ursache des Problems und schreiben Sie
 
 Der Interpreter gestattet nur eine gewisse 'Rekursionstiefe'. Diese lässt sich auslesen mit `sys.getrecursionlimit()` und verändern mit `sys.setrecursionlimit()`.
 
+**Drachenkurve**
+
 
 #### Other
 
@@ -39,9 +41,9 @@ Der Interpreter gestattet nur eine gewisse 'Rekursionstiefe'. Diese lässt sich 
   * Keywords, Argumente
   * Rekursion
   
-* *numpy_matplotlib_schall.ipynb*
+* *[numpy_matplotlib_anderes.ipynb](./crashkurs/numpy_matplotlib_anderes.ipynb)*
 
-* *Formatieren.ipynb*
+* *[formatierung.ipynb](./crashkurs/formatierung.ipynb)*
 
 
 ### Ressourcen
