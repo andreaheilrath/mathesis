@@ -22,10 +22,17 @@ Durch die "Rekursionsanker" f<sub>0</sub> = 0, f<sub>1</sub> = 1 kann die Fibona
 
 Ruft eine Funktion sehr oft sich selbst auf, kann viel Speicherplatz verbraucht werden. Außerdem ist in Python eine maximale Rekursionstiefe (d.h. wie oft sich eine Funktion selbst aufrufen darf) eingestellt, die sich aber ändern lässt. Sie lässt sich auslesen mit `sys.getrecursionlimit()` und verändern mit `sys.setrecursionlimit()`.
 
-Ein weiteres Beispiel ist die **Drachenkurve**
+Ein weiteres Beispiel ist die **[Drachenkurve](https://de.wikipedia.org/wiki/Drachenkurve)**
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dragon_Curve_adding_corners_trails_rectangular_numbered_R.gif/300px-Dragon_Curve_adding_corners_trails_rectangular_numbered_R.gif">
 
-#### Other
+[Quelle](https://commons.wikimedia.org/wiki/File:Dragon_Curve_adding_corners_trails_rectangular_numbered_R.gif)
+
+Eine anschauliche Methode, diese Kurve zu erzeugen, ist folgende: 
+
+Man nehme einen Papierstreifen und falte ihn in der Mitte, sodass sich seine Länge halbiert. Dies wiederhole man beliebig oft, dabei ist darauf zu achten, dass jedes Mal in dieselbe Richtung gefaltet wird. Zum Schluss falte man das Papier auseinander und ordne es so an, dass die Innenwinkel der Falze immer 90° betragen.
+
+Diese Anleitung lässt sich ebenfalls rekursiv auffassen. Siehe dazu auch die Aufgabe in der Übung.
 
 ### Crashkurs
 
