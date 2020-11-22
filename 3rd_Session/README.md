@@ -1,5 +1,7 @@
 ## 3. Session
 
+**[Youtube Tutorial zu Session](https://youtu.be/XQ4nDt_m0Jw)**
+
 ### Grundlagen
 
 #### Rekursion
@@ -41,9 +43,15 @@ Diese Anleitung lässt sich ebenfalls rekursiv auffassen. Siehe dazu auch die Au
   * Doc-Strings
   * Namespaces
   * Keywords, Argumente
-  * Rekursion
   
 * *[numpy_matplotlib_anderes.ipynb](./crashkurs/numpy_matplotlib_anderes.ipynb)*
+  * Numpy Array
+  * Plots mit Matplotlib
+  * Slicing
+  * Lineare Algebra & Gleichungssysteme
+  * Daten aus Tabelle lesen
+  * Bilder bearbeiten
+  * Schallbeispiele
 
 * *[formatierung.ipynb](./crashkurs/formatierung.ipynb)*
 
