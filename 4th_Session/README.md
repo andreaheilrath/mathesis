@@ -23,8 +23,11 @@
   * Deklaration von Klassen
   * Public and Private
   * ...
+  * import class
 
 * *objekte_klassen_beispiele.ipynb*
   * Telefonbuch
   * ...
   
+* *other_useful_stuff.ipynb*
+  * Module
