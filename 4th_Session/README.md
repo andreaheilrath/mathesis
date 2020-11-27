@@ -4,7 +4,7 @@
 
 #### **[Objektorientierte Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung)**
 
-[Alan Kay](https://de.wikipedia.org/wiki/Alan_Kay)
+[Alan Kay](https://de.wikipedia.org/wiki/Alan_Kay) er Erfinder der Programmiersprache Smalltalk und des Begriffs „object oriented“, definierte das objektorientierte Programmieren folgendermaßen:
 
 1. Everything is an object
 2. Objects communicate by sending and receiving messages (in terms of objects)
@@ -15,19 +15,24 @@
 
 #### Python Style Guide
 
+Da Programmcode häufiger gelesen als geschrieben wird, lohnt es sich, beim Schreiben von Code gleich die Python-Konventionen zu beachten:
+
 **[PEP8](https://www.python.org/dev/peps/pep-0008/)**
 
 ### Crashkurs
 
-* *objekte_klassen_basics.ipynb*
+* *[objekte_klassen_basics.ipynb](./crashkurs/objekte_klassen_basics.ipynb)*
   * Deklaration von Klassen
   * Public and Private
   * ...
   * import class
 
-* *objekte_klassen_beispiele.ipynb*
+* *[objekte_klassen_beispiele.ipynb](./crashkurs/objekte_klassen_beispiele.ipynb)*
   * Telefonbuch
   * ...
   
-* *other_useful_stuff.ipynb*
-  * Module
+* [files_exceptions_libraries.ipynb](./crashkurs/files_exceptions_libraries.ipynb)
+  * in Dateien schreiben
+  * Exceptions
+  * Pickle, Pandas
+  * andere Bibliotheken
