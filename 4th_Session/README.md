@@ -29,9 +29,15 @@ Da Programmcode häufiger gelesen als geschrieben wird, lohnt es sich, beim Schr
 
 * *[objekte_klassen_beispiele.ipynb](./crashkurs/objekte_klassen_beispiele.ipynb)*
   * Telefonbuch
-  * ...
+  * Ein Beispiel namens Bsp
+  * Hello World, vielsprachig
+  * Mulitagentensimulation: *Lebewesen* in einer Welt oder *Himmelskörper*
+  * Klasse für Bilder (operator overloading )
+  * Klasse für ein Buch (getitem & setitem )
+  * Stapel
+  * Datenverarbeitungspipeline 
   
-* [files_exceptions_libraries.ipynb](./crashkurs/files_exceptions_libraries.ipynb)
+* *[files_exceptions_libraries.ipynb](./crashkurs/files_exceptions_libraries.ipynb)*
   * in Dateien schreiben
   * Exceptions
   * Pickle, Pandas
