@@ -24,8 +24,8 @@ Da Programmcode häufiger gelesen als geschrieben wird, lohnt es sich, beim Schr
 * *[objekte_klassen_basics.ipynb](./crashkurs/objekte_klassen_basics.ipynb)*
   * Deklaration von Klassen
   * Public and Private
-  * ...
-  * import class
+  * Vererbung
+  * Python Code auslagern
 
 * *[objekte_klassen_beispiele.ipynb](./crashkurs/objekte_klassen_beispiele.ipynb)*
   * Telefonbuch
