@@ -4,7 +4,7 @@
 
 #### **[Objektorientierte Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung)**
 
-[Alan Kay](https://de.wikipedia.org/wiki/Alan_Kay) er Erfinder der Programmiersprache Smalltalk und des Begriffs „object oriented“, definierte das objektorientierte Programmieren folgendermaßen:
+[Alan Kay](https://de.wikipedia.org/wiki/Alan_Kay), der Erfinder der Programmiersprache Smalltalk und des Begriffs „object oriented“, definierte das objektorientierte Programmieren folgendermaßen:
 
 1. Everything is an object
 2. Objects communicate by sending and receiving messages (in terms of objects)
