@@ -37,7 +37,9 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
     
 * **[4. Session](./4th_Session)**
     * Objektorientieres Programmieren
-    * Klassen
+    * Klassen in Python
+    * Dateien und Exceptions
+    * andere nützliche Module
 
 ### Ressourcen
 
