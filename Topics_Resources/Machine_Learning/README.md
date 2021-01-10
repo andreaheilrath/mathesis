@@ -3,6 +3,7 @@
 ### Resourcen und Lehrmaterial
 
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+* [Towards Datascience Blog](https://towardsdatascience.com)
 
 ### Modelle
 * ...
