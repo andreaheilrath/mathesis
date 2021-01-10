@@ -57,12 +57,5 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
 * [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
 
-### Tools
-* [Visualize Code Execution](http://www.pythontutor.com)
-
-### Naturwissenschaften
-* [The Nature of Code](https://natureofcode.com/book/introduction/)
-
-
 [![CC-BY-SA](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
 
