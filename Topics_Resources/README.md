@@ -1,10 +1,11 @@
-# Themenbasierte Sammlung
+## Themenbasierte Sammlung
 
-### 1. GIT
+Themen, die etwas mehr Platz brauchen und daher einen eigenen Ordner bekommen haben:
 
-[Video GIT Basics](https://www.youtube.com/watch?v=BpDUvAmgkbE)
+* [GIT](./GIT)
+* [Machine Learning](./Machine_Learning)
+* [Physik Simulationen](./Physics_Simulations)
 
-
-### 2. ...
-
-https://github.com/jasonwebb/morphogenesis-resources
+### Naturwissenschaften
+* [The Nature of Code](https://natureofcode.com/book/introduction/)
+* [Digital Morphogenesis](https://github.com/jasonwebb/morphogenesis-resources)
