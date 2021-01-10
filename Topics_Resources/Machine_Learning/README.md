@@ -3,7 +3,9 @@
 ### Resourcen und Lehrmaterial
 
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
-* [Towards Datascience Blog](https://towardsdatascience.com)
+* [Towards Datascience](https://towardsdatascience.com) Blog
+* [Kaggle](https://www.kaggle.com) Challanges und Kurse
+
 
 ### Modelle
 * ...
