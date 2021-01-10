@@ -1,5 +1,9 @@
 ## Machine Leaning (ML)
 
+### Resourcen und Lehrmaterial
+
+* [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
+
 ### Modelle
 * ...
 
