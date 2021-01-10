@@ -8,13 +8,6 @@ Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sale
 * [Towards Datascience](https://towardsdatascience.com) Blog
 * [Kaggle](https://www.kaggle.com) Challanges und Kurse
 
-
-### Modelle
-* ...
-
-### Anwendungen
-* ...
-
 ### Bibliotheken und Tools
 
 * [Google Colab](https://colab.research.google.com)
@@ -22,3 +15,9 @@ Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sale
   * [Keras](https://keras.io) basierend auf [Tensorflow](https://www.tensorflow.org)
   * [Pytorch](https://pytorch.org)
   * [Scikit-Learn](https://scikit-learn.org)
+
+### Modelle
+* ...
+
+### Anwendungen
+* ...
