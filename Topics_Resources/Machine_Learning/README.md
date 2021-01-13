@@ -7,6 +7,7 @@ Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sale
 * [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com)
 * [Towards Datascience](https://towardsdatascience.com) Blog
 * [Kaggle](https://www.kaggle.com) Challanges und Kurse
+* [Visualisierung eines Convolutional Neural Network](https://www.cs.ryerson.ca/~aharley/vis/conv/flat.html)
 
 ### Bibliotheken und Tools
 
