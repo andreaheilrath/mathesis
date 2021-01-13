@@ -21,8 +21,9 @@ Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sale
 * [Nice Example running in Browser](https://medium.com/tensorflow/train-on-google-colab-and-run-on-the-browser-a-case-study-8a45f9b1474e)
 
 
-### Modelle
-* ...
+### Modelle (von simpel zu komplex)
+* [(Multilayer) Perzeptron](https://de.wikipedia.org/wiki/Perzeptron)
+* [Convolutional Neural Network](https://de.wikipedia.org/wiki/Convolutional_Neural_Network)
 
 ### Anwendungen
 * Time Series Classification [[1]](https://www.analyticsvidhya.com/blog/2019/01/introduction-time-series-classification/), [[2]](https://towardsdatascience.com/ml-approaches-for-time-series-4d44722e48fe)
