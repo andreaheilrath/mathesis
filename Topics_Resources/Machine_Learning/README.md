@@ -29,5 +29,8 @@ Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sale
 ### Big Players
 * [openAI](https://openai.com)
 
+### Kritische Perspektiven
+* [Excavating AI](https://excavating.ai)
+* [Exposing AI](https://exposing.ai)
 ### Anwendungen
 * Time Series Classification [[1]](https://www.analyticsvidhya.com/blog/2019/01/introduction-time-series-classification/), [[2]](https://towardsdatascience.com/ml-approaches-for-time-series-4d44722e48fe)
