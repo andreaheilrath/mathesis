@@ -26,5 +26,8 @@ Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sale
 * [(Multilayer) Perzeptron](https://de.wikipedia.org/wiki/Perzeptron)
 * [Convolutional Neural Network](https://de.wikipedia.org/wiki/Convolutional_Neural_Network)
 
+### Big Players
+* [openAI](https://openai.com)
+
 ### Anwendungen
 * Time Series Classification [[1]](https://www.analyticsvidhya.com/blog/2019/01/introduction-time-series-classification/), [[2]](https://towardsdatascience.com/ml-approaches-for-time-series-4d44722e48fe)
