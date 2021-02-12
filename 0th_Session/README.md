@@ -6,6 +6,8 @@ In dieser Session wirst du alle nötigen Programme installieren und zum ersten m
 
 ### Inhalte
 
+TODO: Einführung in Betriebsysteme
+
 * Allgemeine Grundlagen: Algorithmen, Rechner, Programmiersprachen -> findet ihr im Ordner [Grundlagen](grundlagen)
 
 * Get started with Python
