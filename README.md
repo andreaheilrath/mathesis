@@ -6,7 +6,9 @@ In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathe
 
 Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
 
-### Ablauf & Inhalt
+#### [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master) startet die Kursmaterialien im interaktiven Jupyter-Server
+
+## Ablauf & Inhalt
 In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache. Die Materialien zu den jeweiligen Sessions findet ihr in  diesem GIT.
 
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
