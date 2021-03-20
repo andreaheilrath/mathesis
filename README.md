@@ -1,5 +1,7 @@
 ## Mathesis
 
+# Vorbereitung fürs SS21
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
 Binder startet die Kursmaterialien im interaktiven Jupyter-Server
 
@@ -10,7 +12,7 @@ In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathe
 Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
 
 ### Ablauf & Inhalt
-In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache. Die Materialien zu den jeweiligen Sessions findet ihr in  diesem GIT. 
+In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache. Die Materialien zu den jeweiligen Sessions findet ihr in  diesem GIT.
 
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
@@ -18,23 +20,23 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
     * Entwicklung von Computern und Programmiersprachen
     * Installation von Python und Texteditor
     * Erste Skripte und Jupyter Notebooks
-    
-* **[1. Session](./1st_Session)** 
+
+* **[1. Session](./1st_Session)**
     * Boolsche Logik
     * Variablen und Datentypen, User Input
     * Flow Control: if, else & while
-    
+
 * **[2. Session](./2nd_Session)**
     * Lineare Algebra, Laufzeit
     * Tupel, Listen, Dictionaries
     * for-loops, Iterable
     * Funktionen, Imports, Schall
-    
+
 * **[3. Session](./3rd_Session)**
     * Rekursion
     * Funktionen, namespaces
     * imports, matplotlib & numpy
-    
+
 * **[4. Session](./4th_Session)**
     * Objektorientieres Programmieren
     * Klassen in Python
@@ -58,4 +60,3 @@ Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist e
 * [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
 
 [![CC-BY-SA](https://licensebuttons.net/l/by-sa/3.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/deed.de)
-
