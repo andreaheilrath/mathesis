@@ -4,11 +4,7 @@
 
 In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Ziel ist es, mit anderen Studierenden ein eigenes Projekt umzusetzen. Projekte aus den letzten Semestern findet ihr in unserem [**Wiki**](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
 
-Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. 
-
-### Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. 
-
-Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
+Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
 
 #### [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master) startet die Kursmaterialien im interaktiven Jupyter-Server
 
