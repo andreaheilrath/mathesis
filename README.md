@@ -9,7 +9,6 @@ Für die wöchentlichen Sessions werden verschiedene Materialien online bereitge
 #### [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master) startet die Kursmaterialien im interaktiven Jupyter-Server
 
 ## Ablauf & Inhalt
-In den ersten vier Wochen des Kurses liegt der Fokus auf dem Erlernen der Programmiersprache. Die Materialien zu den jeweiligen Sessions findet ihr in  diesem GIT.
 
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
