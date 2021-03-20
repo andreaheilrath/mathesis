@@ -1,11 +1,6 @@
-## Mathesis
+# Mathesis
 
-# Vorbereitung fürs SS21
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/master)
-Binder startet die Kursmaterialien im interaktiven Jupyter-Server
-
-Hier werden Materialien für das **mathematisch-naturwissenschaftliche Labor [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/)** gesammelt, das im Rahmen des **Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin** angeboten wird.
+### Hier werden Materialien für das **mathematisch-naturwissenschaftliche Labor [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/)** gesammelt, das im Rahmen des **Orientierungsstudiums [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin** angeboten wird.
 
 In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Zu Beginn des Semesters erlernen die Teilnehmer* innen die **Gundlagen der Programmiersprache [Python](https://de.wikipedia.org/wiki/Python_(Programmiersprache))**. Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben. Projekte aus den letzten Semestern findet ihr in unserem [**Wiki**](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
 
