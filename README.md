@@ -2,7 +2,7 @@
 
 ### Willkommen zum Python-Crashkurs von [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/), dem mathematisch-naturwissenschaftlichen Projektlabor im Orientierunggstudium [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin.
 
-In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Ziel ist es, in kleinen Gruppen Projekte umzusetzen, die im weitesten Sinne mit Mathematik und Naturwissenschaften zu tun haben. Projekte aus den letzten Semestern findet ihr in unserem [**Wiki**](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
+In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Ziel ist es, mit anderen Studierenden ein eigenes Projekt umzusetzen. Projekte aus den letzten Semestern findet ihr in unserem [**Wiki**](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
 
 Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
 
