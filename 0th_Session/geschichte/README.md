@@ -25,7 +25,7 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 ### 1970-1990: Integrierte Schaltkreise und erste Betriebssysteme
 
-[<img src="Intel_C4004.jpg" width="30%" align="left">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
+<img src="Intel_C4004.jpg" width="30%" align="left">
 
 Computer, die auf Relais und Elektronenröhren basierten wurden immer größer - und kamen an ihre Grenzen.
 
