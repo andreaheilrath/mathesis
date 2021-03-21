@@ -2,24 +2,13 @@
 
 [**Youtube Tutorial zu Session**](https://youtu.be/lrL5yVR3ZdA)
 
-Inhalte der Session:
+In dieser Intro-Session geht es um folgende Themen:
 
-### [Geschichte](./geschichte)
-* Human Computers
-* Webstühle und Lochkarten
-* Höhere Programmiersprachen
+* [Geschichte](./geschichte): Wie haben sich Computer entwickelt?
+* [Computer Grundlagen](./rechner) Wie funktioniert eigentlich ein Computer?
+* [Erste Schritte mit Python](./python_installation) Installation und erste kleine Skripte
 
-### [Computer Grundlagen](./rechner)
-* Was ist eigentlich ein Rechner und wie funktioniert er?
-* Was ist ein Betriebssystem?
-* (Desktop)Software und Programmiersprachen
-
-### [Erste Schritte mit Python](./python_installation)
-* Installation
-* Interaktives Python und kleine Skripte
-* Jupyter Notebooks
-
-### Dateien zum Download
+#### Dateien zum Download
 * [hello.py](./crashkurs/hello.py)
 * [hello2.py](./crashkurs/hello2.py)
 * [hello_turtle.py](./crashkurs/hello_turtle.py)
