@@ -2,7 +2,7 @@
 
 ### Computer vor 1950
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="30%" align="left" >
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="30%" align="left">](https://en.wikipedia.org/wiki/Harvard_Computers)
 
 [Human Computers](https://en.wikipedia.org/wiki/Computer_(job_description))
 
