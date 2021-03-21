@@ -13,9 +13,9 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 ### Entwicklung ab 1940
 
-<img src="zuse_z3.jpg" width="30%" align="right" >
+[<img src="zuse_z3.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
-1937-1941 baute Konrad Zuse die [erste funktionsfähige Rechenmaschine der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin (siehe Bild rechts, Konrad Zuse vor einem Nachbau der Z1).
+1937-1941 baute Konrad Zuse die erste funktionsfähige Rechenmaschine der Welt in Berlin (siehe Bild rechts).
 
 > Ich bin zu faul zum Rechnen. [Konrad Zuse]
 > 
