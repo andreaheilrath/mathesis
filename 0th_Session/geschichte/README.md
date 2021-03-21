@@ -15,7 +15,7 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 [<img src="zuse_z3.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
-1937-1941 baute Konrad Zuse die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, Mark I und ENIAC.
+1937-1941 baute [Konrad Zuse](https://de.wikipedia.org/wiki/Konrad_Zuse) die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, Mark I und ENIAC.
 
 > Ich bin zu faul zum Rechnen. [Konrad Zuse]
 > 
