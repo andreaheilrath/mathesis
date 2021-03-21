@@ -19,7 +19,7 @@ Inhalte der Session:
   * Interaktives Python und kleine Skripte
   * Jupyter Notebooks
 
-* Dateien zum Download
+* **Dateien zum Download**
  	 * [hello.py](./crashkurs/hello.py)
  	 * [hello2.py](./crashkurs/hello2.py)
  	 * [hello_turtle.py](./crashkurs/hello_turtle.py)
