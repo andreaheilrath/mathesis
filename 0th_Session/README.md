@@ -4,9 +4,9 @@
 
 #### In dieser Intro-Session geht es um folgende Themen:
 
-* [Geschichte](./geschichte): Wie haben sich Computer entwickelt?
-* [Computer Grundlagen](./rechner) Wie funktioniert eigentlich ein Computer?
-* [Erste Schritte mit Python](./python_installation) Installation und erste kleine Skripte
+* [**Geschichte**](./geschichte) Wie haben sich Computer entwickelt?
+* [**Computer Grundlagen**](./rechner) Wie funktioniert eigentlich ein Computer?
+* [**Erste Schritte mit Python**](./python_installation) Installation und erste kleine Skripte
 
 #### Dateien zum Download
 * [hello.py](./crashkurs/hello.py)
