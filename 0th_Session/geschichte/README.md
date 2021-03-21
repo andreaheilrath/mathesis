@@ -8,7 +8,7 @@
 
 Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden sollte, wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert. Es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl). Ihr Mann Byron William King ließ sich ihr zuliebe in die Royal Society aufnehmen, da Frauen zu dieser Zeit der Zutritt zu Bibliotheken und Universitäten untersagt war.
 
-Im Zuge der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um Menschen bei handwerkliche Tätikeiten zu ersetzen.Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
+In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um Menschen bei handwerkliche Tätikeiten zu ersetzen. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
 ### Computer nach 1950
 
