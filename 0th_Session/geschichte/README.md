@@ -28,7 +28,7 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 Die Computer, die auf Relais und Elektronenröhren basierten wurden immer größer - und kamen an ihre Grenzen. Ein bedeutender Schritt in der Entwicklung von Rechnern sind die [Integrierten Schaltkreise](https://de.wikipedia.org/wiki/Integrierter_Schaltkreis). Hier wird die Schaltung direkt auf ein dünnes Plättchen aus Halbleiter-Material aufgebracht.
 
-[<img src="Intel_C4004.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
+[<img src="Intel_C4004.jpg" width="30%" align="left">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
 
 ### Weiterführende (unterhaltsame) Texte
