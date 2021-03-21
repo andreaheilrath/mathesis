@@ -11,9 +11,9 @@ Für die wöchentlichen Sessions werden verschiedene Materialien online bereitge
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
 * **[0. Session](./0th_Session)**
-    * Entwicklung von Computern und Programmiersprachen
-    * Installation von Python und Texteditor
-    * Erste Skripte und Jupyter Notebooks
+    * Geschichtliche Entwicklung
+    * Computer Grundlagen
+    * Erste Schritte in Python
 
 * **[1. Session](./1st_Session)**
     * Boolsche Logik
