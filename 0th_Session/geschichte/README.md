@@ -22,9 +22,9 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle um verschlüsselte Nachrichten zu dechiffrieren. Allerings mussten diese Rechner in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) programmiert werden - also meist in Binärcode.
 
-[Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. 
+[Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt.
 
-Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt. Bekannte Sprachen, die vor der Ausführung komplett kompiliert werden sind C, C++ und Fortran. Im Gegensatz dazu stehen Programmiersprachen, die "on the fly" übersetzt werden, sogenannte Skriptsprachen oder interpretierte Sprachen, wie Ruby, Perl und Python. Der große Vorteil von interpretierten Sprachen ist, dass das Programm noch während der Ausführung erweitert werden kann.
+
 
 
 ### Weiterführende (unterhaltsame) Texte
