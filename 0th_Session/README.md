@@ -17,3 +17,5 @@ Inhalte der Session:
 * [Installation von Python](./python_installation)
   * ...
 
+* [Crashkurs](./crashkurs)
+ * test
