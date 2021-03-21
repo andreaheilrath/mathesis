@@ -18,9 +18,10 @@ In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für 
 
 > Ich bin zu faul zum Rechnen. [Konrad Zuse]
 
-In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL). Für diese Sprachen wird ein [Compiler](https://de.wikipedia.org/wiki/Compiler) benötigt. Das ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) übersetzt. 
-
 [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) „Grandma COBOL“ beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprache](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind.
+
+Für diese Sprachen wird ein [Compiler](https://de.wikipedia.org/wiki/Compiler) benötigt. Das ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) übersetzt. 
+
 
 Bekannte Sprachen, die vor der Ausführung komplett Kompiliert werden sind C, C++ und Fortran. Im Gegensatz dazu stehen Programmiersprachen, die "on the fly" übersetzt werden, sogenannte Skriptsprachen oder interpretierte Sprachen, wie Ruby, Perl und Python. Der große Vorteil von interpretierten Sprachen ist, dass das Programm noch während der Ausführung erweitert werden kann.
 
