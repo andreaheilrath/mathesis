@@ -20,7 +20,7 @@ Inhalte der Session:
   * Jupyter Notebooks
 
 * **Dateien zum Download**
- 	 * [hello.py](./crashkurs/hello.py)
- 	 * [hello2.py](./crashkurs/hello2.py)
- 	 * [hello_turtle.py](./crashkurs/hello_turtle.py)
+ 	* [hello.py](./crashkurs/hello.py)
+ 	* [hello2.py](./crashkurs/hello2.py)
+ 	* [hello_turtle.py](./crashkurs/hello_turtle.py)
   * [Hello_JupyterNotebook.ipynb](./crashkurs/Hello_JupyterNotebook.ipynb)
