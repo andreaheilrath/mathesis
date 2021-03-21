@@ -4,7 +4,7 @@
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="30%" align="left">](https://en.wikipedia.org/wiki/Harvard_Computers)
 
-[Human Computers](https://en.wikipedia.org/wiki/Computer_(job_description))
+"[Computer](https://en.wikipedia.org/wiki/Computer_(job_description))" war einmal eine Jobbeschreibung: vom 17.- 20. Jahrhundert wurden Berechnungen von Hand ausgeführt - und das oft von Frauen (siehe Bild links: die Harvard Computers).
 
 In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr handwerkliche Tätikeiten von Maschinen verrichtet. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
