@@ -11,7 +11,7 @@ Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden soll
 In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um ehemals handwerkliche Tätikeiten zu verrichten. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
 
-### Entwicklung 1940-1960: erste Rechenmaschinen
+### Entwicklung 1940-1960: erste Rechenmaschinen und Programmiersprachen
 
 [<img src="zuse_z3.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
