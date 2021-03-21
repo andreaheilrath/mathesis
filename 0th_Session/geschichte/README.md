@@ -50,8 +50,7 @@ Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (G
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/C64c_system.jpg" height="200px" align="left">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png" height="200px" align="left>
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png" height="200px">
 
 
 Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und ist daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt. 
