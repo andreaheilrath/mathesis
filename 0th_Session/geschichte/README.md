@@ -15,12 +15,14 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 [<img src="zuse_z3.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
-1937-1941 baute Konrad Zuse die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, MarkI und ENIAC.
+1937-1941 baute Konrad Zuse die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, Mark I und ENIAC.
 
 > Ich bin zu faul zum Rechnen. [Konrad Zuse]
 > 
 
-Die ersten Rechner mussten in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) programmiert werden - also meist in Binärcode. [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. 
+Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle um verschlüsselte Nachrichten zu dechiffrieren. Allerings mussten diese Rechner in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) programmiert werden - also meist in Binärcode.
+
+[Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. 
 
 Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt. Bekannte Sprachen, die vor der Ausführung komplett kompiliert werden sind C, C++ und Fortran. Im Gegensatz dazu stehen Programmiersprachen, die "on the fly" übersetzt werden, sogenannte Skriptsprachen oder interpretierte Sprachen, wie Ruby, Perl und Python. Der große Vorteil von interpretierten Sprachen ist, dass das Programm noch während der Ausführung erweitert werden kann.
 
