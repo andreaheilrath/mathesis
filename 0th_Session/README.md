@@ -14,8 +14,8 @@ Inhalte der Session:
   * Was ist ein Betriebssystem?
   * (Desktop)Software und Programmiersprachen
 
-* [Installation von Python](./python_installation)
+* [Erste Schritte mit Python](./python_installation)
   * ...
 
-* [Crashkurs](./crashkurs)
+* Dateien zum Download
   * [Hello_JupyterNotebook.ipynb](./crashkurs/Hello_JupyterNotebook.ipynb)
