@@ -13,3 +13,10 @@
 * [hello2.py](./crashkurs/hello2.py)
 * [hello_turtle.py](./crashkurs/hello_turtle.py)
 * [Hello_JupyterNotebook.ipynb](./crashkurs/Hello_JupyterNotebook.ipynb)
+
+
+#### Zusammenfassung (Das solltest du aus dieser Session mitnehmen!)
+
+* erstens
+* zweitens
+* drittens
