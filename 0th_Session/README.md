@@ -4,18 +4,18 @@
 
 Inhalte der Session:
 
-* [Computer Grundlagen](./rechner)
-  * Was ist eigentlich ein Rechner und wie funktioniert er?
-  * Was ist ein Betriebssystem?
-  * (Desktop)Software und Programmiersprachen
-
 * [Geschichte](./geschichte)
   * Human Computers
   * Webstühle und Lochkarten
   * Höhere Programmiersprachen
 
+* [Computer Grundlagen](./rechner)
+  * Was ist eigentlich ein Rechner und wie funktioniert er?
+  * Was ist ein Betriebssystem?
+  * (Desktop)Software und Programmiersprachen
+
 * [Installation von Python](./python_installation)
   * ...
 
 * [Crashkurs](./crashkurs)
- * test
+  * [Hello_JupyterNotebook.ipynb](./crashkurs/Hello_JupyterNotebook.ipynb)
