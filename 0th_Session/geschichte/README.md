@@ -39,7 +39,7 @@ Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/w
 
 > UNIX is very simple, it just needs a genius to understand its simplicity. [Dennis Ritchie]
 
-Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des UNIX-Betriebssystems sowie die Programmiersprache C. Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
+Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des [UNIX](https://de.wikipedia.org/wiki/Unix)-Betriebssystems sowie die Programmiersprache [C](https://de.wikipedia.org/wiki/C_(Programmiersprache)). Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
 ### Weiterführende (unterhaltsame) Texte
 
