@@ -22,7 +22,7 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle um verschlüsselte Nachrichten zu dechiffrieren. Allerings mussten diese Rechner in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) programmiert werden - also meist in Binärcode.
 
-[Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt.
+[Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt. Beispiele für frühe Programmiersprachen sind FOTRAN, COBOL, ALGOL oder BASIC.
 
 ### Seit 1970: Rechnen mit integrierten Schaltkreisen
 
