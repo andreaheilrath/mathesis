@@ -46,7 +46,7 @@ In den 80er Jahren gab es die ersten erschwinglichen Heimcomputer, wie z.B. den 
 
 
 
-Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (GUI = Graphical User Interface) auf den Markt. Apple war Vorreiter dieses Konzepts (siehe unten rechts, Apple Macintosh 1984) - aber auch andere Firmen folgten kurz darauf wie z.B. [Atari](https://de.wikipedia.org/wiki/Atari_ST)(siehe unten rechts) und auch [Windows](https://de.wikipedia.org/wiki/Microsoft_Windows).
+Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (GUI = Graphical User Interface) auf den Markt. Apple war Vorreiter dieses Konzepts (siehe unten rechts, Apple Macintosh 1984) - aber auch andere Firmen folgten kurz darauf wie z.B. [Atari](https://de.wikipedia.org/wiki/Atari_ST) (siehe unten rechts) und auch [Windows](https://de.wikipedia.org/wiki/Microsoft_Windows).
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/C64c_system.jpg" height="200px" align="left">
@@ -58,9 +58,7 @@ Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwe
 
 ### Die 1990er Jahre: Der Beginn des Internets!
 
-
-
-
+[Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee) entwickelte um das Jahr 1989 am [CERN](https://de.wikipedia.org/wiki/CERN) die Grundlagen des World Wide Web. Am 6. August 1991 machte er dieses Projekt weltweit verfügbar. [Hier](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html) findest du eine Kopie der allerersten Website im Internet.
 
 
 ### Weiterführende (unterhaltsame) Texte
