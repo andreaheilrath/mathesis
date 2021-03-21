@@ -43,6 +43,8 @@ Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/w
 
 Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des [UNIX](https://de.wikipedia.org/wiki/Unix)-Betriebssystems sowie die Programmiersprache [C](https://de.wikipedia.org/wiki/C_(Programmiersprache)). Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
+Dies ebnete den Weg für die ersten Heimcomputer in den 80er Jahren, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde), einem Arbeitsspeicher von 64 KB und ausschlißlich externen Massenspeicher (Diskette).
+
 ### Weiterführende (unterhaltsame) Texte
 
 * [Chaos Computer Buch](https://monoskop.org/images/b/ba/Wieckmann,_Jürgen_%28ed.%29_-_Das_Chaos_Computer_Buch._Hacking_made_in_Germany_%28German%29.pdf), Seite 125, Die Drei Hände des Zeichners, Peter Glaser
