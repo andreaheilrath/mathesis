@@ -18,7 +18,6 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 1937-1941 baute [Konrad Zuse](https://de.wikipedia.org/wiki/Konrad_Zuse) die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, Mark I und ENIAC.
 
 > Ich bin zu faul zum Rechnen. [Konrad Zuse]
-> 
 
 Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle um verschlüsselte Nachrichten zu dechiffrieren. Allerings mussten diese Rechner in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) programmiert werden - also meist in Binärcode.
 
@@ -37,6 +36,8 @@ Ein bedeutender Schritt in der Entwicklung von Rechnern sind die [Integrierten S
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/599px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg" width="30%" align="right">
 
 Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/wiki/Betriebssystem). Mit zunehmender Komplexität war jedoch ein Programm nötig, dass die Ressourcen des Rechners und die Interaktion mit dem User verwaltet.
+
+> UNIX is very simple, it just needs a genius to understand its simplicity. [Dennis Ritchie]
 
 Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des UNIX-Betriebssystems sowie die Programmiersprache C. Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
