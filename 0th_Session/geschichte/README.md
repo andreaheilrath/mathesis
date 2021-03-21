@@ -31,7 +31,7 @@ Computer, die auf Relais und Elektronenröhren basierten wurden immer größer -
 
 Ein bedeutender Schritt in der Entwicklung von Rechnern sind die [Integrierten Schaltkreise](https://de.wikipedia.org/wiki/Integrierter_Schaltkreis). Hier wird die Schaltung direkt auf ein dünnes Plättchen aus Halbleiter-Material aufgebracht.
 
-1971 war der erste Mikroprozessoer kommerziell verfügbar: der [Intel C4004](https://de.wikipedia.org/wiki/Intel_4004) (siehe Bild links) konnte etwa 600.000 Berechnungen mit jeweils 4 bit pro Sekunde ausführen. Zum Vergleich: der Z3 hatte eine Taktrate von 5-10 Berechnungen pro Sekunde mit 22 bit. (Dein Computer arbeitet vermutlich mit 64 bit!)
+1971 war der erste Mikroprozessor kommerziell verfügbar: der [Intel C4004](https://de.wikipedia.org/wiki/Intel_4004) (siehe Bild links) konnte etwa 600.000 Berechnungen mit jeweils 4 bit pro Sekunde ausführen. Zum Vergleich: der Z3 hatte eine Taktrate von 5-10 Berechnungen pro Sekunde mit 22 bit. (Dein Computer arbeitet vermutlich mit [64 bit](https://de.wikipedia.org/wiki/64-Bit-Architektur)!)
 
 
 Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/wiki/Betriebssystem). Mit zunehmender Komplexität war jedoch ein Programm nötig, das die Ressourcen des Rechners und die Interaktion mit dem User verwaltet.
@@ -42,7 +42,9 @@ Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/w
 
 Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des [UNIX](https://de.wikipedia.org/wiki/Unix)-Betriebssystems sowie die Programmiersprache [C](https://de.wikipedia.org/wiki/C_(Programmiersprache)). Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
-Dies ebnete den Weg für die ersten Heimcomputer in den 80er Jahren, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde), einem Arbeitsspeicher von 64 KB und ausschlißlich externen Massenspeicher (Diskette).
+Dies ebnete den Weg für die ersten Heimcomputer in den 80er Jahren, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde) bei 8 bit, einem Arbeitsspeicher von 64 KB und ausschlißlich externen Massenspeicher (Diskette).
+
+
 
 ### Weiterführende (unterhaltsame) Texte
 
