@@ -54,11 +54,11 @@ Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (G
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png" height="200px">
 
 
-Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und ist daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt. 
-
-### Die 1990er Jahre: Der Beginn des Internets!
+### Die 1990er Jahre: Das Internet und immer stärkere Computer
 
 [Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee) entwickelte um das Jahr 1989 am [CERN](https://de.wikipedia.org/wiki/CERN) die Grundlagen des World Wide Web. Am 6. August 1991 machte er dieses Projekt weltweit verfügbar. [Hier](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html) findest du eine Kopie der allerersten Website im Internet.
+
+Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und ist daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt. 
 
 
 ### Weiterführende (unterhaltsame) Texte
