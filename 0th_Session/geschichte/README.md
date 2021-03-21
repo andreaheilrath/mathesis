@@ -6,9 +6,9 @@
 
 "[Computer](https://en.wikipedia.org/wiki/Computer_(job_description))" war einmal eine Jobbeschreibung: vom 17.- 20. Jahrhundert wurden Berechnungen von Hand ausgeführt - und das oft von Frauen (siehe Bild links: die Harvard Computers).
 
-In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr handwerkliche Tätikeiten von Maschinen verrichtet. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
+Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden sollte, wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert. Es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl). Ihr Mann Byron William King ließ sich ihr zuliebe in die Royal Society aufnehmen, da Frauen zu dieser Zeit der Zutritt zu Bibliotheken und Universitäten untersagt war.
 
-Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl). Ihr Mann Byron William King ließ sich ihr zuliebe in die Royal Society aufnehmen, da Frauen zu dieser Zeit der Zutritt zu Bibliotheken und Universitäten untersagt war.
+In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr handwerkliche Tätikeiten von Maschinen verrichtet. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
 ### Computer nach 1950
 
