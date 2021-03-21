@@ -35,7 +35,7 @@ Ein bedeutender Schritt in der Entwicklung von Rechnern sind die [Integrierten S
 
 
 
-Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/wiki/Betriebssystem). Mit zunehmender Komplexität war jedoch ein Programm nötig, dass die Ressourcen des Rechners und die Interaktion mit dem User verwaltet.
+Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/wiki/Betriebssystem). Mit zunehmender Komplexität war jedoch ein Programm nötig, das die Ressourcen des Rechners und die Interaktion mit dem User verwaltet.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg/599px-Ken_Thompson_%28sitting%29_and_Dennis_Ritchie_at_PDP-11_%282876612463%29.jpg" width="30%" align="right">
 
