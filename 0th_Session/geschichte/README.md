@@ -42,7 +42,9 @@ Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/w
 
 Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des [UNIX](https://de.wikipedia.org/wiki/Unix)-Betriebssystems sowie die Programmiersprache [C](https://de.wikipedia.org/wiki/C_(Programmiersprache)). Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
-Dies ebnete den Weg für die ersten Heimcomputer in den 80er Jahren, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde) bei 8 bit, einem Arbeitsspeicher von 64 KB und ausschlißlich externen Massenspeicher (Diskette).
+Dies ebnete den Weg für die ersten Heimcomputer in den 80er Jahren, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde) bei 8 bit, einem Arbeitsspeicher von 64 KB und ausschließlich externem Massenspeicher (Diskette).
+
+Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt.
 
 
 
