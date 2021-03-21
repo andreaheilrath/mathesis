@@ -42,11 +42,11 @@ Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/w
 
 Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) (siehe rechts) an den Bell Laboratories den ersten Kernel des [UNIX](https://de.wikipedia.org/wiki/Unix)-Betriebssystems sowie die Programmiersprache [C](https://de.wikipedia.org/wiki/C_(Programmiersprache)). Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
-In den 80er Jahren gab es die ersten erschwinglichen Heimcomputer, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde) bei 8 bit, einem Arbeitsspeicher von 64 KB und ausschließlich externem Massenspeicher (Diskette). Er gilt mit geschätzten Verkaufszahlen von 12,5 bis 30 Millionen Stück als meistverkaufter [Personal Computer](https://de.wikipedia.org/wiki/Personal_Computer) überhaupt.
+In den 80er Jahren gab es die ersten erschwinglichen Heimcomputer, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64) (siehe unten links). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde) bei 8 bit, einem Arbeitsspeicher von 64 KB und ausschließlich externem Massenspeicher (Diskette). Er gilt mit geschätzten Verkaufszahlen von 12,5 bis 30 Millionen Stück als meistverkaufter [Personal Computer](https://de.wikipedia.org/wiki/Personal_Computer) überhaupt.
 
 
 
-Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (GUI = Graphical User Interface) auf den Markt. Apple war Vorreiter dieses Konzepts (siehe links, Apple Macintosh 1984) - aber auch andere Firmen folgten kurz darauf wie z.B. [Atari](https://de.wikipedia.org/wiki/Atari_ST) und auch [Windows](https://de.wikipedia.org/wiki/Microsoft_Windows).
+Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (GUI = Graphical User Interface) auf den Markt. Apple war Vorreiter dieses Konzepts (siehe unten rechts, Apple Macintosh 1984) - aber auch andere Firmen folgten kurz darauf wie z.B. [Atari](https://de.wikipedia.org/wiki/Atari_ST)(siehe unten rechts) und auch [Windows](https://de.wikipedia.org/wiki/Microsoft_Windows).
 
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/C64c_system.jpg" height="200px" align="left">
