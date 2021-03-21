@@ -1,14 +1,4 @@
-## Python!
-
-* Get started with Python
-* Installation von Python via Anaconda
-* Die Konsole - das Command Line Interface
-* Python interaktiv in der Konsole
-* Texteditoren und erste kleine Skripte
-* Jupyter Notebooks - Struktur und Bedienung
-* Error Messages
-
-### Get started with Python
+## Get started with Python
 
 1. **Installation von Python via Anaconda**
 
