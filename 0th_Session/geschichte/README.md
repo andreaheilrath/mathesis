@@ -14,9 +14,9 @@ Im Zuge der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer
 
 [<img src="zuse1.jpg" width="30%" align="right" >](https://www.swr.de/swr2/wissen/zuse-und-die-geburt-des-computers/-/id=661224/did=10101292/nid=661224/qfvdw8/index.html)
 
-> Ich bin zu faul zum Rechnen. [Konrad Zuse]
-
 In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähigen Computer der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin.
+
+> Ich bin zu faul zum Rechnen. [Konrad Zuse]
 
 In den 1950er Jahren haben sich die ersten modernen Programmiersprachen entwickelt (FORTRAN, LISP, COBOL). Für diese Sprachen wird ein [Compiler](https://de.wikipedia.org/wiki/Compiler) benötigt. Das ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) übersetzt. [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) „Grandma COBOL“ beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprache](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind.
 
