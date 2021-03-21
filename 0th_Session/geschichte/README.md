@@ -11,7 +11,7 @@ Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden soll
 In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um ehemals handwerkliche Tätikeiten zu verrichten. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
 
-### Entwicklung 1940-1970: erste Rechenmaschinen und Programmiersprachen
+### 1940-1970: erste Rechenmaschinen und Programmiersprachen
 
 [<img src="zuse_z3.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
@@ -32,7 +32,7 @@ Die Computer, die auf Relais und Elektronenröhren basierten wurden immer größ
 
 1971 war der erste Mikroprozessoer kommerziell verfügbar: der [Intel C4004](https://de.wikipedia.org/wiki/Intel_4004) (siehe Bild links) konnte etwa 600.000 Berechnungen pro Sekunde ausführen. Zum Vergleich: der Z3 hatte eine Taktrate von 5-10 Berechnungen pro Sekunde.
 
-Die ersten Rechner hatten zudem kein Betriebssystem.
+Die ersten Rechner hatten zudem kein [Betriebssystem](https://de.wikipedia.org/wiki/Betriebssystem). Mit zunehmender Komplexität war jedoch ein Programm nötig, dass die Ressourcen des Rechners und die Interaktion mit dem User verwaltet. Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wiki/Ken_Thompson) und [Dennis Ritchie](https://de.wikipedia.org/wiki/Dennis_Ritchie) an den Bell Laboratories den ersten Kernel des UNIX-Betriebssystems sowie die Programmiersprache C. Zur selben Zeit wurden auch Vorläufer des Windows-Betriebssystems entwickelt.
 
 
 ### Weiterführende (unterhaltsame) Texte
