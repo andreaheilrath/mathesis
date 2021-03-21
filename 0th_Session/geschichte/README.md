@@ -23,7 +23,7 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt. Beispiele für frühe Programmiersprachen sind FOTRAN, COBOL, ALGOL oder BASIC.
 
-### Seit 1970: Integrierte Schaltkreise und erste Betriebssysteme
+### 1970-1990: Integrierte Schaltkreise und erste Betriebssysteme
 
 [<img src="Intel_C4004.jpg" width="30%" align="left">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
@@ -44,7 +44,7 @@ Zu Beginn der 70er Jahre entwickelten [Ken Thompson](https://en.wikipedia.org/wi
 
 Dies ebnete den Weg für die ersten Heimcomputer in den 80er Jahren, wie z.B. den [Commodore 64](https://de.wikipedia.org/wiki/Commodore_64). Dieser bot eine Taktfrequenz von etwa 1 MHz (= 1.000.000 Berechnungen / Sekunde) bei 8 bit, einem Arbeitsspeicher von 64 KB und ausschließlich externem Massenspeicher (Diskette).
 
-Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt.
+Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und ist daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt.
 
 
 
