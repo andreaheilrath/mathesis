@@ -10,13 +10,14 @@ Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden soll
 
 In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um ehemals handwerkliche Tätikeiten zu verrichten. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
-### Computer nach 1950
-
 [<img src="zuse1.jpg" width="30%" align="right" >](https://www.swr.de/swr2/wissen/zuse-und-die-geburt-des-computers/-/id=661224/did=10101292/nid=661224/qfvdw8/index.html)
 
-In der ersten Hälfte des 20. Jahrhunderts wurden die logischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähige Rechenmaschine der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin.
+In der ersten Hälfte des 20. Jahrhunderts wurden die theoretischen Grundlagen für die Programmierung von Rechenmaschinen entwickelt. 1937-1941 baute Konrad Zuse den [ersten funktionsfähige Rechenmaschine der Welt](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) in Berlin.
 
 > Ich bin zu faul zum Rechnen. [Konrad Zuse]
+> 
+
+### Computer nach 1950
 
 Die ersten Rechner mussten in [Maschinensprache](https://de.wikipedia.org/wiki/Maschinensprache) programmiert werden. [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) „Grandma COBOL“ beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprache](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. 
 
