@@ -1,8 +1,8 @@
 ## Kurze Geschichte der [Computer](https://de.wikipedia.org/wiki/Geschichte_des_Computers) und [Programmiersprachen](https://de.wikipedia.org/wiki/Geschichte_der_Programmiersprachen)**
 
-#### Computer vor 1950
+### Computer vor 1950
 
-<img src="https://www.dfrc.nasa.gov/Gallery/Photo/Places/Medium/E49-54.jpg" width="30%" align="left" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="30%" align="left" >
 
 [Human Computers](https://en.wikipedia.org/wiki/Computer_(job_description))
 
@@ -10,7 +10,7 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer mehr
 
 Das erste Computerprogramm wurde 1842/1843 von [Ada Lovelace](https://de.wikipedia.org/wiki/Ada_Lovelace) formuliert, es handelt sich um eine Vorschrift für die Berechnung der [Bernoulli-Zahlen](https://de.wikipedia.org/wiki/Bernoulli-Zahl). Ihr Mann Byron William King ließ sich ihr zuliebe in die Royal Society aufnehmen, da Frauen zu dieser Zeit der Zutritt zu Bibliotheken und Universitäten untersagt war.
 
-#### Computer nach 1950
+### Computer nach 1950
 
 [<img src="zuse1.jpg" width="30%" align="right" >](https://www.swr.de/swr2/wissen/zuse-und-die-geburt-des-computers/-/id=661224/did=10101292/nid=661224/qfvdw8/index.html)
 
