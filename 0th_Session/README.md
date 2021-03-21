@@ -2,7 +2,7 @@
 
 [**Youtube Tutorial zu Session**](https://youtu.be/lrL5yVR3ZdA)
 
-In dieser Intro-Session geht es um folgende Themen:
+#### In dieser Intro-Session geht es um folgende Themen:
 
 * [Geschichte](./geschichte): Wie haben sich Computer entwickelt?
 * [Computer Grundlagen](./rechner) Wie funktioniert eigentlich ein Computer?
