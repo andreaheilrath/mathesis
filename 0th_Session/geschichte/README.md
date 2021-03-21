@@ -11,7 +11,7 @@ Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden soll
 In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um ehemals handwerkliche Tätikeiten zu verrichten. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
 
-### Entwicklung ab 1940
+### Entwicklung 1940-1960: erste Rechenmaschinen
 
 [<img src="zuse_z3.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
@@ -24,7 +24,11 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler, Interpreter und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt.
 
+### Seit 1960: Rechnen mit integrierten Schaltkreisen
 
+Die Computer, die auf Relais und Elektronenröhren basierten wurden immer größer - und kamen an ihre Grenzen. Ein bedeutender Schritt in der Entwicklung von Rechnern sind die [Integrierten Schaltkreise](https://de.wikipedia.org/wiki/Integrierter_Schaltkreis). Hier wird die Schaltung direkt auf ein dünnes Plättchen aus Halbleiter-Material aufgebracht.
+
+[<img src="Intel_C4004.jpg" width="30%" align="right">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
 
 ### Weiterführende (unterhaltsame) Texte
