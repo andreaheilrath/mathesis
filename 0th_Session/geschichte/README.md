@@ -24,13 +24,16 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt. Beispiele für frühe Programmiersprachen sind FOTRAN, COBOL, ALGOL oder BASIC.
 
-### Seit 1970: Rechnen mit integrierten Schaltkreisen
+### Seit 1970: Integrierte Schaltkreise und erste Betriebssysteme
 
 Die Computer, die auf Relais und Elektronenröhren basierten wurden immer größer - und kamen an ihre Grenzen. Ein bedeutender Schritt in der Entwicklung von Rechnern sind die [Integrierten Schaltkreise](https://de.wikipedia.org/wiki/Integrierter_Schaltkreis). Hier wird die Schaltung direkt auf ein dünnes Plättchen aus Halbleiter-Material aufgebracht.
 
 [<img src="Intel_C4004.jpg" width="30%" align="left">](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt)
 
-Der erste kommerziell verfügbare Mikroprozessor war der [Intel C4004](https://de.wikipedia.org/wiki/Intel_4004) (siehe Bild links), und konnte etwa 600.000 Berechnungen pro Sekunde ausführen. Zum Vergleich: der Z3 hatte eine Taktrate von 5-10 Berechnungen pro Sekunde.
+1971 war der erste Mikroprozessoer kommerziell verfügbar: der [Intel C4004](https://de.wikipedia.org/wiki/Intel_4004) (siehe Bild links) konnte etwa 600.000 Berechnungen pro Sekunde ausführen. Zum Vergleich: der Z3 hatte eine Taktrate von 5-10 Berechnungen pro Sekunde.
+
+Die ersten Rechner hatten zudem kein Betriebssystem.
+
 
 ### Weiterführende (unterhaltsame) Texte
 
