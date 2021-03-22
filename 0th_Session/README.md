@@ -1,3 +1,10 @@
+---
+layout: default
+title: 0. Session
+nav_order: 2
+has_children: true
+---
+
 ## 0. Session
 
 [**Youtube Tutorial zu Session**](https://youtu.be/lrL5yVR3ZdA)
