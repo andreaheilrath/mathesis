@@ -20,7 +20,7 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 ### 1940-1970: erste Rechenmaschinen und Programmiersprachen
 
-<img src="/imgs/zuse_z3.jpg" width="300em" align="right">
+<img src="imgs/zuse_z3.jpg" width="300em" align="right">
 
 1937-1941 baute [Konrad Zuse](https://de.wikipedia.org/wiki/Konrad_Zuse) die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, Mark I und ENIAC.
 
@@ -32,7 +32,7 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 ### 1970-1990: Integrierte Schaltkreise und erste Betriebssysteme
 
-<img src="/imgs/Intel_C4004.jpg" width="300em" align="left">
+<img src="imgs/Intel_C4004.jpg" width="300em" align="left">
 
 Computer, die auf Relais und Elektronenröhren basierten wurden immer größer - und kamen an ihre Grenzen.
 
