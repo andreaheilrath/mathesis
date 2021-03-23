@@ -2,6 +2,7 @@
 title: 1. Session
 nav_order: 2
 has_children: true
+permalink: /1st_Session/
 ---
 
 ## 1. Session
