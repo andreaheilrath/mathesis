@@ -23,7 +23,7 @@ remote_theme: pmarsceill/just-the-docs
 color_scheme: reduced
 
 
-permalink: :path
+permalink: "/:path/"
 exclude: ["LICENSE.txt"]
 
 # Regression tests
