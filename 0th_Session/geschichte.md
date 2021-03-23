@@ -20,7 +20,7 @@ In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komp
 
 ### 1940-1970: erste Rechenmaschinen und Programmiersprachen
 
-<img src="/0th_Session/imgs/zuse_z3.jpg" width="300em" align="right">
+<img src="mathesis/0th_Session/imgs/zuse_z3.jpg" width="300em" align="right">
 
 1937-1941 baute [Konrad Zuse](https://de.wikipedia.org/wiki/Konrad_Zuse) die erste funktionsfähige Rechenmaschine der Welt in Berlin - den [Z3](https://de.wikipedia.org/wiki/Konrad_Zuse#Z3_–_der_erste_funktionsfähige_Computer_der_Welt) (siehe Bild rechts). Nur wenige Jahre später wurden auch in den USA verschiedene *Universelle Rechenmaschinen* gebaut: Colossus, Mark I und ENIAC.
 
