@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Python erste Schritte
+title: Python Quickstart
 parent: 0. Session
 nav_order: 3
+permalink: /0th_Session/python_quickstart
 ---
 
 ## Get started with Python
