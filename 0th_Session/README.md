@@ -2,7 +2,7 @@
 title: 0. Session
 nav_order: 1
 has_children: true
-permalink: /0th_Session/
+permalink: /0th_session/
 ---
 
 ## 0. Session
