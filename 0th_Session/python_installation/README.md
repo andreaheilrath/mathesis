@@ -1,3 +1,10 @@
+---
+layout: default
+title: Python erste Schritte
+parent: 0. Session
+nav_order: 3
+---
+
 ## Get started with Python
 
 1. **Installation von Python via Anaconda**
