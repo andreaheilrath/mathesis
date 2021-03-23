@@ -17,28 +17,28 @@ Für die wöchentlichen Sessions werden verschiedene Materialien online bereitge
 
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
-* **[0. Session](./0th_Session)**
+* **[0. Session](./0th_session)**
     * Geschichtliche Entwicklung
     * Computer Grundlagen
     * Erste Schritte in Python
 
-* **[1. Session](./1st_Session)**
+* **[1. Session](./1st_session)**
     * Boolsche Logik
     * Variablen und Datentypen, User Input
     * Flow Control: if, else & while
 
-* **[2. Session](./2nd_Session)**
+* **[2. Session](./2nd_session)**
     * Lineare Algebra, Laufzeit
     * Tupel, Listen, Dictionaries
     * for-loops, Iterable
     * Funktionen, Imports, Schall
 
-* **[3. Session](./3rd_Session)**
+* **[3. Session](./3rd_session)**
     * Rekursion
     * Funktionen, namespaces
     * imports, matplotlib & numpy
 
-* **[4. Session](./4th_Session)**
+* **[4. Session](./4th_session)**
     * Objektorientieres Programmieren
     * Klassen in Python
     * Dateien und Exceptions
