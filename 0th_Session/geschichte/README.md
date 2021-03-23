@@ -2,7 +2,7 @@
 
 ### Entwicklung bis 1940
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="30%" padding="10px" float="left">](https://en.wikipedia.org/wiki/Harvard_Computers)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="30%" padding="10px" align="left">](https://en.wikipedia.org/wiki/Harvard_Computers)
 
 *Computer* war einmal eine [Jobbeschreibung](https://en.wikipedia.org/wiki/Computer_(job_description)): vom 17.- 20. Jahrhundert wurden Berechnungen von Hand ausgeführt - und das oft von Frauen (siehe Bild links: die Harvard Computers).
 
