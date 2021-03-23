@@ -1,3 +1,10 @@
+---
+layout: default
+title: Geschichte
+parent: 0. Session
+nav_order: 1
+---
+
 ## Kurze Geschichte der [Computer](https://de.wikipedia.org/wiki/Geschichte_des_Computers) und [Programmiersprachen](https://de.wikipedia.org/wiki/Geschichte_der_Programmiersprachen)
 
 ### Entwicklung bis 1940
