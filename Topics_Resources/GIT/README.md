@@ -1,3 +1,0 @@
-[Video GIT Basics](https://www.youtube.com/watch?v=BpDUvAmgkbE)
-
-More is about to come ...
