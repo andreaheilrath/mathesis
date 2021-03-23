@@ -2,6 +2,7 @@
 title: Special Topics
 nav_order: 6
 has_children: true
+permalink: special_topics
 ---
 
 ## Themenbasierte Sammlung
