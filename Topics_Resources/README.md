@@ -1,3 +1,9 @@
+---
+title: Special Topics
+nav_order: 6
+has_children: true
+---
+
 ## Themenbasierte Sammlung
 
 Themen, die etwas mehr Platz brauchen und daher einen eigenen Ordner bekommen haben:
