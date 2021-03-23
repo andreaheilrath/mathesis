@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Mathesis
 description: Mathematisch-Naturwissenschaftliches Labor
-#baseurl: "/mathesis" # the subpath of your site, e.g. /blog
-#url: "https://andreaheilrath.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-site_url: https://andreaheilrath.github.io/mathesis
+baseurl: "/mathesis" # the subpath of your site, e.g. /blog
+url: "https://andreaheilrath.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#site_url: https://andreaheilrath.github.io/mathesis
 
 remote_theme: pmarsceill/just-the-docs
 color_scheme: reduced
