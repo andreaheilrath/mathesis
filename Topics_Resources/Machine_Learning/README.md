@@ -1,3 +1,10 @@
+---
+title: Machine Learning
+nav_order: 1
+parent: Special Topics
+permalink: special_topics/machine_leraning
+---
+
 ## Machine Leaning (ML)
 
 Einige nützliche Links finden sich im Blogartikel [How I Went From Being a Sales Engineer to Deep Learning / Computer Vision Research Engineer](https://towardsdatascience.com/how-i-went-from-being-a-sales-engineer-to-deep-learning-computer-vision-research-engineer-8882272a1a6)
