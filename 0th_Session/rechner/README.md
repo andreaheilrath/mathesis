@@ -1,5 +1,11 @@
-## Computer (Science)
+---
+layout: default
+title: Computer
+parent: 0. Session
+nav_order: 2
+---
 
+## Computer (Science)
 
 ### Ressourcen
 
