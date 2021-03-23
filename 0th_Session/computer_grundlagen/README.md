@@ -3,7 +3,6 @@ layout: default
 title: Computer
 parent: 0. Session
 nav_order: 2
-permalink: 0th_Session/computer_grundlagen
 ---
 
 ## Computer (Science)
