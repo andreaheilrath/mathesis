@@ -2,7 +2,7 @@
 title: Geschichte
 parent: 0. Session
 nav_order: 1
-permalink: /0th_Session/geschichte
+permalink: /0th_Session/geschichte/
 ---
 
 ## Kurze Geschichte der [Computer](https://de.wikipedia.org/wiki/Geschichte_des_Computers) und [Programmiersprachen](https://de.wikipedia.org/wiki/Geschichte_der_Programmiersprachen)
