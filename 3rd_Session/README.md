@@ -2,6 +2,7 @@
 title: 3. Session
 nav_order: 4
 has_children: true
+permalink: 3rd_Session
 ---
 
 ## 3. Session
