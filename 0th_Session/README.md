@@ -12,7 +12,7 @@ permalink: /0th_session/
 #### In dieser Intro-Session geht es um folgende Themen:
 
 * [**Geschichte**](./geschichte) Wie haben sich Computer entwickelt?
-* [**Computer Grundlagen**](./computer_grundlagen) Wie funktioniert eigentlich ein Computer?
+* [**Computer Grundlagen**](./computer_science) Wie funktioniert eigentlich ein Computer?
 * [**Erste Schritte mit Python**](./python_quickstart) Installation und erste kleine Skripte
 
 #### Dateien zum Download
