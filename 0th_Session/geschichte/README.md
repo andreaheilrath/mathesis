@@ -49,9 +49,9 @@ In den 80er Jahren gab es die ersten erschwinglichen Heimcomputer, wie z.B. den 
 Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (GUI = Graphical User Interface) auf den Markt. Apple war Vorreiter dieses Konzepts (siehe unten rechts, Apple Macintosh 1984) - aber auch andere Firmen folgten kurz darauf wie z.B. [Atari](https://de.wikipedia.org/wiki/Atari_ST) (siehe unten rechts) und auch [Windows](https://de.wikipedia.org/wiki/Microsoft_Windows).
 
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/C64c_system.jpg" width="30%" align="left">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Atari_1040STf.jpg/1920px-Atari_1040STf.jpg" width="30%" align="left">
-<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png" width="30%" >
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/84/C64c_system.jpg" height="30%" align="left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Atari_1040STf.jpg/1920px-Atari_1040STf.jpg" height="30%" align="left">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png" height="30%" >
 
 
 ### Die 1990er Jahre: Das Internet und immer stärkere Computer
