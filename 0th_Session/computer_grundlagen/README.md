@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Computer Grundlagen
+title: Computer Science
 parent: 0. Session
 nav_order: 2
-permalink: /0th_Session/computer_grundlagen
+permalink: /0th_session/computer_science/
 ---
 
 ## Computer (Science)
