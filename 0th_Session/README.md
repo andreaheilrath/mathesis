@@ -3,7 +3,6 @@ layout: default
 title: 0. Session
 nav_order: 2
 has_children: true
-permalink: /0th_Session/
 ---
 
 ## 0. Session
