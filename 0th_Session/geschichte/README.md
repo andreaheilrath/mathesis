@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Geschichte
 parent: 0. Session
 nav_order: 1
