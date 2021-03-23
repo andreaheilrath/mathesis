@@ -105,6 +105,6 @@ permalink: /0th_session/python_quickstart/
 
     Um Jupyter Notebook zu starten, gib `jupyter notebook` in die Konsole ein. Die Umgebung öffnet sich in dem Ordner, wo sich die Konsole befindet, wenn ihr  `jupyter notebook` ausführt. Als nächstes öffnet sich ein Browsterfenster, das ungefähr so aussieht:
 
-    ![jupyter home screen](/imgs/jupyter_home.png)
+    ![jupyter home screen](./jupyter_home.png)
 
     Hier könnt ihr in den Ordnern navigieren, Dateien öffnen und neue Jupyter Notebooks erstellen (mit `Neu --> Python3`). In der 0. Session findet ihr ein Beispiel-Notebook, das sich selbst erklärt. Probiert es aus!
