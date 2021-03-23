@@ -1,3 +1,10 @@
+---
+title: Physik Simulation
+nav_order: 2
+parent: Special Topics
+permalink: special_topics/physik_simulation
+---
+
 ## Physik Simulationen
 
 ### Verfahren für Differentialgleichungen 2. Ordnung
