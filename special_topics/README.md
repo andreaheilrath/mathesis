@@ -9,9 +9,9 @@ permalink: special_topics
 
 Themen, die etwas mehr Platz brauchen und daher einen eigenen Ordner bekommen haben:
 
-* [GIT](./GIT)
-* [Machine Learning](./Machine_Learning)
-* [Physik Simulationen](./Physics_Simulations)
+* [GIT](./git)
+* [Machine Learning](./machine_learning)
+* [Physik Simulationen](./physikssimulation)
 
 ### Naturwissenschaften und Ästhetik
 * [The Nature of Code](https://natureofcode.com/book/introduction/)
