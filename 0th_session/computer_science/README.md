@@ -21,7 +21,7 @@ Der Prozessor ist das zentrale Rechenwerk, in dem die geforderten Operationen au
 
 Im sogenannten *Task-Manager* kann man sich (unter Windows) alle laufenden Prozesse und zugehörigen Ressourcen anzeigen lassen.
 
-<img src="./task_manager.png" width = "500em">
+<img src="./task_manager.png" width = "640">
 
 ### Ressourcen
 
