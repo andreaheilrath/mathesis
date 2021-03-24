@@ -47,15 +47,16 @@ Das Binärsystem wurde schon  im 3. Jahrhundert v. Chr. in Indien benutzt, in Eu
 1847 veröffentlichte der britische Mathematiker [George Boole](https://de.wikipedia.org/wiki/George_Boole) das Buch  *The Mathematical Analysis of Logic*, welches die Verbindung von Binären Zahlen mit Logischen Operationen herstellt - diese Darstellung ist bis heute als [Boolsche Algebra](https://de.wikipedia.org/wiki/Boolesche_Algebra) bekannt. Erst durch diese Grundlage war es möglich, Computer zu bauen, die Logische Operationen durchführen. "Einfache" Beispiele für [Bitweise Operationen](https://de.wikipedia.org/wiki/Bitweiser_Operator) sind NICHT, UND, ODER, XOR.
 
 
-## Betriebssysteme
+## Betriebssysteme und Software
 
-Betriebssysteme dienen dazu, Menschen die Bedienug von Computern zu erleichtern bzw. erst zu ermöglichen. Die bekanntesten Betriebssysteme sind Windows, MacOS und Linux.
-
-<img src ="https://upload.wikimedia.org/wikipedia/commons/8/8a/MS-DOS_Deutsch.png" width = "640em">
+### Betriebssysteme dienen dazu, Menschen die Bedienug von Computern zu erleichtern bzw. erst zu ermöglichen. Die bekanntesten Betriebssysteme sind Windows, MacOS und Linux.
 
 Eines der ersten viel benutzten Betriebssysteme ist [MS-DOS](https://de.wikipedia.org/wiki/MS-DOS).
+<img src ="https://upload.wikimedia.org/wikipedia/commons/8/8a/MS-DOS_Deutsch.png" width = "640em">
 
+Inzwischen sind wir es gewohnt mit Computern über eine grafische Benutzeroberfläche zukommunizieren (dazu gehören Mauszeiger, Fenster, Buttons, etc.) Diese Idee wurde bei XEROX entwickelt und von Steve Jobs durchgesetzt. Auch Microsoft hat 1995 ihr Betriebssystem mit Fenstern - Windows - veröffentlicht.
 
+### Software 
 
 
 ## Ressourcen
