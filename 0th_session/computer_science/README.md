@@ -6,10 +6,9 @@ nav_order: 2
 permalink: /0th_session/computer_science/
 ---
 
-## Computer (Science)
+# Computer (Science)
 
-
-### Wie funktionieren Computer?
+## Wie funktionieren Computer?
 
 Rechner können Anweisungen ausführen, die Menschen ihnen geben. Die wichtigsten Bausteine eines Computers sind:
 
@@ -21,10 +20,10 @@ Der Prozessor ist das zentrale Rechenwerk, in dem die geforderten Operationen au
 
 Im sogenannten *Task-Manager* kann man sich (unter Windows) alle laufenden Prozesse und zugehörigen Ressourcen anzeigen lassen.
 
-<img src="./task_manager.png" width = "640">
+<img src="./task_manager.png" width = "640em">
 
 
-### Machine-Speak?
+## Machine-Speak?
 
 Informationsspeicherung und Verarbeitung über Physikalische Zustände. 0/1 ... Binärdarstellung!!!
 
@@ -48,8 +47,13 @@ Das Binärsystem wurde schon  im 3. Jahrhundert v. Chr. in Indien benutzt, in Eu
 1847 veröffentlichte der britische Mathematiker [George Boole](https://de.wikipedia.org/wiki/George_Boole) das Buch  *The Mathematical Analysis of Logic*, welches die Verbindung von Binären Zahlen mit Logischen Operationen herstellt - diese Darstellung ist bis heute als [Boolsche Algebra](https://de.wikipedia.org/wiki/Boolesche_Algebra) bekannt. Erst durch diese Grundlage war es möglich, Computer zu bauen, die Logische Operationen durchführen. "Einfache" Beispiele für [Bitweise Operationen](https://de.wikipedia.org/wiki/Bitweiser_Operator) sind NICHT, UND, ODER, XOR.
 
 
-### Betriebssysteme
+## Betriebssysteme
 
+Betriebssysteme dienen dazu, Menschen die Bedienug von Computern zu erleichtern bzw. erst zu ermöglichen. Die bekanntesten Betriebssysteme sind Windows, MacOS und Linux.
+
+<img src ="https://upload.wikimedia.org/wikipedia/commons/8/8a/MS-DOS_Deutsch.png" width = "640em">
+
+Eines der ersten viel benutzten Betriebssysteme ist [MS-DOS](https://de.wikipedia.org/wiki/MS-DOS).
 
 
 
