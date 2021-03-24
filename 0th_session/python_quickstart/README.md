@@ -6,7 +6,7 @@ nav_order: 3
 permalink: /0th_session/python_quickstart/
 ---
 
-## Get started with Python
+# Get started with Python
 
 1. **Installation von Python via Anaconda**
 
