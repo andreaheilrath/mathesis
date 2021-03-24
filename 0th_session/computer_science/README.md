@@ -16,9 +16,9 @@ Rechner können Anweisungen ausführen, die Menschen ihnen geben. Die wichtigste
 * Prozessor (CPU = Central Processing Unit)
 * Speicher (Arbeitsspeicher + Festplatte)
 
-Der Prozessor ist das Zentrale Rechenwerk, in dem die geforderten Berechnungen ausgeführt werden. Arbeitsspeicher und Prozessor arbeiten eng zusammen. Im Arbeitspeicher (RAM  = Random Access Memory) wird die Information gespeichert, die für den aktuellen Prozess / das aktuell ausgeführte Programm relevant sind. Für langfristiges Speichern von Dateien wird die Festplatte genutzt.
-
 <img src="./task_manager.png" width="340em" align="left">
+
+Der Prozessor ist das Zentrale Rechenwerk, in dem die geforderten Berechnungen ausgeführt werden. Arbeitsspeicher und Prozessor arbeiten eng zusammen. Im Arbeitspeicher (RAM  = Random Access Memory) wird die Information gespeichert, die für den aktuellen Prozess / das aktuell ausgeführte Programm relevant sind. Für langfristiges Speichern von Dateien wird die Festplatte genutzt.
 
 Im sogenannten *Task-Manager* kann man sich (unter Windows) alle laufenden Prozesse und zugehörigen Ressourcen anzeigen lassen.
 
