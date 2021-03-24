@@ -18,10 +18,7 @@ Rechner können Anweisungen ausführen, die Menschen ihnen geben. Die wichtigste
 
 Arbeitsspeicher und Prozessor arbeiten eng zusammen. Im Arbeittspeicher (RAM  = Random Access Memory) wird die Information gespeichert, die für den aktuellen Prozess / das aktuell ausgeführte Programm relevant sind. Für langfristiges Speichern von Dateien wird die Festplatte genutzt.
 
-<img source="./task_manager.png">
-
-
-
+<img srx="./task_manager.png" width="340em" align="left">
 
 
 
