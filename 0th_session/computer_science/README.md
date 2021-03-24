@@ -15,7 +15,7 @@ Rechner können Anweisungen ausführen, die Menschen ihnen geben. Die wichtigste
 
 * Prozessor (CPU = Central Processing Unit)
 * Speicher (Arbeitsspeicher + Festplatte)
-
+* Peripherie (Tastatur, Maus, Display, ...)
 
 Der Prozessor ist das zentrale Rechenwerk, in dem die geforderten Operationen ausgeführt werden. Arbeitsspeicher und Prozessor arbeiten eng zusammen: im Arbeitspeicher (RAM  = Random Access Memory) wird die Information gespeichert, die für den aktuellen Prozess / das aktuell ausgeführte Programm relevant sind. Für langfristiges Speichern von Dateien wird die Festplatte genutzt.
 
