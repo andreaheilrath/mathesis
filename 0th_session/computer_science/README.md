@@ -8,6 +8,22 @@ permalink: /0th_session/computer_science/
 
 ## Computer (Science)
 
+
+### Wie funktionieren Computer?
+
+Rechner können Anweisungen ausführen, die Menschen ihnen geben. Die wichtigsten Bausteine eines Computers sind:
+
+* Prozessor (CPU = Central Processing Unit)
+* Speicher (Arbeitsspeicher + Festplatte)
+
+Arbeitsspeicher und Prozessor arbeiten eng zusammen. Im Arbeittspeicher (RAM  = Random Access Memory) wird die Information gespeichert, die für den aktuellen Prozess / das aktuell ausgeführte Programm relevant sind. Für langfristiges Speichern von Dateien wird die Festplatte genutzt.
+
+
+
+
+
+
+
 ### Ressourcen
 
 * [How Computers Work](https://cs50.harvard.edu/ap/2020/assets/pdfs/how_computers_work.pdf)
