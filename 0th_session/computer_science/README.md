@@ -23,7 +23,21 @@ Im sogenannten *Task-Manager* kann man sich (unter Windows) alle laufenden Proze
 
 <img src="./task_manager.png" width = "640">
 
-### Ressourcen
+
+### Machine-Speak?
+
+Informationsspeicherung und Verarbeitung über Physikalische Zustände. 0/1 ... Binärdarstellung!!!
+
+
+- high-level
+- mid-level
+- low-level (Maschinensprache)
+
+
+
+
+
+## Ressourcen
 
 * [How Computers Work](https://cs50.harvard.edu/ap/2020/assets/pdfs/how_computers_work.pdf)
 * [Intro to Computer Science](https://en.wikiversity.org/wiki/Introduction_to_Computer_Science)
