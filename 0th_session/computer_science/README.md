@@ -58,6 +58,10 @@ Inzwischen sind wir es gewohnt mit Computern über eine grafische Benutzeroberfl
 
 ### Software 
 
+layers 
+
+bild!
+
 
 ## Ressourcen
 
