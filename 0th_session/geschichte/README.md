@@ -5,9 +5,9 @@ nav_order: 1
 permalink: /0th_session/geschichte/
 ---
 
-## Kurze Geschichte der [Computer](https://de.wikipedia.org/wiki/Geschichte_des_Computers) und [Programmiersprachen](https://de.wikipedia.org/wiki/Geschichte_der_Programmiersprachen)
+# Kurze Geschichte der [Computer](https://de.wikipedia.org/wiki/Geschichte_des_Computers) und [Programmiersprachen](https://de.wikipedia.org/wiki/Geschichte_der_Programmiersprachen)
 
-### Entwicklung bis 1940
+## Entwicklung bis 1940
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg/766px-Astronomer_Edward_Charles_Pickering%27s_Harvard_computers.jpg" width="340em" align="left">
 
@@ -18,7 +18,7 @@ Das erste Computerprogramm, das von einer Rechenmaschine ausgeführt werden soll
 In der industriellen Revolution zu Beginn des 19. Jahrhunderts wurden immer komplexere Maschinen gebaut, um ehemals handwerkliche Tätikeiten zu verrichten. Ein Beispiel dafür ist der [Jacquardwebstuhl](https://de.wikipedia.org/wiki/Jacquardwebstuhl), bei dem via [Lochkarten](https://de.wikipedia.org/wiki/Lochkarte) verschiedene Webmuster "programmiert" werden konnten.
 
 
-### 1940-1970: erste Rechenmaschinen und Programmiersprachen
+## 1940-1970: erste Rechenmaschinen und Programmiersprachen
 
 <img src="zuse_z3.jpg" width="340em" align="right">
 
@@ -30,7 +30,7 @@ Während des zweiten Weltkriegs spielten die ersten Computer eine große Rolle u
 
 [Grace Hopper](https://de.wikipedia.org/wiki/Grace_Hopper) beharrte auf einer allgemeinverständlichen Sprache für Programme, woraufhin Compiler und [höhere Programmiersprachen](https://de.wikipedia.org/wiki/Höhere_Programmiersprache) entstanden sind. Ein [Compiler](https://de.wikipedia.org/wiki/Compiler) ist eine Art Übersetzungsprogramm, das von Menschen lesbaren Programmcode in Maschinensprache übersetzt. Beispiele für frühe Programmiersprachen sind FOTRAN, COBOL, ALGOL oder BASIC.
 
-### 1970-1990: Integrierte Schaltkreise und erste Betriebssysteme
+## 1970-1990: Integrierte Schaltkreise und erste Betriebssysteme
 
 <img src="./Intel_C4004.jpg" width="340em" align="left">
 
@@ -61,7 +61,7 @@ Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (G
 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/Macintosh_128k_transparency.png" style="height: 250px" >
 
 
-### Die 1990er Jahre: Das Internet und immer stärkere Computer
+## Die 1990er Jahre: Das Internet und immer stärkere Computer
 
 [Tim Berners-Lee](https://de.wikipedia.org/wiki/Tim_Berners-Lee) entwickelte um das Jahr 1989 am [CERN](https://de.wikipedia.org/wiki/CERN) die Grundlagen des World Wide Web. Am 6. August 1991 machte er dieses Projekt weltweit verfügbar. [Hier](https://www.w3.org/History/19921103-hypertext/hypertext/WWW/TheProject.html) findest du eine Kopie der allerersten Website im Internet.
 
