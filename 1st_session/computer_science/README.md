@@ -1,3 +1,10 @@
+---
+title: Computer Science
+parent: 1. Session
+nav_order: 2
+permalink: /1st_session/computer_science/
+---
+
 
 ### **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
 
