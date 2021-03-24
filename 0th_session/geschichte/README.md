@@ -68,6 +68,6 @@ Anfang der 80er kamen die ersten PCs mit einer grafischen Benutzeroberfläche (G
 Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwei Jahre ungefähr verdoppelt. Dieser Zusammenhang wurde als erstes von Gordon Moore beobachtet und ist daher auch als [Mooresches Gesetz](https://de.wikipedia.org/wiki/Mooresches_Gesetz) bekannt. 
 
 
-### Weiterführende (unterhaltsame) Texte
+## Weiterführende (unterhaltsame) Texte
 
 * [Chaos Computer Buch](https://monoskop.org/images/b/ba/Wieckmann,_Jürgen_%28ed.%29_-_Das_Chaos_Computer_Buch._Hacking_made_in_Germany_%28German%29.pdf), Seite 125, Die Drei Hände des Zeichners, Peter Glaser
