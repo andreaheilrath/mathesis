@@ -5,6 +5,13 @@ nav_order: 2
 permalink: /1st_session/computer_science/
 ---
 
+## Operationen mit Bedingungen / Boolschen Variablen
+
+Für Wahrheitswerte sind die *Rechenoperationen* die logischen Operationen: `and`, `or`, `not`. 
+
+Man spricht in diesem Zusammenhang von einer Bool'schen Algebra.  Es gibt für `and` und `or` zwei Distributivgesetze, und für den Zusammenhang zwischen `not` und `und`, bzw. `or` die de Morgan'schen Regeln.
+
+Das logische `und` muss nicht erklärt werden, das logische `oder` kann aber zu Missverständnissen führen: Es schließt den Fall, dass beide Seiten wahr sind, mit ein, ist also kein 'entweder ... oder'.
 
 ### **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
 
