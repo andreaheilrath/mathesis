@@ -4,14 +4,17 @@ nav_order: 0
 permalink: /
 ---
 
+# Willkommen bei Mathesis!
 
-### Willkommen zum Python-Crashkurs von [Mathesis](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/), dem mathematisch-naturwissenschaftlichen Projektlabor im Orientierunggstudium [MINTgruen](https://www.mintgruen.tu-berlin.de) der TU Berlin.
+### ... dem mathematisch-naturwissenschaftlchen [Projektlabor](https://www.mintgruen.tu-berlin.de/studium-und-lehre/mintgruen-labore/mathesis/) im Orientierunggstudium [MINTgrün](https://www.mintgruen.tu-berlin.de) der Technischen Universität Berlin.
 
 In dem Kurs geht es darum, einen **experimentellen, praktischen Zugang zur Mathematik und Modellen in den Naturwissenschaften** zu schaffen. Der Computer dient dabei als Experimentier-Labor. Ziel ist es, gemeinsam mit anderen Studierenden ein eigenes Projekt umzusetzen. Projekte aus den letzten Semestern findet ihr in unserem [**Wiki**](https://www.mintgruen.tu-berlin.de/mathesisWiki/doku.php).
 
-Für die wöchentlichen Sessions werden verschiedene Materialien online bereitgestellt: Lehrvideos, Jupyter Notebooks und Skripte. Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
+#### Diese Plattform dient dazu, alle Materialien für den **Python-Crashkurs** zu Beginn des Semesters zu sammeln, sowie weiterführende Themengebiete anzureißen.
 
-#### [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/main) startet die Kursmaterialien im interaktiven Jupyter-Server
+Um wirklich Programmieren zu **lernen**, ist es nötig sich **aktiv** mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der **Online-Kurse** die unten verlinkt sind.
+
+Kannst du Python gerade nicht auf deinem System installieren? Starte die Kursmaterialien im interaktiven Jupyter-Server auf  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/main) 
 
 ## Ablauf & Inhalt
 
