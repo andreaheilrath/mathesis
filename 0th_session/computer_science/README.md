@@ -49,6 +49,8 @@ Das Betriebssystem "läuft" die ganze Zeit, der [Kernel](https://de.wikipedia.or
 
 Basierend auf dem Betriebssystem gibt es verschiedene Programme wie z.B. Textverarbeitung, Webbrowser, Spiele, etc., die ausgeführt werden können. Der Kernel "enscheidet" welches Programm wann welche Ressourcen bekommt (Rechenleistung der CPU, Speicherplatz im RAM). Damit vermittelt der Kernel zwischen Hardware und Anwendungen.
 
+In diesem Sinne ist Python ein Programm, das auf eurem Rechner ausgeführt wird wie jedes andere Programm auch. Anders als bei "normalen" Programmen, habt ihr aber die volle Kontrolle darüber, was das Programm tut. Ihr habt ein Werkzeug (die Programmiersprache), womit ihr selbst Software schreiben könnt!
+
 
 ## Ressourcen
 
