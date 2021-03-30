@@ -32,7 +32,7 @@ Betriebssysteme dienen dazu, Menschen die Bedienug von Computern zu erleichtern 
 Eines der ersten viel benutzten Betriebssysteme ist [MS-DOS](https://de.wikipedia.org/wiki/MS-DOS).
 <img src ="https://upload.wikimedia.org/wikipedia/commons/8/8a/MS-DOS_Deutsch.png" width = "640em">
 
-Inzwischen sind wir es gewohnt mit Computern über eine grafische Benutzeroberfläche zukommunizieren (dazu gehören Mauszeiger, Fenster, Buttons, etc.) Diese Idee wurde bei XEROX entwickelt und von Steve Jobs durchgesetzt. Auch Microsoft hat 1995 ihr Betriebssystem mit Fenstern - Windows - veröffentlicht.
+Inzwischen sind wir es gewohnt mit Computern über eine grafische Benutzeroberfläche zu kommunizieren (dazu gehören Mauszeiger, Fenster, Buttons, etc.) Diese Idee wurde bei XEROX entwickelt und von Steve Jobs durchgesetzt. Auch Microsoft hat 1995 ihr Betriebssystem mit Fenstern - Windows - veröffentlicht.
 
 
 <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1920px-Kernel_Layout.svg.png" width = "500em" align = "right">
