@@ -23,6 +23,33 @@ Im sogenannten *Task-Manager* kann man sich (unter Windows) alle laufenden Proze
 <img src="./task_manager.png" width = "640em">
 
 
+## Betriebssysteme und Software
+
+### Betriebssysteme
+
+Betriebssysteme dienen dazu, Menschen die Bedienug von Computern zu erleichtern bzw. erst zu ermöglichen. Die bekanntesten Betriebssysteme sind Windows, MacOS und Linux.
+
+Eines der ersten viel benutzten Betriebssysteme ist [MS-DOS](https://de.wikipedia.org/wiki/MS-DOS).
+<img src ="https://upload.wikimedia.org/wikipedia/commons/8/8a/MS-DOS_Deutsch.png" width = "640em">
+
+Inzwischen sind wir es gewohnt mit Computern über eine grafische Benutzeroberfläche zukommunizieren (dazu gehören Mauszeiger, Fenster, Buttons, etc.) Diese Idee wurde bei XEROX entwickelt und von Steve Jobs durchgesetzt. Auch Microsoft hat 1995 ihr Betriebssystem mit Fenstern - Windows - veröffentlicht.
+
+
+<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Kernel_Layout.svg/1920px-Kernel_Layout.svg.png" width = "500em" align = "right">
+
+Das Betriebssystem "läuft" die ganze Zeit, der [Kernel](https://de.wikipedia.org/wiki/Kernel_(Betriebssystem)) (der essenziellste Teil des Betriebssystems) übernimmt dabei folgende Aufgaben:
+
+* Schnittstelle zur Hardware (Geräte, Speicher, Prozessoren)
+* Speicherverwaltung (evtl. einschließlich virtuellem Hauptspeicher)
+* Prozessverwaltung (auch Scheduler genannt)
+* Geräteverwaltung (auch Device Management genannt)
+* Dateisysteme
+
+### Software 
+
+Basierend auf dem Betriebssystem gibt es verschiedene Programme wie z.B. Textverarbeitung, Webbrowser, Spiele, etc., die ausgeführt werden können. Der Kernel "enscheidet" welches Programm wann welche Ressourcen bekommt (Rechenleistung der CPU, Speicherplatz im RAM). Damit vermittelt der Kernel zwischen Hardware und Anwendungen.
+
+
 ## Machinensprache?
 
 Rechner basieren auf physikalischen Zuständen, meist elektrische Spannungen und Magnetfelder. Dabei erfolgt die Kodierung von Informationen in einer [binären Darstellung](https://de.wikipedia.org/wiki/Dualsystem)  - das heißt, es gibt nur zwei Zustände: an/aus - wahr/falsch - 1/0.
@@ -38,22 +65,6 @@ Das Binärsystem wurde schon  im 3. Jahrhundert v. Chr. in Indien benutzt, in Eu
 |7|111|
 |31|11111|
 |32|100000|
-
-
-## Betriebssysteme und Software
-
-### Betriebssysteme dienen dazu, Menschen die Bedienug von Computern zu erleichtern bzw. erst zu ermöglichen. Die bekanntesten Betriebssysteme sind Windows, MacOS und Linux.
-
-Eines der ersten viel benutzten Betriebssysteme ist [MS-DOS](https://de.wikipedia.org/wiki/MS-DOS).
-<img src ="https://upload.wikimedia.org/wikipedia/commons/8/8a/MS-DOS_Deutsch.png" width = "640em">
-
-Inzwischen sind wir es gewohnt mit Computern über eine grafische Benutzeroberfläche zukommunizieren (dazu gehören Mauszeiger, Fenster, Buttons, etc.) Diese Idee wurde bei XEROX entwickelt und von Steve Jobs durchgesetzt. Auch Microsoft hat 1995 ihr Betriebssystem mit Fenstern - Windows - veröffentlicht.
-
-### Software 
-
-layers 
-
-bild!
 
 
 ## Ressourcen
