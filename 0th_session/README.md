@@ -7,14 +7,11 @@ permalink: /0th_session/
 
 # 0. Session
 
-[**Youtube Tutorial zu Session**](https://youtu.be/lrL5yVR3ZdA)
+In dieser Session geht es noch nicht direkt ums Programmieren. Gegen Ende werdet ihr aber erste kleine Skripte schreiben können.
 
-## In dieser Intro-Session geht es um folgende Themen:
+Zum Einstieg geht es zunächst um die [Geschichte](./geschichte) von Computer, ein paar Grundlagen zur Funktionsweise von Rechnern (Abschnittt [Computer Science](./computer_science)) und die Installation von Python ([Python Quickstart](./python_quickstart).
 
-* [**Geschichte**](./geschichte) Wie haben sich Computer entwickelt?
-* [**Computer Grundlagen**](./computer_science) Wie funktioniert eigentlich ein Computer?
-* [**Erste Schritte mit Python**](./python_quickstart) Installation und erste kleine Skripte
-
+[>>> Hier gehts zu den Youtube Tutorials!](https://youtu.be/lrL5yVR3ZdA)
 
 ## Dateien zum Download
 * [hello.py](./crashkurs/hello.py)
@@ -22,8 +19,10 @@ permalink: /0th_session/
 * [hello_turtle.py](./crashkurs/hello_turtle.py)
 * [Hello_JupyterNotebook.ipynb](./crashkurs/Hello_JupyterNotebook.ipynb)
 
-## Zusammenfassung (Das solltest du aus dieser Session mitnehmen!)
 
-* erstens
-* zweitens
-* drittens
+## Highlights (Das solltest du auf jeden Fall mitnehmen!)
+
+* Installation von Python
+* Öffnen der Konsole / Anaconda Prompt
+* Starten von Python und erste Befehle ausführen
+* Jupyter Notebook starten
