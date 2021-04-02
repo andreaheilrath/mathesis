@@ -26,13 +26,13 @@ Geschichtliche Entwicklung, Grundlagen zum Thema Computer und erste Schritte in 
 **[1. Session](./1st_session)**:
 Boolsche Logik, Variablen und Datentypen, User Input. Flow Control: if, else & while
 
-[2. Session](./2nd_session):
+**[2. Session](./2nd_session)**:
 Lineare Algebra, Laufzeit, Tupel, Listen, Dictionaries, for-loops, Iterable, Funktionen, Imports, Schall
 
-[3. Session](./3rd_session):
+**[3. Session](./3rd_session)**:
 Rekursion, Funktionen, namespaces, imports, matplotlib & numpy
 
-[4. Session](./4th_session):
+**[4. Session](./4th_session)**:
 Objektorientieres Programmieren, Klassen in Python, Dateien und Exceptions, andere nützliche Module
 
 ### Ressourcen
