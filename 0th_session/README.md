@@ -11,7 +11,7 @@ In dieser Session geht es noch nicht direkt ums Programmieren. Gegen Ende werdet
 
 Zum Einstieg geht es zunächst um die [Geschichte](./geschichte) von Computern, ein paar Grundlagen zur Funktionsweise von Rechnern (Abschnittt [Computer Science](./computer_science)) und die Installation von Python: [Python Quickstart](./python_quickstart).
 
-[>>> Hier gehts zu den Youtube Tutorials!](https://youtu.be/lrL5yVR3ZdA)
+[>> Hier gehts zu den Youtube Tutorials!](https://youtu.be/lrL5yVR3ZdA)
 
 ## Dateien zum Download
 * [hello.py](./crashkurs/hello.py)
