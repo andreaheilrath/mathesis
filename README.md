@@ -35,16 +35,16 @@ Rekursion, Funktionen, namespaces, imports, matplotlib & numpy
 **[4. Session](./4th_session)**:
 Objektorientieres Programmieren, Klassen in Python, Dateien und Exceptions, andere nützliche Module
 
-### Ressourcen
+## Ressourcen
 
-#### Python Referenzen und Einführungen
+### Python Referenzen und Einführungen
 * [Python Dokumentation](https://docs.python.org/3/)
 * Think Python Book [PDF](https://www.greenteapress.com/thinkpython/thinkpython.pdf) und [interaktiv](https://runestone.academy/runestone/books/published/thinkcspy/index.html)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com)
 * [Interaktive Kursmaterialien Uni Heidelberg](https://www.physi.uni-heidelberg.de/Einrichtungen/AP/Python.php)
 
 
-#### Online Kurse
+### Online Kurse
 * [Computer Science Circles](https://cscircles.cemc.uwaterloo.ca)
 * [Trinket - A Visual Introduction to Python](https://hourofpython.trinket.io/a-visual-introduction-to-python#/welcome/an-hour-of-code)
 * [Learn Python on Kaggle](https://www.kaggle.com/learn/python)
