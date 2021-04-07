@@ -26,3 +26,5 @@ Zum Einstieg geht es zunächst um die [Geschichte](./geschichte) von Computern, 
 * Öffnen der Konsole / Anaconda Prompt
 * Starten von Python und erste Befehle ausführen
 * Jupyter Notebook starten
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1sHreSfc-qQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
