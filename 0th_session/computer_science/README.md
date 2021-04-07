@@ -57,3 +57,8 @@ In diesem Sinne ist Python ein Programm, das auf eurem Rechner ausgeführt wird 
 * [How Computers Work](https://cs50.harvard.edu/ap/2020/assets/pdfs/how_computers_work.pdf)
 * [Intro to Computer Science](https://en.wikiversity.org/wiki/Introduction_to_Computer_Science)
 
+<div class="iframe-container">
+  <iframe src="https://www.youtube.com/embed/Cb9E6qbX38o" allowfullscreen></iframe>
+</div>
+
+
