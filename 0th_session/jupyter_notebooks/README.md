@@ -2,7 +2,7 @@
 layout: default
 title: Jupyter Notebooks
 parent: 0. Session
-nav_order: 3
+nav_order: 4
 permalink: /0th_session/jupyter_notebooks/
 ---
 
@@ -15,3 +15,7 @@ Um Jupyter Notebook zu starten, gib `jupyter notebook` in die Konsole ein. Die U
 ![jupyter home screen](./jupyter_home.png)
 
 Hier könnt ihr in den Ordnern navigieren, Dateien öffnen und neue Jupyter Notebooks erstellen (mit `Neu --> Python3`). In der 0. Session findet ihr ein Beispiel-Notebook, das sich selbst erklärt. Probiert es aus!
+
+<div class="iframe-container">
+  <iframe src="https://www.youtube.com/embed/1sHreSfc-qQ" allowfullscreen></iframe>
+</div>
