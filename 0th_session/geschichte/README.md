@@ -72,4 +72,4 @@ Seit dem C4004 hat sich die Anzahl von Transistoren auf einem Mikrochip alle zwe
 
 * [Chaos Computer Buch](https://monoskop.org/images/b/ba/Wieckmann,_Jürgen_%28ed.%29_-_Das_Chaos_Computer_Buch._Hacking_made_in_Germany_%28German%29.pdf), Seite 125, Die Drei Hände des Zeichners, Peter Glaser
 
-<iframe src="https://www.youtube.com/embed/8zH1yOpcQE0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width=80% src="https://www.youtube.com/embed/8zH1yOpcQE0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
