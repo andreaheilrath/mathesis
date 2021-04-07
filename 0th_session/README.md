@@ -27,4 +27,8 @@ Zum Einstieg geht es zunächst um die [Geschichte](./geschichte) von Computern, 
 * Starten von Python und erste Befehle ausführen
 * Jupyter Notebook starten
 
-<iframe style="width:800em" src="https://www.youtube.com/embed/1sHreSfc-qQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<div class="iframe-container">
+  <iframe src="https://www.youtube.com/embed/1sHreSfc-qQ" allowfullscreen></iframe>
+</div>
+
