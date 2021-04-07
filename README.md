@@ -21,7 +21,7 @@ Kannst du Python gerade nicht auf deinem System installieren? Starte die Kursmat
 Schrittweise werdet ihr im Kurs an komplexere Themen herangeführt. **Ziel ist es, dass ihr am Ende des Kurses mit den wichgsten Konzepten vertraut seid und selbstständig ein Programmier-Projekt durchführen könnt.**
 
 **[0. Session](./0th_session)**:
-Geschichtliche Entwicklung, Grundlagen zum Thema Computer und erste Schritte in Python.
+Geschichtliche Entwicklung, Computer Grundlagen, Erste Schritte in Python und Jupyter Notebooks
 
 **[1. Session](./1st_session)**:
 Boolsche Logik, Variablen und Datentypen, User Input. Flow Control: if, else & while
