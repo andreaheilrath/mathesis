@@ -30,6 +30,11 @@ Wichtige Befehle in der Konsole:
 * `cd ..` navigiert eine Ebene **nach oben**
 * Prozess beenden: `CTRL + C`
 
+<div class="iframe-container">
+  <iframe src="https://www.youtube.com/embed/LHPlo2YIQgQ" allowfullscreen></iframe>
+</div>
+
+
 Mehr Befehle und Infos über die Konsole findet ihr z. B. [hier](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955).
 
 ## 3. Python interaktiv in der Konsole
