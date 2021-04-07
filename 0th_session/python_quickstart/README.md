@@ -30,10 +30,6 @@ Wichtige Befehle in der Konsole:
 * `cd ..` navigiert eine Ebene **nach oben**
 * Prozess beenden: `CTRL + C`
 
-<div class="iframe-container">
-  <iframe src="https://www.youtube.com/embed/LHPlo2YIQgQ" allowfullscreen></iframe>
-</div>
-
 
 Mehr Befehle und Infos über die Konsole findet ihr z. B. [hier](https://towardsdatascience.com/a-quick-guide-to-using-command-line-terminal-96815b97b955).
 
@@ -105,3 +101,9 @@ Wenn ihr anfangt, selbst Code zu verändern und zu produzieren, werdet ihr schne
 * `NameError`: Abruf einer Variablen die nicht benannt ist (meist verursacht durch Tippfehler)
 
 Es gibt noch viel mehr, die werdet ihr mit der Zeit kennen lernen. Falls ihr jetzt schon mehr wissen wollt, lest [16 Common Python Runtime Errors](https://inventwithpython.com/blog/2012/07/09/16-common-python-runtime-errors-beginners-find).
+
+
+<div class="iframe-container">
+  <iframe src="https://www.youtube.com/embed/LHPlo2YIQgQ" allowfullscreen></iframe>
+</div>
+
