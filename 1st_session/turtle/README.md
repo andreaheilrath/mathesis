@@ -1,3 +1,10 @@
+---
+title: Turtle Grafik
+parent: 1. Session
+nav_order: 4
+permalink: /1st_session/turtle/
+---
+
 # Turtle Grafik
 
 In diesem Notebook soll es um die Befehle des Turtle-Moduls gehen.
