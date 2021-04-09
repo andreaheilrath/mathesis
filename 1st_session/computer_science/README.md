@@ -1,7 +1,7 @@
 ---
 title: Computer Science
 parent: 1. Session
-nav_order: 2
+nav_order: 1
 permalink: /1st_session/computer_science/
 ---
 
