@@ -21,10 +21,27 @@ Matrizen haben mehr als eine Dimension. Es gibt auch Operationen zwischen Matriz
     1 2 3       x       1*x + 2*y + 3*z
     4 5 6   *   y   =   4*x + 5*y + 6*z
     7 8 9       z       7*x + 8*y + 8*z
-    
+
 Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
 
 #### Begriffe aus der Informatik
+
+
+
+##### **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
+
+Es gibt verschiedene Definitionen für Algorithmen. Hier soll zunächst eine weniger "saubere", dafür zugängliche Version dargestellt werden. Im Allgemeinen können Algorithmen nicht nur von Computern ausgeführt werden, es muss sich nur um eine eindeutige Handlungsforschirft handeln, die folgende Eigenschaften besitzt:
+
+1. **Eindeutigkeit**: ein Algorithmus darf keine widersprüchliche Beschreibung haben. Diese muss eindeutig sein.
+2. **Ausführbarkeit**: jeder Einzelschritt muss ausführbar sein.
+3. **Finitheit** (= Endlichkeit): die Beschreibung des Algorithmus muss endlich sein.
+4. **Terminierung**: nach endlich vielen Schritten muss der Algorithmus enden und ein Ergebnis liefern.
+5. **Determiniertheit**: der Algorithmus muss bei gleichen Voraussetzungen stets das gleiche Ergebnis liefern.
+6. **Determinismus**: zu jedem Zeitpunkt der Ausführung besteht höchstens eine Möglichkeit der Fortsetzung. Der Folgeschritt ist also eindeutig bestimmt.
+
+
+Die mathematisch korrekte Definition basiert auf dem Konzept der [Berechenbarkeit](https://de.wikipedia.org/wiki/Berechenbarkeit) und dem Modell der [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine). Dazu später mehr.
+
 
 Der Begriff [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) beschreibt in der Informatik die Zeitdauer, die ein Programm zur Bewältigung einer Aufgabe benötigt.
 
@@ -40,7 +57,7 @@ Hier findet ihr Videos zur Visualisierung verschiedener Sortieralgorithmen: [Plo
 
 Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus überhaupt zu einem Ende gelangt. Diese Fragestellung ist in der Informatik als [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem) bekannt.
 
-[Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing) gelang der Beweis, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet. Wie viele theoretische Betrachtungen, wurde der Beweis anhand einer *abstrakten Maschine* vollzogen - die bekannteste ist die von Turing selbst entworfene 
+[Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing) gelang der Beweis, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet. Wie viele theoretische Betrachtungen, wurde der Beweis anhand einer *abstrakten Maschine* vollzogen - die bekannteste ist die von Turing selbst entworfene
 [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine).
 
 
@@ -52,14 +69,14 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
   * Listen
   * Dictionaries
   * (Mengen)
-  
+
 * [*for_schleifen_iteratoren.ipynb*](./crashkurs/for_schleifen_iteratoren.ipynb)
 
   * for-Schleifen
   * range
   * Generatoren
   * List Comprehensions
-  
+
 * [*funktionen_imports_module.ipynb*](./crashkurs/funktionen_imports_module.ipynb)
 
   * Funktionen (intro)

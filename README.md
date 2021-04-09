@@ -14,7 +14,7 @@ In dem Kurs geht es darum, einen experimentellen, praktischen Zugang zur Mathema
 
 Um wirklich Programmieren zu lernen, ist es nötig sich aktiv mit der Sprache auseinanderzusetzen. Seid neugierig und probiert Sachen aus! Am besten, ihr macht parallel zum Kurs noch einen der Online-Kurse die unten verlinkt sind.
 
-Kannst du Python gerade nicht auf deinem System installieren? Starte die Kursmaterialien im interaktiven Jupyter-Server auf  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/main) 
+Kannst du Python gerade nicht auf deinem System installieren? Starte die Kursmaterialien im interaktiven Jupyter-Server auf  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andreaheilrath/mathesis/main)
 
 ## Ablauf & Inhalt
 
@@ -50,3 +50,6 @@ Objektorientieres Programmieren, Klassen in Python, Dateien und Exceptions, ande
 * [Learn Python on Kaggle](https://www.kaggle.com/learn/python)
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
 * [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
+
+### Praktisches
+* [Anaconda Prompt im Kontext-Menu](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea) (Windows only)
