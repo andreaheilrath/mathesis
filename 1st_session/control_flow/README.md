@@ -1,5 +1,5 @@
 ---
-title: control_flow
+title: Control Flow
 parent: 1. Session
 nav_order: 3
 permalink: /1st_session/control_flow/
