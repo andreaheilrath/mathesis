@@ -54,7 +54,7 @@ for zeichen in string:
 Schreibe ein Programm, das um Eingabe einer (natürlichen) Zahl n bittet und anschließend  mit der Turtle-Graphik ein n-Eck zeichnet.
 
 #### 5. Harshad-Zahlen
-Eine naürliche Zahl heißt Harshad-Zahl, wenn sie durch ihre Quersumme bezüglich der Dezimalschreibweise) teilbar ist. Beispielsweise ist für $777$ die Quersumme $7+7+7=21$ und teilt $777$.
+Eine naürliche Zahl heißt Harshad-Zahl, wenn sie durch ihre Quersumme bezüglich der Dezimalschreibweise) teilbar ist. Beispielsweise ist für $$777$$ die Quersumme $$7+7+7=21$$ und teilt $$777$$.
 
 Schreibe ein Programm, dass die Harshard-Zahlen von 1 bis 100 berechnet.
 
