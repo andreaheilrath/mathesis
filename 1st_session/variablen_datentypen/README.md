@@ -7,65 +7,44 @@ permalink: /1st_session/variablen_datentypen/
 
 # Variablen, Datentypen und Operationen
 
-In allen Programmiersprachen können nur bestimmte "Formen" von Information gespeichert werden. Diese Formen nennt man **Datentypen**.
-
 ## Variablen
 
-Um einen Wert zu speichern und wieder abrufen zukönnen, werden **Variablen** benutzt.
-
-Durch das Gleich-Zeichen `=` wird eine **Zuweisung** vorgenommen.  Auf der linken Seite steht der Name einer Variable auf der rechten Seite ein Ausdruck, der ein Objekt irgendeines Typs liefert, zum Beispiel eine Dezimalzahl. Eine Zuweisung ist *keine mathematische Gleichung*, denn Gleichungen kann man umstellen, Zuweisungen nicht.
+Die Zuweisung einer Variablen in Python funktioniert so:
 
 ```
-x = 1 
+x = 1
 ```
 
-**Variablennamen** können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden. `Wert` und `wert` wären also verschiedene Variablennamen. 
-
-Wählt in Programmen die Variablennamen systematisch und lesbar; im Idealfall sagt die Variable, wozu sie dient.
-
-Beachtet außerdem nach Möglichkeiten Benennungskonventionen für Variablen: Sie sollten mit einem Kleinbuchstaben beginnen, vermeidet deutsche Sonderbuchstaben (ä,ö,ü,ß). Konstanten,  also Variablen, die nicht verändert werden sollen, sollten Namen aus Großbuchstaben haben.
+**Variablennamen** können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden.
 
 
 ## Datentypen
 
+Grundsätzlich gibt es verschiedene Arten von Daten: Zahlen, Text und Wahrheitswerte.
 
-**Zahlen**
-* `int`, beschreibt beliebig große **ganze Zahlen** (integers), die Größe ist begrenzt durch den Arbeitsspeicher
-* `float` beschreibt **Fließkommazahlen** (floating point number), 
-    64 Bit, größter Betrag: 1.7976931348623157e+308, kleinster Betrag: 2.2250738585072014e-30
-* `complex` beschreibt **komplexe Zahlen**, Real- und Imaginärteil sind floats
+* `int`: ganze Zahlen
+* `float`: Fließkommazahlen
+* `complex`: komplexe Zahlen
+* `str`: Zeichenketten (Strings)
+* `bool`: Wahrheitswert - `True` oder `False`  
 
-**Zeichenketten**
-* `str` (String)
+Wichtige Funktionen im Kontext von Datentypen:
 
-**Wahrheitswerte**
-* `bool` lässt nur zwei Werte zu: `True` und  `False`  
+* `type()` gibt den Datentyp einer Variable zurück
+* `int()`, `float()`, `complex()` wandelt Zahlen-Datentypen ineinander um
+* `str()` erzeugt Strings aus anderen Datentypen
+* `bool()` erzeugt Wahrheitswerte
 
-Die Funktion `type()` gibt den Datentyp einer Variable zurück.
+## Rechenoperationen
 
-## (Rechen-) Operationen
+*  +,-,\*,/
+* `**` Potenzrechung
+* `//` ganzzahlige Division
+* `%` Modulo-Operator (gibt den Rest der Division an)
 
-Ihr könnt die üblichen Grundrechenarten, darüber hinaus `**` für die Potenz benutzen. 
+## Operationen mit Strings
 
-Der Typ der Ergebnisse solcher Rechenoperationen hängt vom Typ der beteiligten Zahlen ab: Operationen aus float und int liefern float, aus complex und einem der anderen liefert complex.
-    
-
-### Prioritäten:
-
-- Geklammerte Ausdrücke werden zuerst berechnet, innere Klammern vor äußeren.
-- *Punkt vor Strich:*  /,\* kommt vor +,-
-
-### Weitere Operationen
-
-Wichtig ist noch die Division mit Rest `//`, bzw. der Rest bei dieser Division (modulo) `%`, der sowohl für ganze Zahlen (mit ganzzahligem Ergebnis) als auch für Fließkommazahlen (mit float als Ergebnis) definiert ist:
-
-     7//3  --> 2    ganzzahlige Division
-
-     7%3   --> 1    Modulo-Operator
-
-### Operationen mit Strings
-
-Eine Zeichenkette kann durch Einfache Anführungszeichen '...' oder doppelte Anführungszeichen "..." eingeschlossen werden. Passt eine solche Zeichenkette nicht in eine Zeile, so lässt sich - wie stets in Python - durch einen Backslash `\` die Zeile in die folgende Zeile verlängern. Die über mehrere Zeilen verteilten Langzeilen werden vom Interpreter anschließend wieder aneinander gehängt, dabei werden die \ wieder entfernt. 
+Eine Zeichenkette kann durch Einfache Anführungszeichen '...' oder doppelte Anführungszeichen "..." eingeschlossen werden. Passt eine solche Zeichenkette nicht in eine Zeile, so lässt sich - wie stets in Python - durch einen Backslash `\` die Zeile in die folgende Zeile verlängern. Die über mehrere Zeilen verteilten Langzeilen werden vom Interpreter anschließend wieder aneinander gehängt, dabei werden die \ wieder entfernt.
 
 Für wirklich mehrzeiligen Text gibt es noch eine praktischere Variante, dreifache Anführungszeichen am Anfang und am Ende. Die Zeilenumbrüche werden in dieser Variante Teil der Zeichenkette. Ein Zeilenumbruch kann auch mit `\n` codiert werden.
 
@@ -78,14 +57,14 @@ Durch `s[0]` greift man auf den ersten Buchstaben einens Strings zu, `s[1]` auf 
 
 Es ist auch möglich, mit negativen Indizes von hinten zu zählen: `s[-1]` liefert das letzte Zeichen, `s[-2]` das vorletze.
 
-**Bemerkung**: So gut wie alle num(m)erierten Objekte in Python Zählen von Null an. Das entspricht natürlich nicht der Umgangssprache: In einer Reihe von zehn Bäumen wird man vom ersten, zweiten, ... , zehnten Baum sprechen.  Hier müssen Sie sich daran gewöhnen, vom nullten, ersten,  ... , neunten Baum zu reden.  Das ist eine mögliche Fehlerquelle, also Vorsicht! 
+**Bemerkung**: So gut wie alle num(m)erierten Objekte in Python Zählen von Null an. Das entspricht natürlich nicht der Umgangssprache: In einer Reihe von zehn Bäumen wird man vom ersten, zweiten, ... , zehnten Baum sprechen.  Hier müssen Sie sich daran gewöhnen, vom nullten, ersten,  ... , neunten Baum zu reden.  Das ist eine mögliche Fehlerquelle, also Vorsicht!
 
 Man kann auch einen Ausschnitt (ein `slice`) eines Strings bekommen, indem man in eckigen Klammern zwei oder drei durch Doppelpunkte getrennte Zahlen eingiebt.
 
 - `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang`$\leq i< $`ende` gehört, der letzte Index ist also `ende-1`!
 
-- `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices 
-i$\in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i< $`ende` gehört. 
+- `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices
+i$\in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i< $`ende` gehört.
 
 Für negative Indices ist wieder zu beachten, dass -1 dem Index `len(s)-1`, -k dem Index `len(s)-k` entspricht. In diesem Fall liefert `s[anfang:ende:sprung]`  für `anfang>ende` den Teilstring, der zu den Indices i$\in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i> $`ende` gehört.
 
