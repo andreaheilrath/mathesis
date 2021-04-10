@@ -3,6 +3,7 @@ title: Übung
 parent: 1. Session
 nav_order: 5
 permalink: /1st_session/uebung/
+use_math: true
 ---
 
 ## 1. Übung
