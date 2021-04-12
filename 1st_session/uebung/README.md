@@ -8,7 +8,7 @@ use_math: true
 
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-## 1. Übung
+# 1. Übung
 
 Zahlen, Strings, Bedingungen, while-Schleifen
 
@@ -29,57 +29,44 @@ import math
 help(math.sqrt)
 ```
 
-### Leichtere Aufgaben
+## Leichtere Aufgaben
 
-#### 1. Fakultät berechnen
+### 1. Fakultät berechnen
 Schreibe ein Programm, das eine natürliche Zahl einliest und deren Fakultät ausgibt.
 
-#### 2. Primzahltest
+### 2. Primzahltest
 Schreibe ein Programm, das eine natürliche Zahl einliest und prüft, ob es sich um eine Primzahl handelt.
 
-#### 3. Quersumme
+### 3. Quersumme
 Schreibe ein Programm, das als Eingabe eine ganze Zahl erwartet und die Quersumme ausgibt.
 
-
-```python
-string = "testitest"
-for i in range(len(string)):
-    print(string[i])
-```
-
-
-```python
-for zeichen in string:
-    print(zeichen)
-```
-
-#### 4. Regelmäßiges Polygon
+### 4. Regelmäßiges Polygon
 Schreibe ein Programm, das um Eingabe einer (natürlichen) Zahl n bittet und anschließend  mit der Turtle-Graphik ein n-Eck zeichnet.
 
-#### 5. Harshad-Zahlen
+### 5. Harshad-Zahlen
 Eine naürliche Zahl heißt Harshad-Zahl, wenn sie durch ihre Quersumme bezüglich der Dezimalschreibweise) teilbar ist. Beispielsweise ist für $$777$$ die Quersumme $$7+7+7=21$$ und teilt $$777$$.
 
 Schreibe ein Programm, dass die Harshard-Zahlen von 1 bis 100 berechnet.
 
-#### 6. Palindrom
+### 6. Palindrom
 Schreibe ein Programm, das einen String einliest und prüft, ob es sich um ein Palindrom handelt.
 
-#### 7. Spiralornament
+### 7. Spiralornament
 
 Zeichne mit der Turtle ein spiralartiges Ornament
 
 
 <img src="spirale.png" width=300 height=300 />
 
-### Mittelschwere Aufgaben
+## Mittelschwere Aufgaben
 
-#### 8. Pi durch Zufallszahlen
+### 8. Pi durch Zufallszahlen
 
 Wir betrachten ein Quadrat der Seitenlänge 2 und setzen zufällig einen Punkt auf das Papier. Wie wahrscheinlich ist es, dass ein Punkt weniger als Abstand 1 zum Mittelpunkt hat? Hinweis: hier sind die Module `random` und `math` sehr hilfreich.
 
 Wie lässt sich daraus $\pi$ berechnen? Starthilfe von Daniel Shiffman: https://youtu.be/5cNnf_7e92Q?t=99
 
-#### 9. Random Walk
+### 9. Random Walk
 
 Simuliere mit Hilfe der Turtlegraphik ein Wesen, dass im Ursprung startet und in jedem Zeitschritt mit Wahrscheinlichkeit 1/4
 nach N/W/S/O läuft (eine gewisse Strecke s). Beende die Simulation, wenn das Wesen wieder im Ursprung ist.
@@ -87,10 +74,10 @@ nach N/W/S/O läuft (eine gewisse Strecke s). Beende die Simulation, wenn das We
 
 Hast du Vermutungen darüber, mit welcher Wahrscheinlichkeit das Wesen überhaupt zurückkehrt oder über die mittlere Dauer der Irrfahrt?  Wie lassen sich solche Hypothesen mit einer Simulation auf Plausibilität überprüfen? (Beweisen könnten lässt sich das allerdings nur mit Hilfe von Mathematik.)
 
-#### 10. Pseudozufallszahlen
+### 10. Pseudozufallszahlen
 Wenn man in Programmen Zufallszahlen benötigt, so werden meist Folgen von Pseudozufallszahlen verwendet, d.h. eine Folge von Zahlen $a_1, a_2, a_3, \ldots$, die für statistische Analysen wie das Ergebnis eines Zufallsprozesses aussehen. Ein einfaches Beispiel solcher Pseudozufallfolgen mit Folgegliedern aus dem Bereich von 0 bis 65535 erhält man durch
 
-$a_{i+1} = (25173 \, a_i + 13849) \% 65536$.
+$$a_{i+1} = (25173 \, a_i + 13849) \% 65536$$.
 
 (Dies ist eine übliche Weise für die Definition von Zahlenfolgen: Die Gleichung gibt an, wie man aus einem Folgeglied $a_i$ das nächste Folgeglied $a_{i+1}$ errechnet.) Schreibe ein Programm, das das erste Folgeglied (den **seed**)
 vom Nutzer einliest und die nächsten 20 Folgegliedeausgibt.
