@@ -6,6 +6,9 @@ permalink: /1st_session/uebung/
 use_math: true
 ---
 
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+
 ## 1. Übung
 
 Zahlen, Strings, Bedingungen, while-Schleifen
