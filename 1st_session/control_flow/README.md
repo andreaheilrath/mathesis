@@ -18,17 +18,14 @@ In vielen anderen Programmiersprachen wird Code mit Klammern strukturiert - in P
 ### if .. elif .. else
 
 ```
-alter = 115
+zahl = 42
 
-if alter > 120:
-    print("Da stimmt was nicht, so alt kann man nicht werden.")
-elif alter > 115:
-    print("Sind Sie sicher ? Sie wären dann der älteste Mensch.")
-elif alter > 100:
-    print("Gratuliere!")
-    print(str(alter)+" Jahre ist ein biblisches Alter")
+if zahl > 42:
+    print("Das ist nicht die Antwort auf die Frage.")
+elif zahl == 42:
+    print("Aha!")
 else:
-    print("Gratuliere zum "+str(alter)+ ". Geburtstag")
+    print("Die Zahl ist kleiner als 42.")
 ```
 
 Der Programmfluss sieht so aus:
