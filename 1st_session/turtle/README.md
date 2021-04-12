@@ -7,7 +7,7 @@ permalink: /1st_session/turtle/
 
 # Turtle Grafik
 
-In diesem Notebook soll es um die Befehle des Turtle-Moduls gehen.
+In dieser Einheit soll es um die Befehle des Turtle-Moduls gehen.
 
 Mit `turtle.delay(...)` wird eingestellt,
 welche Zeit (in Millisekunden) 'turtle' zwischen den einzelnen Aktionen wartet.
@@ -17,12 +17,13 @@ wie schnell sich die Schildkröte bei den einzelnen Schritten bewegt.
 Das Modul stellt verschiedene Funktionen zur Verfügung,
 mit denen man zeichnen kann:
 
+```
     turtle.fd(x)  #'forward'  bewegt turtle um x Einheiten vorwärts
     turtle.lt(x)  #'left turn' dreht turtle um x Grad nach links
     turtle.rt(x)  #'right turn' dreht turtle um x Grad nach rechts
     turtle.pd()   #'pen down'   versetzt turtle in den Schreibmodus
     turtle.pu()   #'pen up' beendet den Schreibmodus
-
+```
 
 Eine vollständige Übersicht über die Befehle findet man unter
 https://docs.python.org/2/library/turtle.html
@@ -30,13 +31,17 @@ https://docs.python.org/2/library/turtle.html
 Wenn nicht im interaktiven Modus gearbeitet wird, geht das Fenster
 gleich nach dem Zeichnen wieder zu. Mit dem Befehl
 
+```
     turtle.exitonclick()
+```
 
 schließt das Fenster erst, wenn darauf geklickt wird.
 
 Mit
 
+```
     turtle.bye()
+```
 
 lässt sich ein turtle-Fenster schließen.
 

@@ -13,78 +13,11 @@ Bedingungen werden über Boolsche Variablen abgefragt, also `True` und `False`.
 
 In vielen anderen Programmiersprachen wird Code mit Klammern strukturiert - in Python allerdings funktioniert die Struktur über **Einrückungen von Blöcken**.
 
-## Blöcke
-
-
-    ....                                   
-    ....                                   
-       .......                            
-       .......    Diese vier Zeilen       
-       .......    bilden einen Block      
-       .......
-    ...
-    ...
-
-Auch die ganzen acht Zeilen bilden einen Block, in dem eben der kleiner
-Block enthalten ist. Einrücken funktioniert **entweder mit der
-Tabulator-Taste oder mit Leerzeichen.** Beide Methoden zu mischen ist eine schlechte Idee, das kann zu Problemen führen.
-
 ## Coder unter Bedingungen ausführen
-
-### if
-
-Wenn Sie eine Folge von Befehlen nur dann ausführen wollen, wenn eine
-gewisse Bedingung erfüllt ist, so geht das so:
-
-'''
-alter = 300
-
-if alter > 120: #Doppelpunkt beachten!
-    print("Da stimmte was nicht, so alt kann man nicht werden.")
-
-print("I'm a lumberjack and I'm OK.")   # Das steht wieder im Hauptblock und wird immer durchgeführt.
-'''
-
-Beachten Sie die Syntax: Nach 'if  Bedingung' **steht ein Doppelpunkt.** Danach kommt ein
-eingerückter Block.
-
-Der Programmfluss für ein 'if' lässt sich so veranschaulichen:
-
-<img src='images/if.png'></img>
-
-### if ... else
-
-Wenn eine Bedingung erfüllt ist, soll etwas getan werden, andernfalls etwas anderes.
-
-'''
-alter = 50
-
-if alter > 120:
-    print("Da stimmt was nicht, so alt kann man nicht werden.")
-else:
-    print("Gratuliere zum "+str(alter)+ ". Geburtstag")
-    print("Wie geht's?")
-
-print("I'm a lumberjack an I'm OK.")   # Das steht wieder im Hauptblock.
-'''
-
-
-
-Der Programmfluss für ein 'if ... else' lässt sich so veranschaulichen:
-
-<img src="if_else.png"> </img>
 
 ### if .. elif .. else
 
-Häufig will man alternative Bedingungen verwenden: Wenn etwas der Fall ist, tu dies, wenn etwas anderes
-der Fall ist, das, sonst jenes.  'wenn etwas anderes der Fall ist'  wird in Python durch 'elif' wiedergegeben. Es können beliebig viele solcher 'elif'-Fälle stehen, bevor der 'else'-Fall kommt.       
-
-Nach dem Doppelpunkt beginnt in der nächsten Zeile jeweils ein tiefer
-eingerückter Block. Genau dieser Block wird ausgeführt, wenn die
-Bedingung vor dem Doppelpunkt erfüllt ist.
-
-
-'''
+```
 alter = 115
 
 if alter > 120:
@@ -96,44 +29,25 @@ elif alter > 100:
     print(str(alter)+" Jahre ist ein biblisches Alter")
 else:
     print("Gratuliere zum "+str(alter)+ ". Geburtstag")
-'''
+```
 
 Der Programmfluss sieht so aus:
 
 <img src='if_elif_else.png'></img>
-
-### Unterfälle
-
-In einem Block kann wieder eine Fallunterscheidung stehen, also beispielsweise:
-
-'''
-alter = 22
-
-if alter > 120:
-    print("Da stimmt was nicht, so alt kann man nicht werden.")
-else:
-    print("Gratuliere zum "+str(alter)+ ". Geburtstag")
-    print("Wie geht's?")
-    print("Übrigens ...")
-    if alter%2 == 0:
-        print("Dein Alter ist gerade.")
-    else:
-        print("Dein Alter ist ungerade.")
-'''
 
 ### while-Schleifen
 
 Man kann einen Programmblock so lange durchführen, wie eine gewisse Bedingung erfüllt ist, dann
 mit dem weiteren Programm fortfahren.
 
-'''
+```
 n=int(input("Geben Sie eine nat. Zahl groesser als 0 ein: "))
 
 while n%2 == 0:
     n = n//2
     print("n halbiert")
     print("Ergebnis: ", n)
-'''
+```
 
 Das Flussdiagramm sieht so aus:
 
@@ -154,6 +68,23 @@ Das logische `und` muss nicht erklärt werden, das logische `oder` kann aber zu 
 True and False
 '''
 
+
+### Machinensprache?
+
+Rechner basieren auf physikalischen Zuständen, meist elektrische Spannungen und Magnetfelder. Dabei erfolgt die Kodierung von Informationen in einer [binären Darstellung](https://de.wikipedia.org/wiki/Dualsystem)  - das heißt, es gibt nur zwei Zustände: an/aus - wahr/falsch - 1/0.
+
+Das Binärsystem wurde schon  im 3. Jahrhundert v. Chr. in Indien benutzt, in Europa wurde es Ende des 17. Jahrhunderts von [Gottfried Wilhelm Leibniz](https://de.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz) "entdeckt" und mit dem christlichen Glauben begründet. 1847 veröffentlichte der britische Mathematiker [George Boole](https://de.wikipedia.org/wiki/George_Boole) das Buch  *The Mathematical Analysis of Logic*, welches die Verbindung von Binären Zahlen mit Logischen Operationen herstellt - diese Darstellung ist bis heute als [Boolsche Algebra](https://de.wikipedia.org/wiki/Boolesche_Algebra) bekannt. Erst durch diese Grundlage war es möglich, Computer zu bauen, die Logische Operationen durchführen. Hier ein paar Beispiele für die Konversion von Dezimalzahlen in Binärdarstellung:
+
+|Dezimalzahl|Binärdarstellung|
+|---|---|
+|1|1|
+|2|10|
+|3|11|
+|7|111|
+|31|11111|
+|32|100000|
+
+
 ### Vergleiche
 
 Durch `==` kann man prüfen, ob zwei Werte gleich sind, das Ergebnis ist `True`, wenn sie es sind, sonst `False`.
@@ -162,26 +93,3 @@ Durch `==` kann man prüfen, ob zwei Werte gleich sind, das Ergebnis ist `True`,
 **Achtung**: Hier stehen **zwei Gleichheitszeichen!** Ein Gleichheitszeichen wird nur Zuweisungen von Variablen verwendet.
 
 ''' 1 == 1 '''
-
-## Spezielle Anweisungen in Blocks
-
-### break und continue
-
-Manchmal ist es wichtig, zur nächsten 'Runde' der Schleife zu springen, das geschieht mit der Anweisung `continue`. In anderen Fällen wollen wir eine Schleife abbrechen, das geschieht mit der Anweisung `break`. Das Programm fährt
-dann mit dem Code nach der while-Schleife fort.
-
-'''
-# Was tut dieses Programm ?
-
-i = 0
-while i < 10:
-    s = input('Sagen Sie was! ')
-    i = i+1
-    if s == 'weiter':
-        continue
-    if s == 'fertig':
-        break
-    print('Sie haben "', s, '" gesagt.')
-
-print("Jetzt ist's vorbei.")
-'''
