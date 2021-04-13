@@ -28,7 +28,7 @@ Kürzel | Datentyp | Beispiel
 `int`| ganze Zahlen | `x = 1`
 `float`| Fließkommazahlen | `x = 1.0`
 `complex`| komplexe Zahlen | `x = 1.1 + 4j`
-`str`| Zeichenketten | `x = "Test123" x='1String'`
+`str`| Zeichenketten | `x = "Test123" x = '1String'`
  `bool`| Wahrheitswert | `x = True`
 
 
