@@ -79,6 +79,8 @@ Das logische `und` muss nicht erklärt werden, das logische `oder` kann aber zu 
 |`True or False` | `True` |
 |`False and False` | `False` |
 
+### 01100010 01101001 01101110 01100001 01110010 01111001 00100001
+
 Auf diesen Operationen basieren auch die Vorgänge auf unterster Ebene des Rechners, der Machinensprache. 
 
 Informationen werden mittels physikalischer Zustände, meist elektrische Spannungen und Magnetfelder kodiert. Im Normalfall existieren nur zwei verschiedene Zustände: an/aus - 1/0 - wahr/falsch. Dies nennt man auch [binäre Darstellung](https://de.wikipedia.org/wiki/Dualsystem).
@@ -89,8 +91,6 @@ Das Binärsystem wurde schon  im 3. Jahrhundert v. Chr. in Indien benutzt, in Eu
 |---|---|
 |1|1|
 |2|10|
-|3|11|
-|7|111|
 |31|11111|
 |32|100000|
 
