@@ -34,7 +34,7 @@ else:
 
 Der Programmfluss sieht so aus:
 
-<img src='if_elif_else.png'></img>
+<img src='if_elif_else.png'>
 
 ### while-Schleifen
 
@@ -50,7 +50,7 @@ while zahl > 0:
 
 Das Flussdiagramm sieht so aus:
 
-<img src="while.png"></img>
+<img src="while.png">
 
 Da in diesem Diagramm ein eine Schleife (loop) vorkommt, nennt man dieses Konstrukt 'while-Schleife'.
 
