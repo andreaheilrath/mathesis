@@ -79,8 +79,6 @@ Wenn man in Programmen Zufallszahlen benötigt, so werden meist Folgen von Pseud
 
 $$a_{i+1} = (25173 \, a_i + 13849) \% 65536$$.
 
-\\[ x = {-b \pm \sqrt{b^2-4ac} \over 2a} \\]
-
 (Dies ist eine übliche Weise für die Definition von Zahlenfolgen: Die Gleichung gibt an, wie man aus einem Folgeglied $a_i$ das nächste Folgeglied $a_{i+1}$ errechnet.) Schreibe ein Programm, das das erste Folgeglied (den **seed**)
 vom Nutzer einliest und die nächsten 20 Folgegliedeausgibt.
 
