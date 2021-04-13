@@ -38,12 +38,10 @@ Man kann einen Programmblock so lange durchführen, wie eine gewisse Bedingung e
 mit dem weiteren Programm fortfahren.
 
 ```
-n=int(input("Geben Sie eine nat. Zahl groesser als 0 ein: "))
+zahl = 5
 
-while n%2 == 0:
-    n = n//2
-    print("n halbiert")
-    print("Ergebnis: ", n)
+while zahl > 0:
+    zahl = zahl - 1
 ```
 
 Das Flussdiagramm sieht so aus:
