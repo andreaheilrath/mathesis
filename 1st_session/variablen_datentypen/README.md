@@ -55,7 +55,7 @@ Wichtige Funktionen im Kontext von Datentypen:
 * `len()` gibt die Länge des Strings
 * `s[0]` gibt das erste Zeichen des Strings `s`
 * `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang`$\leq i< $`ende` gehört, der letzte Index ist also `ende-1`!
-* `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices i$\in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i< $`ende` gehört.
+* `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i \in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i< $`ende` gehört.
 
 
 Die Funktion `s.replace(alt,neu)` liefert einen String, in dem alle Vorkommen des Strings `alt` im String `s` durch den String `neu` ersetzt wurden. Die Funktionen `s.upper` und `s.lower` liefern den String in Groß- bzw. Kleinbuchstaben umgewandelt zurück. **Der ursprüngliche String bleibt dabei unverändert, wenn Sie die Variable nicht neu zuweisen.**
