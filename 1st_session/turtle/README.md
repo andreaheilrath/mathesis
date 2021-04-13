@@ -50,7 +50,8 @@ der Verwaltung der Turtle-Fenster. Wenn ein Problem ergibt, sollten
 Programme besser nicht in einem Notebook, sondern mit einem Editor geschrieben und direkt mit dem
 Interpreter ausgeführt werden.
 
-'''
+
+```
 import turtle
 
 turtle.fd(100)
@@ -61,7 +62,8 @@ turtle.fd(25)
 turtle.lt(90)
 turtle.bye()
 turtle.exitonclick()
-'''
+
+```
 
 Die Turtlegraphik war ursprünglich so gedacht, wie oben beschrieben. Sie zeichnet, indem sie sich relativ zu einer Position bewegt.
 
@@ -74,9 +76,11 @@ zu einer neuen absoluten Position bewegen.
 Welche Koordinaten überhaupt verfügbar sind, lässt sich mit turtle.screensize ermitteln.
 Der Ursprung (0,0) liegt in der Mitte.
 
-'''
+
+```
 turtle.fd(100)
 turtle.lt(90)
 print(turtle.xcor(), turtle.ycor())
 turtle.exitonclick()
-'''
+
+```
