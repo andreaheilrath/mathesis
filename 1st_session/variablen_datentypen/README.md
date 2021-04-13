@@ -53,7 +53,9 @@ Wichtige Funktionen im Kontext von Datentypen:
 
 ## Operationen mit Strings
 
-* `len()` gibt die Länge des Strings
+Im Folgenden soll in der Variable `s` ein Wert vom Datentyp String, also eine Zeicenkette gespeichert sein.
+
+* `len(s)` gibt die Länge des Strings
 
 Indizierung und Slicing:
 
@@ -66,3 +68,14 @@ Andere Funktionen für Strings:
 * `s.replace(alt,neu)` liefert einen String, in dem alle Vorkommen des Strings `alt` im String `s` durch den String `neu` ersetzt wurden. 
 * `s.upper` und `s.lower` liefern den String in Groß- bzw. Kleinbuchstaben umgewandelt 
 * `s.find(...)` sucht, ab welchem Index der für ... eingesetzte String nin `s` vorkommt.
+
+## Ein Beispiel
+
+```
+eingabe = input("Bitte geben Sie eine ganze Zahl ein:")
+zahl = int(eingabe)
+
+print(zahl*2, eingabe*2)
+```
+
+Was wird wohl die Ausgabe dieses Codes sein?
