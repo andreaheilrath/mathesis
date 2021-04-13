@@ -64,7 +64,7 @@ Es gibt verschiedene Möglichkeiten, wie Bedingungen aussehen können. Am Ende s
 * `zahl > 0`, `zahl >= 0` größer, größer gleich
 * `zahl < 0`, `zahl <= 0` kleiner, kleiner gleich
 * `zahl == 0` gleich - Achtung doppeltes Istgleich!
-* `zahl != 0`
+* `zahl != 0` ungleich
 
 ### Operationen
 
