@@ -22,8 +22,8 @@ x = 1
 
 Grundsätzlich gibt es verschiedene Arten von Daten: Zahlen, Text und Wahrheitswerte.
 
-* `int`: ganze Zahlen
-* `float`: Fließkommazahlen
+* `x = 1`: Integer / `int` ganze Zahlen
+* `x = 1.1`: `float`: Fließkommazahlen
 * `complex`: komplexe Zahlen
 * `str`: Zeichenketten (Strings)
 * `bool`: Wahrheitswert - `True` oder `False`  
