@@ -103,7 +103,7 @@ Schreibe ein Programm, das um die Eingabe einer Zeichenkette aus den Buchstaben 
 Schreibe ein Programm, das um Eingabe einer Zahl n bittet und anschließend mithilfe der Turtle-Grafik einen n-zackigen Stern zeichnet.
 
 
-#### 14. Mäander
+### 14. Mäander
 Schreibe ein Programm, das nach Eingabe einer Zahl n ein n-fach wiederholtes Mäander-Ornament zeichnet, siehe: https://de.wikipedia.org/wiki/Mäander_(Ornamentik)
 
 ### 15. Eine quadratische Gleichung
