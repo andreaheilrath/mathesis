@@ -9,13 +9,14 @@ permalink: /1st_session/variablen_datentypen/
 
 ## Variablen
 
-Die Zuweisung einer Variablen in Python funktioniert so:
+In vielen anderen Programmiersprachen muss der Datentyp einer Variable zuvor definiert werden. In Python ist die Typisierung dynamisch und erfolgt durch den Wert, der in die Variable gespeichert wird.
+
+Variablennamen können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden.
 
 ```
 x = 1
+y_2 = "test"
 ```
-
-**Variablennamen** können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden.
 
 
 ## Datentypen
@@ -53,12 +54,12 @@ Wichtige Funktionen im Kontext von Datentypen:
 ## Operationen mit Strings
 
 * `len()` gibt die Länge des Strings
-* `s[0]` gibt das erste Zeichen des Strings `s`
+* `s[0]` gibt das erste Zeichen des Strings `s`, `s[1]` das zweite usw.
+
+
 * `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang`$\leq i< $`ende` gehört, der letzte Index ist also `ende-1`!
 * `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i \in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i< $`ende` gehört.
 
-
-Die Funktion `s.replace(alt,neu)` liefert einen String, in dem alle Vorkommen des Strings `alt` im String `s` durch den String `neu` ersetzt wurden. Die Funktionen `s.upper` und `s.lower` liefern den String in Groß- bzw. Kleinbuchstaben umgewandelt zurück. **Der ursprüngliche String bleibt dabei unverändert, wenn Sie die Variable nicht neu zuweisen.**
-
-Eine weitere nützliche Funktion ist `s.find(...)`.  Diese sucht, ab welchem Index der für ... eingesetzte String
-in `s` vorkommt. Kommt er nicht vor, wird -1 zurückgegeben.
+* `s.replace(alt,neu)` liefert einen String, in dem alle Vorkommen des Strings `alt` im String `s` durch den String `neu` ersetzt wurden. 
+* `s.upper` und `s.lower` liefern den String in Groß- bzw. Kleinbuchstaben umgewandelt 
+* `s.find(...)` sucht, ab welchem Index der für ... eingesetzte String nin `s` vorkommt.
