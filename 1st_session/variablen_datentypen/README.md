@@ -57,8 +57,8 @@ Wichtige Funktionen im Kontext von Datentypen:
 * `s[0]` gibt das erste Zeichen des Strings `s`, `s[1]` das zweite usw.
 
 
-* `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang`$\leq i< $`ende` gehört, der letzte Index ist also `ende-1`!
-* `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i \in\{$ `anfang, anfang+sprung, anfang+2*sprung` $,\ldots\}$ mit $ i< $`ende` gehört.
+* `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang` $\leq i< $ `ende` gehört, der letzte Index ist also `ende-1`!
+* `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i \in \{ $ `anfang, anfang+sprung, anfang+2*sprung` $ ,\ldots \{$ mit $ i< $`ende` gehört.
 
 * `s.replace(alt,neu)` liefert einen String, in dem alle Vorkommen des Strings `alt` im String `s` durch den String `neu` ersetzt wurden. 
 * `s.upper` und `s.lower` liefern den String in Groß- bzw. Kleinbuchstaben umgewandelt 
