@@ -22,7 +22,7 @@ x = 1
 
 Grundsätzlich gibt es verschiedene Arten von Daten: Zahlen, Text und Wahrheitswerte.
 
-Kürzel | Name | Beispiel
+Kürzel | Datentyp | Beispiel
 --- | --- | ---
 `int`| ganze Zahlen | `x = 1`
 `float`| Fließkommazahlen | `x = 1.0`
