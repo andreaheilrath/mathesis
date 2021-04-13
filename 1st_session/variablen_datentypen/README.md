@@ -34,15 +34,15 @@ Kürzel | Datentyp | Beispiel
 
 Wichtige Funktionen im Kontext von Datentypen:
 
-* `type()` gibt den Datentyp einer Variable zurück
+* `type(x)` gibt den Datentyp einer Variable `x` zurück
 * `int()`, `float()`, `complex()` wandelt Zahlen-Datentypen ineinander um
 * `str()` erzeugt Strings aus anderen Datentypen
 * `bool()` erzeugt Wahrheitswerte
 
 ## Eingaben und Ausgaben
 
-* `print()` 
-* `input()` 
+* `print(x)` gibt den Inhalt von `x` aus
+* `input()` öffnet ein Textfeld zur Eingabe einer Zeichenkette
 
 ## Rechenoperationen
 
@@ -54,11 +54,14 @@ Wichtige Funktionen im Kontext von Datentypen:
 ## Operationen mit Strings
 
 * `len()` gibt die Länge des Strings
+
+Indizierung und Slicing:
+
 * `s[0]` gibt das erste Zeichen des Strings `s`, `s[1]` das zweite usw.
-
-
 * `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang` $\leq i< $ `ende` gehört, der letzte Index ist also `ende-1`!
 * `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i \in \{ $ `anfang, anfang+sprung, anfang+2*sprung` $ ,\ldots \{$ mit $ i< $`ende` gehört.
+
+Andere Funktionen für Strings:
 
 * `s.replace(alt,neu)` liefert einen String, in dem alle Vorkommen des Strings `alt` im String `s` durch den String `neu` ersetzt wurden. 
 * `s.upper` und `s.lower` liefern den String in Groß- bzw. Kleinbuchstaben umgewandelt 
