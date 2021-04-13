@@ -13,6 +13,9 @@ In vielen anderen Programmiersprachen muss der Datentyp einer Variable zuvor def
 
 Variablennamen können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden.
 
+So sieht die Variablendeklaration dann aus: 
+
+
 ```
 x = 1
 y_2 = "test"
