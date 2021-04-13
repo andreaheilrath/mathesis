@@ -83,7 +83,7 @@ Das logische `und` muss nicht erklärt werden, das logische `oder` kann aber zu 
 Auf diesen Operationen basieren auch die Vorgänge auf unterster Ebene des Rechners, der sogenannte Machinencode oder die Maschinensprache. 
 
 
-### 01100010 01101001 01101110 01100001 01110010 01111001 00100001
+## 01100010 01101001 01101110 01100001 01110010 01111001 00100001
 
 Informationen werden mittels physikalischer Zustände, meist elektrische Spannungen und Magnetfelder kodiert. Im Normalfall existieren nur zwei verschiedene Zustände: an/aus - 1/0 - wahr/falsch. Dies nennt man auch [binäre Darstellung](https://de.wikipedia.org/wiki/Dualsystem).
 
