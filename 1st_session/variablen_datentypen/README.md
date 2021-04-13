@@ -66,7 +66,7 @@ Indizierung und Slicing:
 
 * `s[0]` gibt das erste Zeichen des Strings `s`, `s[1]` das zweite usw.
 * `s[anfang:ende]`  liefert den Teil des Strings, der zu den Indices i mit `anfang` $\leq i< $ `ende` gehört, der letzte Index ist also `ende-1`!
-* `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i \in \{ $ `anfang, anfang+sprung, anfang+2*sprung` $ ,\ldots \{$ mit $ i< $`ende` gehört.
+* `s[anfang:ende:sprung]` liefert den Teil des Strings, der zu den Indices $i$ aus `anfang, anfang+sprung, anfang+2*sprung` mit $i<$ `ende` gehört.
 
 Andere Funktionen für Strings:
 
