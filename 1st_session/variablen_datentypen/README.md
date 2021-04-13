@@ -37,12 +37,14 @@ Wichtige Funktionen im Kontext von Datentypen:
 * `type(x)` gibt den Datentyp einer Variable `x` zurück
 * `int(x)`, `float(x)`, `complex(x)` wandelt `x` in den entsprechenden Datentyp um
 * `str(x)` erzeugt String `x`
-* `bool(x)` erzeugt einen Wahrheitswert aus `x`. 0 und '' (ein leerer String) wird `False` alles andere `True`
-* 
+* `bool(x)` erzeugt einen Wahrheitswert aus `x`. 0 und `""` (ein leerer String) wird `False` alles andere `True`
+
+
 ## Eingaben und Ausgaben
 
 * `print(x)` gibt den Inhalt von `x` aus
 * `x = input('Texteingabe hier:')` öffnet ein Textfeld zur Eingabe einer Zeichenkette und speichert diese in `x`
+
 
 ## Rechenoperationen
 
