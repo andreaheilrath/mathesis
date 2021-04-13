@@ -116,7 +116,7 @@ Schreibe eine Variante, die die komplexen Lösungen ausgibt. In beiden Fällen b
 ## Schwere Aufgaben
 
 ### 16. Collatz-Folge
-Die Collatz-Folge $(a_{n})_{n \in N}$ zum Anfangswert $a_0\in N$ ist wie folgt rekursiv definiert: Ist $a_n$ gerade, so ist $a_{n+1}=\frac{a_n}{2}$, andernfalls $a_{n+1}=3 a_n+1$.  Es ist nicht bekannt, ob diese Folge für alle Anfangswerte irgendwann bei $1$ ankommt (und anschließend periodische weitergeht $1\rightarrow 4 \rightarrow 2 \rightarrow 1 \rightarrow \cdots$.)
+Die Collatz-Folge $$(a_{n})_{n \in N}$$ zum Anfangswert $a_0\in N$ ist wie folgt rekursiv definiert: Ist $a_n$ gerade, so ist $a_{n+1}=\frac{a_n}{2}$, andernfalls $a_{n+1}=3 a_n+1$.  Es ist nicht bekannt, ob diese Folge für alle Anfangswerte irgendwann bei $1$ ankommt (und anschließend periodische weitergeht $1\rightarrow 4 \rightarrow 2 \rightarrow 1 \rightarrow \cdots$.)
 
 Schreibe ein Programm, dass für einen eingebenen Anfangswerd die ersten 100 Folgenglieder ausgibt. Schreibe anschließend eine Variante, die alle Glieder bis zur ersten $1$ und den Index dieser ersten $1$ ausgibt. Schreibe anschließend ein Programm, das im Zahlenbereich bis zu 1 Million (oder gerne auch größer) den Anfangswert mit dem längsten Anfangsstück bis zur ersten $1$ ausgibt.
 
