@@ -1,5 +1,5 @@
 ---
-title: Variablen und Datentypen
+title: Variablen und Operationen
 parent: 1. Session
 nav_order: 2
 permalink: /1st_session/variablen_datentypen/
