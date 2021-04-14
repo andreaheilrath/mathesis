@@ -1,11 +1,11 @@
 ---
-title: if, else & while
+title: if .. else & while
 parent: 1. Session
 nav_order: 3
 permalink: /1st_session/control_flow/
 ---
 
-# if, else & while
+# if .. else & while
 
 Beim Programmieren tritt häufig der Fall auf, dass Teile des Codes nur unter einer gewissen Bedingung ausgeführt werden sollen.
 
@@ -55,7 +55,7 @@ Das Flussdiagramm sieht so aus:
 Da in diesem Diagramm ein eine Schleife (loop) vorkommt, nennt man dieses Konstrukt 'while-Schleife'.
 
 
-## Bedingungen
+## Bedingungen und Boolsche Logik
 
 Es gibt verschiedene Möglichkeiten, wie Bedingungen aussehen können. Am Ende sind aber alle ein Boolean - also `True` oder `False`.
 
@@ -66,7 +66,7 @@ Es gibt verschiedene Möglichkeiten, wie Bedingungen aussehen können. Am Ende s
 * `zahl == 0` gleich - Achtung doppeltes Istgleich!
 * `zahl != 0` ungleich
 
-### Operationen
+### Logische Operationen
 
 Für Wahrheitswerte sind die *Rechenoperationen* die logischen Operationen: `and`, `or`, `not`. Man spricht in diesem Zusammenhang von einer Bool'schen Algebra.
 
