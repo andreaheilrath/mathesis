@@ -77,7 +77,7 @@ Das logische `und` muss nicht erklärt werden, das logische `oder` kann aber zu 
 |`True and True` | `True` |
 |`True and False` | `False` |
 |`True or False` | `True` |
-|`False and False` | `False` |
+|`False or False` | `False` |
 
 
 Auf diesen Operationen basieren auch die Vorgänge auf unterster Ebene des Rechners, der sogenannte Machinencode oder die Maschinensprache. 
