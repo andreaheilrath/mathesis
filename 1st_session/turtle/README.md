@@ -28,12 +28,30 @@ Weitere Befehle des Turtle-Moduls:
 * `turtle.delay(...)` stellt ein wie viele Millisekunden 'turtle' zwischen den einzelnen Aktionen wartet
 * `turtle.speed(...)` bestimmt, wie schnell sich die Schildkröte bei den einzelnen Schritten bewegt
 
-Eine vollständige Übersicht über die Befehle findet man unter [https://docs.python.org/2/library/turtle.html](https://docs.python.org/2/library/turtle.html)
+Eine vollständige Übersicht über die Befehle findet man unter [https://docs.python.org/3/library/turtle.html](https://docs.python.org/3/library/turtle.html)
 
 
 In manchen Betriebssystemen gibt es einen Konflikt zwischen dem Jupyter-Notebook und der Verwaltung der Turtle-Fenster. Wenn ein Problem ergibt, sollten
 Programme besser nicht in einem Notebook, sondern mit einem Editor geschrieben und direkt mit dem Interpreter ausgeführt werden.
 
+<img src='https://docs.python.org/3/_images/turtle-star.png' align='right'>
+
+## Terminator Error
+
+Im Jupyter Notebook kommt es nach jeder zweiten Ausführung zum Terminator Error. Das ist einfach so. Macht euch darüber erst mal keine Gedanken.
+
+```
+---------------------------------------------------------------------------
+Terminator                                Traceback (most recent call last)
+<ipython-input-4-648a61ecc6ea> in <module>
+----> 1 turtle.fd(100)
+      2 turtle.lt(90)
+      3 turtle.exitonclick()
+
+~\anaconda3\lib\turtle.py in fd(distance)
+
+Terminator: 
+``` 
 
 ## Beispiele
 
