@@ -35,7 +35,7 @@ Kürzel | Datentyp | Beispiel
  `bool`| Wahrheitswert | `x = True`
 
 
-Wichtige Funktionen im Kontext von Datentypen:
+### Typabfrage und Typumwandlung
 
 * `type(x)` gibt den Datentyp einer Variable `x` zurück
 * `int(x)`, `float(x)`, `complex(x)` wandelt `x` in den entsprechenden Datentyp um
