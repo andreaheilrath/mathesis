@@ -9,18 +9,18 @@ permalink: /1st_session/variablen_datentypen/
 
 ## Variablen
 
-In vielen anderen Programmiersprachen muss der Datentyp einer Variable zuvor definiert werden. In Python ist die Typisierung dynamisch und erfolgt durch den Wert, der in die Variable gespeichert wird.
-
-Variablennamen können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden.
-
-So sieht die Variablendeklaration dann aus: 
-
+So sieht eine Variablendeklaration aus: 
 
 ```
 x = 1
 y_2 = "test"
 ```
 
+In diesen beiden Zeilen werden die Variablen `x` und `y_2` erstellt und mit den Werten `1` bzw. `"test"` gefüllt. 
+
+Variablennamen können aus Buchstaben, \_ und Zahlen bestehen, am Anfang darf aber keine Zahl stehen. Großbuchstaben und Kleinbuchstaben werden unterschieden.
+
+In vielen anderen Programmiersprachen muss der Datentyp einer Variable zuvor definiert werden. In Python ist die Typisierung dynamisch und erfolgt durch den Wert, der in die Variable gespeichert wird.
 
 ## Datentypen
 
