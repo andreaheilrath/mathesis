@@ -1,11 +1,11 @@
 ---
-title: Control Flow
+title: if, else & while
 parent: 1. Session
 nav_order: 3
 permalink: /1st_session/control_flow/
 ---
 
-# Control Flow (Part 1)
+# if, else & while
 
 Beim Programmieren tritt häufig der Fall auf, dass Teile des Codes nur unter einer gewissen Bedingung ausgeführt werden sollen.
 
