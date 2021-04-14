@@ -60,7 +60,8 @@ Kürzel | Datentyp | Beispiel
 
 Im Folgenden soll in der Variable `s` ein Wert vom Datentyp String, also eine Zeicenkette gespeichert sein.
 
-* `len(s)` gibt die Länge des Strings
+* `+`und `*` funktionieren auch für Strings
+* `len(s)` gibt die Länge des Strings zurück (also die Anzahl an Zeichen)
 
 Indizierung und Slicing:
 
