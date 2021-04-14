@@ -1,5 +1,5 @@
 ---
-title: 1. Übung
+title: Übung
 parent: 1. Session
 nav_order: 5
 permalink: /1st_session/uebung/
