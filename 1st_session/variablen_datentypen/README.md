@@ -51,7 +51,7 @@ Kürzel | Datentyp | Beispiel
 
 ## Rechenoperationen
 
-*  +,-,\*,/
+*  `+`, `-`, `*`, `/` Grunderechenarten
 * `**` Potenzrechung
 * `//` ganzzahlige Division
 * `%` Modulo-Operator (gibt den Rest der Division an)
