@@ -17,7 +17,11 @@ Du lernst heute etwas über
 
 ## Dateien zum Download
 
-....
+Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien) sind in einer ZIP-Datei zusammengefasst. 
+
+Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, [hier](www.ionos.de/digitalguide/server/konfiguration/zip-datei-oeffnen/) ein kleiner Guide.
+
+[1st_Session.zip](./1st_Session.zip)
 
 ## Check yourself!
 
