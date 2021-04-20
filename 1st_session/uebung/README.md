@@ -5,14 +5,6 @@ nav_order: 5
 permalink: /1st_session/uebung/
 ---
 
-
-**Name:**
-
-**Gruppenpartner:**
-
-**Hier** ist Platz für **Hinweise von euch!**
-
-
 # 1. Übung
 
 ### Zahlen, Strings, Bedingungen, while-Schleifen
@@ -158,3 +150,5 @@ for line in f:
     seq = seq + line.rstrip()
 f.close()
 ```
+
+<iframe src="https://www.youtube.com/embed/lDFvU3Ieg2o?t=407" allowfullscreen></iframe>
