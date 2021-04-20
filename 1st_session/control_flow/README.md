@@ -96,4 +96,8 @@ Das Binärsystem wurde schon  im 3. Jahrhundert v. Chr. in Indien benutzt, in Eu
 |31|11111|
 |32|100000|
 
+<div class="iframe-container">
 <iframe src="https://www.youtube.com/embed/7RacxFgYNDI" allowfullscreen></iframe>
+</div>
+
+
