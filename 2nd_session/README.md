@@ -5,13 +5,11 @@ has_children: true
 permalink: /2nd_session/
 ---
 
-## 2. Session
+# 2. Session
 
-**[Youtube Tutorial zu Session](https://youtu.be/DikSQol1gFE)**
+## Mathematische Grundlagen
 
-### Grundlagen
-
-#### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
+### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
 
 ...  (auch **Vektoralgebra**) ist ein Teilgebiet der Mathematik, das sich mit Vektorräumen und linearen Abbildungen zwischen diesen beschäftigt. Dies schließt insbesondere auch die Betrachtung von linearen Gleichungssystemen und Matrizen mit ein.
 
@@ -24,11 +22,9 @@ Matrizen haben mehr als eine Dimension. Es gibt auch Operationen zwischen Matriz
 
 Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
 
-#### Begriffe aus der Informatik
+## Begriffe aus der Informatik
 
-
-
-##### **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
+### **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
 
 Es gibt verschiedene Definitionen für Algorithmen. Hier soll zunächst eine weniger "saubere", dafür zugängliche Version dargestellt werden. Im Allgemeinen können Algorithmen nicht nur von Computern ausgeführt werden, es muss sich nur um eine eindeutige Handlungsforschirft handeln, die folgende Eigenschaften besitzt:
 
@@ -61,7 +57,7 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
 [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine).
 
 
-### Crashkurs
+## Crashkurs
 
 * [*datenstrukturen.ipynb*](./crashkurs/datenstrukturen.ipynb)
 
@@ -84,7 +80,7 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
   * numpy & matplotlib
   * schallwerkzeuge
 
-### Praktisches
+## Praktisches
 
 * [Teletype für Atom](https://teletype.atom.io)
 * [Anaconda Prompt Here](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea)
