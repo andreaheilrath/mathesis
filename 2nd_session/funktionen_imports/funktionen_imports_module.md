@@ -1,3 +1,10 @@
+---
+title: Funktionen & Imports 
+parent: 2. Session
+nav_order: 3
+permalink: /2nd_session/funktionen_imports/
+---
+
 ## Vorweg etwas über Funktionen
 
 Da wir nun langsam in etwas komplexere Gefilde eintreten und gleich viele "fremde" Funktionen benutzen, hier vorab schon ein paar Hinweise zur Struktur von Funktionen.
