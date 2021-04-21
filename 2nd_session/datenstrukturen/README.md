@@ -2,7 +2,7 @@
 title: Datenstrukturen
 parent: 2. Session
 nav_order: 1
-permalink: /2st_session/datenstrukturen/
+permalink: /2nd_session/datenstrukturen/
 ---
 
 
