@@ -8,13 +8,13 @@ permalink: /2nd_session/datenstrukturen/
 
 # Datenstrukturen
 
-In Python gibt es Objekte bzw. **Datenstrukturen**, die verschiedene einfachere **Datentypen enthalten** die ihr schon kennt (`int`,` float`, `string`, ...). Im Folgenden werden wir uns diese Datenstrukturen ansehen:
+In Python gibt es Datenstrukturen, die verschiedene einfachere Datentypen enthalten die ihr schon kennt (`int`,` float`, `string`, ...). 
 
-
-    Tupel
-    Listen
-    Wörterbücher (= dictionaries)
-    Mengen
+Im Folgenden werden wir uns diese Datenstrukturen ansehen:
+* Tupel
+* Listen
+* Wörterbücher (= dictionaries)
+* (Mengen)
 
 
 **Tupel und Listen** haben bestimmte Eigenschaften, die wir auch schon bei Strings kennen gelernt haben. Man kann auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
@@ -31,16 +31,6 @@ Eine Variante, mehrere Zahlen oder Strings in ein Objekt zusammenzufassen, ist d
 tupel = (3.14, 'Katze',42) #erstelle Variable "tupel" vom Datentyp tuple
 ```
 
-
-```python
-tupel
-```
-
-
-```python
-type(tupel)
-```
-
 Anders als Listen, mit denen wir uns gleich beschäftigen werden, aber genauso wie bei Zeichenketten, kann man die **Einträge oder die Länge eines Tupels nicht nachträglich verändern ('immutable')**, man muss dazu ein neues Tupel definieren. 
 
 Auf die Einträge eines Tupels kann man wie bei Strings mit Hilfe der eckigen Klammern zugreifen, die Länge erfährt man mit Hilfe der Funktion `len`.
@@ -48,27 +38,8 @@ Auf die Einträge eines Tupels kann man wie bei Strings mit Hilfe der eckigen Kl
 
 ```python
 tupel[0]
-```
-
-
-```python
-tupel[1]
-```
-
-
-```python
-tupel[2]
-```
-
-
-```python
 len(tupel)
 ```
-
-Wie man sieht, sind die Einträge von 0 bis `len(tupel)-1` durchnummeriert.
-
-Tupel können auf beiden Seiten einer Zusweisung stehen, etwa:
-
 
 ```python
 (a, b) = (2, 3)
@@ -96,30 +67,11 @@ a, b = b, a
 print(a, b)
 ```
 
-Hier noch einige weiter Beispiele
-
-
-```python
-c, b, a = tupel
-#Achtung! Hier muessen auf der linken Seite genauso viele Variablen stehen wie das Tupel Elemente hat.
-#Ansonsten tritt ein 'ValueError' auf ...
-print(a, b, c)
-```
-
-
-```python
-print(a)
-a = "Katze"  # Neuzuweisung der Variable ist möglich
-print(a)
-```
-
-
 ```python
 tupel[1] = "Katze" # Neuzuweisung des Eintrags im Tupel ist NICHT möglich!
 ```
 
 Tupel sind - so wie strings - sogenannte **'immutable objects'** also **unveränderliche** Datenstrukturen!!
-
 Listen verhalten sich in diesem Punkt ganz anders ...
 
 ## 2. Listen
