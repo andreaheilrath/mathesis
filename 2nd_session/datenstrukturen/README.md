@@ -1,3 +1,11 @@
+---
+title: Datenstrukturen
+parent: 2. Session
+nav_order: 1
+permalink: /2st_session/datenstrukturen/
+---
+
+
 # Datenstrukturen
 
 In Python gibt es Objekte bzw. **Datenstrukturen**, die verschiedene einfachere **Datentypen enthalten** die ihr schon kennt (`int`,` float`, `string`, ...). Im Folgenden werden wir uns diese Datenstrukturen ansehen:
