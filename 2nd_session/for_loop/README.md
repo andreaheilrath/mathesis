@@ -1,3 +1,11 @@
+---
+title: for-Schleifen
+parent: 2. Session
+nav_order: 2
+permalink: /2nd_session/for_loop/
+---
+
+
 # for - Schleifen
 
 Häufig ist es nötig, mit allen Einträgen einer Liste oder eines Vektors eine Operation vorzunehmen. Dafür sind so genannte `for`-Schleifen geeignet. 
