@@ -10,12 +10,12 @@ permalink: /2nd_session/datenstrukturen/
 
 In Python gibt es Datenstrukturen, die verschiedene einfachere Datentypen enthalten die ihr schon kennt (`int`,` float`, `string`, ...). 
 
-Kürzel | Datentyp | Beispiel
---- | --- | ---
-`tuple`| Tupel | `x = (1, 2, 3)`
-`list`| Liste | `x = [1, 2, 3]`
-`dict`| Wörterbuch | `x['key'] = 1`
-`set`| Menge | `x = {'a', 'b', 'c', 'd'}`
+Kürzel | Datentyp | Zuweisung | Aufruf | elementweise Zuweisung
+--- | --- | --- | --- | ---
+`tuple`| Tupel | `x = (1, 2, 3)` | `x[0]` | -
+`list`| Liste | `x = [1, 2, 3]` | `x[0]` | `x[0] = 4`
+`dict`| Wörterbuch | `x = {"key1": 1, "key2": 2, "key3": 3}` | `x["key1"]` | `x["key1"] = 4`
+`set`| Menge | `x = {'a', 'b', 'c', 'd'}` | - | -
 
 Bei **Tupel und Listen** kann man auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
 Der Abruf von Elementen bei **Dictionaries und Mengen** erfolgt über **Keys**.
@@ -27,7 +27,7 @@ Sogenannte *immutable* (unveränderbare) Objekte können nicht mehr verändert w
 
 immutable | mutable 
 --- | --- 
-`int`, `float`, `str`, `bool`, `tuple`, | `list`,  `dict`, `set`
+`int`, `float`, `str`, `bool`, `tuple` | `list`,  `dict`, `set`
 
 
 ```python
@@ -40,113 +40,25 @@ var_tuple[0] = 2   # fuehrt zu einem TypeError - tuple sind immutable!
 var_list[0] = 2    # kein Problem, die Liste ist jetzt [2, 2, 3]
 ```
 
-
-## Funktionen von Listen
-
-Listen lassen sich im Gegensatz zu Tupeln erweitern ... z.B. mit den Funktionen `.append` und `.extend`
-```python
-kohl.append('Romanesco')  #damit wir der Liste kohl das Element 'Romanesco' angehängt.
-kohl
-```
-
-Die hinzugefügte Liste `l` ist jetzt **ein Element** der Liste `kohl`. 
-
-Wollen wir nun auf ein Element der Liste `l` zugreifen, brauchen wir einen zweiten Index - einmal den Index der Stelle an der die Liste `l` steht und dann noch den Index der Liste `l` an dem z.B. der Integer 2 steht.
-
-
-```python
-kohl[4][1]
-```
-
-Wenn wir die einzelnen Elemente der Liste `l` an die Liste `kohl` anhängen möchten, benutzen wir die Funktion `.extend`
-
-
-```python
-kohl.extend(l)
-kohl
-```
-
-
-```python
-kohl[6] # der int 2 steht jetzt auch direkt in der Liste kohl
-```
-
-
-```python
-#man kann auch Tupel in Listen umwandeln ...
-liste_aus_tupel = list(tupel)
-print(liste_aus_tupel)
-```
-
-
-```python
-l = [] # man kann auch leere Listen erstellen. Das ist manchmal praktisch!
-print(l)
-```
-
-### Hinweis 1: mutable vs immutable objects
-Die Listen-Methoden wie `extend` und
-`append` verändern eine gegebene Liste, sie liefern keinen Wert zurück.
-Im Gegensatz dazu liefern die entsprechenden String-Methoden einen neuen
-String.
-
-Ein Listenobjekt ist veränderbar, **mutable**, während Tupel, Strings, Zahlen unveränderlich, **immutable** sind.
-Der Wert einer Variablen, die auf ein  **immutable** Objekt weist, kann nur dadurch verändert werden, dass man sie **neu zuweist**.
-
-Schaut euch die unten stehenden Beispiele gut an - dieser Unterschied ist eine häufige Fehlerquelle.
-
-
-```python
-s = 'Maus'
-s.replace('a', 'i')
-print(s)
-```
-
+Vergleich von String-Methoden und Listen-Methoden
 
 ```python
 s = s.replace('a', 'i') #hier erfolgt eine Zuweisung!!
-print(s)
-```
-
-
-```python
-l = [1,2,3]
-```
-
-
-```python
 l.append(4)  #hier erfolgt keine Zuweisung!!
-print(l)
-l = l.append(5)  # ACHTUNG! DAS TUT NICHT, WAS ES SOLL
-#jede Funktion muss etwas zurückgeben - und wenn es keinen Inhalt haben soll - ist es None!
-print(l)
 ```
 
-### Hinweis 2: Listen "kopieren" ? 
 
-Weisen wir eine Liste einer neuen Variable zu, so wird die Liste nicht kopiert, sondern die **neue Variable verweist auf die selbe Liste.** Die Liste hat jetzt sozusagen mehrere Namen.
 
-Wir können also nun die Original-Liste auch unter dem neuen Namen ansprechen und verändern. Das kann gefährliche Nebenwirkungen haben, wenn man es nicht bedenkt.
+## Zugehörige Funktionen
 
+### Listen erweitern
 
 ```python
-liste1 = [2, 3, 4]
-liste2 = liste1
-print(liste1)
-print(liste2)
+kohl.append('Romanesco') 
+kohl.extend(l)
+kohl
 ```
-
-
-```python
-liste2[1] = 7  #mit dieser Operation wird das Objekt verändert, das sowohl in Variable liste1 und liste2 steht
-print(liste2)
-print(liste1)
-```
-
-Wird eine **Kopie einer Liste** benötigt, die nichts mehr mit der ursprünglichen Liste zu tun hat, hilft das Modul `copy`. 
-
-Dabei erzeugt die Funktion `copy.deepcopy`  ein volle Kopie, bei der auch in Listen verschachtelte Listen kopiert werden, während `copy.copy` nur die äußere Liste kopiert, aber eventuelle innere Listen dieselben bleiben.
-
+### Listen kopieren
 
 ```python
 from copy import deepcopy
@@ -158,11 +70,14 @@ print(liste1)
 ```
 
 
+### Typumwandlung
+
 ```python
-liste3 = deepcopy(liste1)
-print(liste1 == liste3)
-print(liste1 is liste3)
+#man kann auch Tupel in Listen umwandeln ...
+liste_aus_tupel = list(tupel)
+print(liste_aus_tupel)
 ```
+
 
 ### Zugehörigkeit
 
@@ -197,17 +112,9 @@ print(l[8:])
 print(l[:-3])
 print(l[-5::-1])
 print(l[::])
-```
-
-
-```python
 l[1::2] = [0, 0, 0, 0, 0]  #hier findet eine Neuzuweisung statt!
 ```
 
-
-```python
-l
-```
 
 Da Listen der wohl wichtigste Datentyp in Python sind, hier eine Übersicht der Listen-Methoden (dabei sei `l` eine Liste). 
 
@@ -220,24 +127,16 @@ Darin bezeichnen die eckigen Klammern in den Argumenten der Funktionen ”option
     del l[i:j:k]                           entfernt die Elemente l[i:j:k] aus der Liste      
     l.append(x)                            dasselbe wie l[len(l):len(l)] = [x] 
     l.extend(x)                            dasselbe wie l[len(l):len(l)] = x 
-    l.count(x)                             gibt die Anzahl der i‘s mit l[i] == x zurück    
-    l.index(x[, i[, j]])                   gibt das kleinste k zurück mit l[k] == x und i <= k < j
     l.insert(i, x)                         dasselbe wie l[i:i] = [x]  
-    l.pop(i)                               dasselbe wie x = l[i]; del l[i]; return x 
-    l.pop()                                dasselbe wie pop(len(l)-1)
     l.remove(x )                           dasselbe wie del l[l.index(x)]   
     l.reverse()                            kehrt die Reihenfolge der Elemente von l um 
     l.sort([cmp[, key[, reverse]]])        sortiert die Elemente von l
 
-Durch `sum(l)` erhält man die Summe der Elemente der Liste, wenn diese
-definiert ist. Bei lauter Zahlen wäre das die gewöhnliche Summe, bei
-Strings die Aneinanderkettung aller Strings.
+Durch `sum(l)` erhält man die Summe der Elemente der Liste, wenn diese definiert ist. 
+Bei lauter Zahlen wäre das die gewöhnliche Summe, bei Strings die Aneinanderkettung aller Strings.
 
-Sehr nützlich ist es, zu wissen, wie man eine Funktion auf jedes Element
-einer Liste anwenden kann: Wenn `f` eine Funktion ist und
-`l=[a_0,a_1,..., a_n]` eine Liste von Objekten, für die diese
-Funktion definiert ist, so liefert `list(map(f,l))` die Liste
-`[f(a_0),f(a_1),...,f(a_n)]`.'
+Sehr nützlich ist es, zu wissen, wie man eine Funktion auf jedes Element einer Liste anwenden kann: 
+Wenn `f` eine Funktion ist und `l=[a_0,a_1,..., a_n]` eine Liste von Objekten, für die diese Funktion definiert ist, so liefert `list(map(f,l))` die Liste `[f(a_0),f(a_1),...,f(a_n)]`.'
 
 ### Listen aus Strings
 
