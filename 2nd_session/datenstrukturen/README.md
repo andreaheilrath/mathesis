@@ -18,6 +18,12 @@ Kürzel | Datentyp | Beispiel
 `set`| Menge | `x = {'a', 'b', 'c', 'd'}`
 
 
+## mutable vs. immutable
+
+immutable | mutable 
+--- | --- 
+`int`, `float`, `str`, `bool`, `tuple`, | `list`,  `dict`, `set`
+
 
 **Tupel und Listen** haben bestimmte Eigenschaften, die wir auch schon bei Strings kennen gelernt haben. Man kann auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
 
