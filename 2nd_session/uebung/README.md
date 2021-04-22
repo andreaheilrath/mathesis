@@ -1,9 +1,9 @@
-**Name:**
-
-**Gruppenpartner:**
-
-**Hier** ist Platz für **Hinweise von euch!**
-
+---
+title: Übung
+parent: 2. Session
+nav_order: 4
+permalink: /2nd_session/uebung/
+---
 
 # 2. Übung
 
