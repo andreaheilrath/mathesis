@@ -17,130 +17,35 @@ Kürzel | Datentyp | Beispiel
 `dict`| Wörterbuch | `x['key'] = 1`
 `set`| Menge | `x = {'a', 'b', 'c', 'd'}`
 
+Bei **Tupel und Listen** kann man auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
+Der Abruf von Elementen bei **Dictionaries und Mengen** erfolgt über **Keys**.
 
 ## mutable vs. immutable
+
+Sogenannte *immutable* (unveränderbare) Objekte können nicht mehr verändert werden, nachdem sie einmal in eine Variable gespeichert wurden.
+*Mutables* dagegen, können im Verlauf verschiedene Werte beinhalten.
 
 immutable | mutable 
 --- | --- 
 `int`, `float`, `str`, `bool`, `tuple`, | `list`,  `dict`, `set`
 
 
-**Tupel und Listen** haben bestimmte Eigenschaften, die wir auch schon bei Strings kennen gelernt haben. Man kann auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
-
-Der Abruf von Elementen bei **Dictionaries und Mengen** funktioniert über sogenannte **Keys** ... dazu unten mehr.
-
-
-## 1. Tupel
-
-Eine Variante, mehrere Zahlen oder Strings in ein Objekt zusammenzufassen, ist die Erstellung eineseines Tupels (`type tuple`)
-
-
 ```python
-tupel = (3.14, 'Katze',42) #erstelle Variable "tupel" vom Datentyp tuple
-```
+var_tuple = (1, 2, 3)
+var_list = [1, 2, 3]
 
-Anders als Listen, mit denen wir uns gleich beschäftigen werden, aber genauso wie bei Zeichenketten, kann man die **Einträge oder die Länge eines Tupels nicht nachträglich verändern ('immutable')**, man muss dazu ein neues Tupel definieren. 
+print(var_tuple[0], var_list[0]) #ergibt beides die Ausgabe 1
 
-Auf die Einträge eines Tupels kann man wie bei Strings mit Hilfe der eckigen Klammern zugreifen, die Länge erfährt man mit Hilfe der Funktion `len`.
-
-
-```python
-tupel[0]
-len(tupel)
-```
-
-```python
-(a, b) = (2, 3)
+var_tuple[0] = 2   # fuehrt zu einem TypeError - tuple sind immutable!
+var_list[0] = 2    # kein Problem, die Liste ist jetzt [2, 2, 3]
 ```
 
 
-```python
-print(a, b)
-```
-
-Dabei kann man die Klammern auch weglassen:
-
-
-```python
-a, b = (2, 3)
-a, b = 2, 3
-```
-
-Dadurch ist auch ein Variablentausch ohne Hilfsvariable möglich:
-
-
-```python
-print(a, b)
-a, b = b, a
-print(a, b)
-```
-
-```python
-tupel[1] = "Katze" # Neuzuweisung des Eintrags im Tupel ist NICHT möglich!
-```
-
-Tupel sind - so wie strings - sogenannte **'immutable objects'** also **unveränderliche** Datenstrukturen!!
-Listen verhalten sich in diesem Punkt ganz anders ...
-
-## 2. Listen
-
-Andere Variablentypen, die wir benötigen werden, sind Listen. Auf Elemente von Listen kann man wie bei Strings und Tupeln zugreifen. 
-
-Im Gegensatz zu **Tupeln**, die mit **runden Klammern** initialisiert werden
-
-    tuple = (wert1, wert2, wert3)
-
-wird eine **Liste** mit **eckigen Klammern** initialisiert:
-
-    liste = [wert1, wert2, wert3]
-
-Das sieht fast gleich aus ... macht aber einen riesigen Unterschied!
-
-
-```python
-kohl = ["Weißkohl", "Rotkohl", "Wirsing"]
-```
-
-
-```python
-kohl
-```
-
-
-```python
-print(kohl[0])
-print(kohl[2])
-print(kohl[-1])  # von hinten gezählt!
-print(len(kohl))
-```
-
-
-```python
-#Listen sind mutable! Das was oben schief ging, klappt hier einfach
-kohl[1] = "Manipulierter Rotkohl"
-```
-
-
-```python
-kohl
-```
+## Funktionen von Listen
 
 Listen lassen sich im Gegensatz zu Tupeln erweitern ... z.B. mit den Funktionen `.append` und `.extend`
-
-
 ```python
 kohl.append('Romanesco')  #damit wir der Liste kohl das Element 'Romanesco' angehängt.
-kohl
-```
-
-Listen können alles mögliche enthalten... auch Listen! 
-
-Zunächst ein Beispiel, in dem wir als neues Element der Liste `kohl` die Liste `[1,2,3]` anhängen.
-
-
-```python
-l = [1, 2, 3]
-kohl.append(l)
 kohl
 ```
 
