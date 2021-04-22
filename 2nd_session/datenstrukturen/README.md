@@ -10,11 +10,13 @@ permalink: /2nd_session/datenstrukturen/
 
 In Python gibt es Datenstrukturen, die verschiedene einfachere Datentypen enthalten die ihr schon kennt (`int`,` float`, `string`, ...). 
 
-Im Folgenden werden wir uns diese Datenstrukturen ansehen:
-* Tupel
-* Listen
-* Wörterbücher (= dictionaries)
-* (Mengen)
+Kürzel | Datentyp | Beispiel
+--- | --- | ---
+`tuple`| Tupel | `x = (1, 2, 3)`
+`list`| Liste | `x = [1, 2, 3]`
+`dict`| Wörterbuch | `x['key'] = 1`
+`set`| Menge | `x = {'a', 'b', 'c', 'd'}`
+
 
 
 **Tupel und Listen** haben bestimmte Eigenschaften, die wir auch schon bei Strings kennen gelernt haben. Man kann auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
