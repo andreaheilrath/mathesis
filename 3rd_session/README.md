@@ -5,13 +5,25 @@ has_children: true
 permalink: /3rd_session/
 ---
 
-## 3. Session
+# 3. Session
 
 **[Youtube Tutorial zu Session](https://youtu.be/XQ4nDt_m0Jw)**
 
-### Grundlagen
+## Grundlagen
 
-#### Rekursion
+### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
+
+...  (auch **Vektoralgebra**) ist ein Teilgebiet der Mathematik, das sich mit Vektorräumen und linearen Abbildungen zwischen diesen beschäftigt. Dies schließt insbesondere auch die Betrachtung von linearen Gleichungssystemen und Matrizen mit ein.
+
+Vektoren und Matrizen sind mehrere Zahlen, die in ein Format zusammengefasst werden: (x, y, z) kann z. B. Koordinaten der drei Raumachsen bezeichnen.
+Matrizen haben mehr als eine Dimension. Es gibt auch Operationen zwischen Matrizen und Vektoren - etwa die Multiplikation:
+
+$$ \left( \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right) * \begin{pmatrix} x \\ y \\ z \end{pmatrix} =  \begin{pmatrix}  1 x + 2 y + 3 z \\  4 x + 5 y + 6 z \\ 7 x + 8 y + 8 z \end{pmatrix}  $$
+
+Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
+
+
+### Rekursion
 
 Bei der [rekursiven Programmierung](https://de.wikipedia.org/wiki/Rekursive_Programmierung) ruft sich eine Prozedur, Funktion oder Methode in einem Computerprogramm selbst wieder auf. Es gibt viele Probleme, deren rekursive Formulierung besonders verständlich ist. Allerdings lässt sich, wer rekursiv programmiert, darauf ein, den genauen Ablauf der Ausführung schwer zu durchschauen. 
 
@@ -43,7 +55,7 @@ Man nehme einen Papierstreifen und falte ihn in der Mitte, sodass sich seine Lä
 
 Diese Anleitung lässt sich ebenfalls rekursiv auffassen. Siehe dazu auch die Aufgabe in der Übung.
 
-### Crashkurs
+## Crashkurs
 
 * *[funktionen.ipynb](./crashkurs/funktionen.ipynb)*
   * Definition
