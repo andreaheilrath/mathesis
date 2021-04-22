@@ -23,7 +23,7 @@ Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleine
 2st_Session.zip
 
 
-## Mathematische Grundlagen
+## Verschiedene Grundlagen
 
 ### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
 
@@ -36,7 +36,6 @@ $$ \left( \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right
 
 Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
 
-## Begriffe aus der Informatik
 
 ### **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
 
@@ -52,6 +51,7 @@ Es gibt verschiedene Definitionen für Algorithmen. Hier soll zunächst eine wen
 
 Die mathematisch korrekte Definition basiert auf dem Konzept der [Berechenbarkeit](https://de.wikipedia.org/wiki/Berechenbarkeit) und dem Modell der [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine). Dazu später mehr.
 
+### Laufzeit von Algorithmen
 
 Der Begriff [Laufzeit](https://de.wikipedia.org/wiki/Laufzeit_(Informatik)) beschreibt in der Informatik die Zeitdauer, die ein Programm zur Bewältigung einer Aufgabe benötigt.
 
@@ -65,6 +65,7 @@ Der Algorithmus [Bubble Sort](https://de.wikipedia.org/wiki/Bubblesort) schneide
 
 Hier findet ihr Videos zur Visualisierung verschiedener Sortieralgorithmen: [Plot](https://youtu.be/ZZuD6iUe3Pc) und [ungarischer Volkstanz](https://youtu.be/ywWBy6J5gz8)
 
+### Das Halteproblem
 Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus überhaupt zu einem Ende gelangt. Diese Fragestellung ist in der Informatik als [Halteproblem](https://de.wikipedia.org/wiki/Halteproblem) bekannt.
 
 [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing) gelang der Beweis, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet. Wie viele theoretische Betrachtungen, wurde der Beweis anhand einer *abstrakten Maschine* vollzogen - die bekannteste ist die von Turing selbst entworfene
