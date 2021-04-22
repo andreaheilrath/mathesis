@@ -7,6 +7,22 @@ permalink: /2nd_session/
 
 # 2. Session
 
+
+Du lernst in dieser Einheit etwas über 
+
+* Datenstrukturen: Tupel, Listen, Wörterbücher und Mengen
+* Bedingungen: if, elif, else & while, Boolesche Variablen und Vergleiche
+* Funktionen und Imports (numpy, matplotlib, schallwerkzeuge)
+
+
+## Dateien zum Download
+
+Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien) sind in einer ZIP-Datei zusammengefasst.
+Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleiner Guide.
+
+2st_Session.zip
+
+
 ## Mathematische Grundlagen
 
 ### [Lineare Algebra](https://de.wikipedia.org/wiki/Lineare_Algebra)
@@ -16,9 +32,7 @@ permalink: /2nd_session/
 Vektoren und Matrizen sind mehrere Zahlen, die in ein Format zusammengefasst werden: (x, y, z) kann z. B. Koordinaten der drei Raumachsen bezeichnen.
 Matrizen haben mehr als eine Dimension. Es gibt auch Operationen zwischen Matrizen und Vektoren - etwa die Multiplikation:
 
-    1 2 3       x       1*x + 2*y + 3*z
-    4 5 6   *   y   =   4*x + 5*y + 6*z
-    7 8 9       z       7*x + 8*y + 8*z
+$$ \left( \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right) * \begin{pmatrix} x \\ y \\ z \end{pmatrix} =  \begin{pmatrix}  1*x + 2*y + 3*z \\  4*x + 5*y + 6*z \\ 7*x + 8*y + 8*z \end{pmatrix}  $$
 
 Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
 
@@ -55,30 +69,6 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
 
 [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing) gelang der Beweis, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet. Wie viele theoretische Betrachtungen, wurde der Beweis anhand einer *abstrakten Maschine* vollzogen - die bekannteste ist die von Turing selbst entworfene
 [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine).
-
-
-## Crashkurs
-
-* [*datenstrukturen.ipynb*](./crashkurs/datenstrukturen.ipynb)
-
-  * Tupel
-  * Listen
-  * Dictionaries
-  * (Mengen)
-
-* [*for_schleifen_iteratoren.ipynb*](./crashkurs/for_schleifen_iteratoren.ipynb)
-
-  * for-Schleifen
-  * range
-  * Generatoren
-  * List Comprehensions
-
-* [*funktionen_imports_module.ipynb*](./crashkurs/funktionen_imports_module.ipynb)
-
-  * Funktionen (intro)
-  * Verschiedene Formen des Imports
-  * numpy & matplotlib
-  * schallwerkzeuge
 
 ## Praktisches
 
