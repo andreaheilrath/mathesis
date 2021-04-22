@@ -32,7 +32,7 @@ Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleine
 Vektoren und Matrizen sind mehrere Zahlen, die in ein Format zusammengefasst werden: (x, y, z) kann z. B. Koordinaten der drei Raumachsen bezeichnen.
 Matrizen haben mehr als eine Dimension. Es gibt auch Operationen zwischen Matrizen und Vektoren - etwa die Multiplikation:
 
-$$ \left( \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right) * \begin{pmatrix} x \\ y \\ z \end{pmatrix} =  \begin{pmatrix}  1*x + 2*y + 3*z \\  4*x + 5*y + 6*z \\ 7*x + 8*y + 8*z \end{pmatrix}  $$
+$$ \left( \begin{matrix} 1 & 2 & 3 \\ 4 & 5 & 6 \\ 7 & 8 & 9 \end{matrix} \right) * \begin{pmatrix} x \\ y \\ z \end{pmatrix} =  \begin{pmatrix}  1 x + 2 y + 3 z \\  4 x + 5 y + 6 z \\ 7 x + 8 y + 8 z \end{pmatrix}  $$
 
 Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleichungssysteme beschreiben. Es gibt aber auch verschiedene andere Anwendungen für Lineare Algebra, z. B. die Transformation (Drehung, Stauchung, ...) von Koordinaten in Räumen.
 
