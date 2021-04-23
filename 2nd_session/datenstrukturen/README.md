@@ -97,16 +97,10 @@ print(l[1::2]) # [2, 4, 6, 8, 10]
 ```
 
 
-## 3. Wörterbücher
-
+## Wörterbücher
 
 **Wörterbücher** oder **Dictionaries** sind ein praktischer Datentyp, um irgendwelchen Daten (*keys*) irgendwelche
 anderen Daten zuzuordnen (*values*). 
-
-```python
-wb = {key1:value1, key2:value2, key3:value3} 
-wb[key4]=value4`
-```
 
 ```python
 wb = {} 
@@ -116,57 +110,20 @@ wb["cat"] ="Katze"
 ```
 
 ```python
-list(wb.keys()) #damit bekommt man eine Liste aller keys aus dem dictionary
+list(wb.keys())    # damit bekommt man eine Liste aller keys aus dem dictionary
+"cat" in wb        # True, da "cat" ein Key des Wörterbuchs ist
+"Katze" in wb       # False, da "Katze" KEIN Key des Wörterbuchs ist - "Katze" taucht nur als Value auf
 ```
 
-
-Als **Keys** kommen Strings, ganze Zahlen, Bruchzahlen, Tupel von solchen und Objekte anderer grundlegender Datentypen in Frage (aber beispielsweise keine Listen.)
-
-Ob ein gewisser **Key** im Wörterbuch vorkommt, lässt sich so abfragen:
-
-
-```python
-"cat" in wb # True, da "cat" ein Key des Wörterbuchs ist
-```
-
-
-```python
-"Katze" in wb # False, da "Katze" KEIN Key des Wörterbuchs ist - "Katze" taucht nur als Value auf
-```
-
-## 4. Mengen (Zusatz)
+## Mengen (Zusatz)
 
 Python kennt außer Listen auch Mengen. Eine Menge kann man entweder durch die Auflistung der Elemente in Mengenklammern angeben oder, indem man die den Typ umwandelnde Funktion `set` auf eine Menge anwendet. Mengen sind nicht geordnet, jedes Element kommt nur einmal vor. Die üblichem Mengenoperationen (Vereinigung, Schnitt, Differenz) sind verfügbar.   
-
-Wie bei Listen prüft man mit `in`, ob ein Objekt Element einer Menge ist. Mit $<=$, $>=$ prüft man, ob eine Menge Teilmenge, bzw. Obermenge ist, mit $<$, $>$, ob es sich um eine echte Teilmenge / Obermenge handelt.
-
-Im Folgenden einige Beispiele zu den Operationen mit Mengen.
-
 
 ```python
 set1 = {'a', 'b', 'c', 'd'}  #Initialisierung mit geschweiften Klammern - ohne ':' für Verknüpfung wie bei dicts
 set2 = set(['a', 'b', 'e', 'e'])
-print(set1)
-print(set2)
-```
 
-
-```python
-print("Difference ")
-print(set1.difference(set2))
-#print(set1-set2)  # alternative Kurzschreibweise
-```
-
-
-```python
-print("Union")
-print(set1.union(set2))
-#print(set1 | set2)  # alternative Kurzschreibweise
-```
-
-
-```python
-print("Intersection")
-print(set1.intersection(set2))
-#print(set1 & set2)  # alternative Kurzschreibweise
+print("difference", set1.difference(set2))            # print(set1-set2)  # alternative Kurzschreibweise
+print("union", set1.union(set2))                      # print(set1 | set2)  # alternative Kurzschreibweise
+print("intersection", print(set1.intersection(set2))  # print(set1 & set2)  # alternative Kurzschreibweise
 ```
