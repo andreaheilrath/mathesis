@@ -7,9 +7,9 @@ permalink: /2nd_session/grundbegriffe/
 
 # Grundbegriffe aus der Informatik
 
-## **Was ist eigentlich ein [Algorithmus](https://de.wikipedia.org/wiki/Algorithmus)?**
+## Was ist eigentlich ein Algorithmus?
 
-Es gibt verschiedene Definitionen für Algorithmen. Hier soll zunächst eine weniger "saubere", dafür zugängliche Version dargestellt werden. Im Allgemeinen können Algorithmen nicht nur von Computern ausgeführt werden, es muss sich nur um eine eindeutige Handlungsforschirft handeln, die folgende Eigenschaften besitzt:
+Es gibt verschiedene Definitionen für [Algorithmen](https://de.wikipedia.org/wiki/Algorithmus). Hier soll zunächst eine weniger "saubere", dafür zugängliche Version dargestellt werden. Im Allgemeinen können Algorithmen nicht nur von Computern ausgeführt werden, es muss sich nur um eine eindeutige Handlungsforschirft handeln, die folgende Eigenschaften besitzt:
 
 1. **Eindeutigkeit**: ein Algorithmus darf keine widersprüchliche Beschreibung haben. Diese muss eindeutig sein.
 2. **Ausführbarkeit**: jeder Einzelschritt muss ausführbar sein.
