@@ -14,11 +14,9 @@ Kürzel | Datentyp | Zuweisung | Aufruf | elementweise Zuweisung
 --- | --- | --- | --- | ---
 `tuple`| Tupel | `x = (1, 2, 3)` | `x[0]` | -
 `list`| Liste | `x = [1, 2, 3]` | `x[0]` | `x[0] = 4`
-`dict`| Wörterbuch | `x = {"key1": 1, "key2": 2, "key3": 3}` | `x["key1"]` | `x["key1"] = 4`
+`dict`| Wörterbuch | `x = {"key1": 1, 42 : 2, "key3": 3}` | `x["key1"]` | `x["key1"] = 4`
 `set`| Menge | `x = {'a', 'b', 'c', 'd'}` | - | -
 
-Bei **Tupel und Listen** kann man auf die einzelnen Einträge mit **Indizes** zugreifen und sie erlauben **Slicing**.
-Der Abruf von Elementen bei **Dictionaries und Mengen** erfolgt über **Keys**.
 
 ## mutable vs. immutable
 
@@ -48,16 +46,20 @@ l.append(4)  #hier erfolgt keine Zuweisung!!
 ```
 
 
+## Mehr zu Listen
 
-## Zugehörige Funktionen
-
-### Listen erweitern
+### Listen verändern
 
 ```python
-kohl.append('Romanesco') 
-kohl.extend(l)
-kohl
+l.append('Romanesco') 
+l.extend(l)
+l.remove(x)   
+del l[i:j]
+l[i:j:k] = t                           die Elemente von l[i:j:k] werden durch die von t ersetzt    
+l.insert(i, x)                         dasselbe wie l[i:i] = [x]  
 ```
+
+
 ### Listen kopieren
 
 ```python
@@ -69,14 +71,37 @@ print(liste2)
 print(liste1)
 ```
 
+Durch `sum(l)` erhält man die Summe der Elemente der Liste, wenn diese definiert ist. 
+Bei lauter Zahlen wäre das die gewöhnliche Summe, bei Strings die Aneinanderkettung aller Strings.
 
-### Typumwandlung
+Sehr nützlich ist es, zu wissen, wie man eine Funktion auf jedes Element einer Liste anwenden kann: 
+Wenn `f` eine Funktion ist und `l=[a_0,a_1,..., a_n]` eine Liste von Objekten, für die diese Funktion definiert ist, so liefert `list(map(f,l))` die Liste `[f(a_0),f(a_1),...,f(a_n)]`.'
+
+
+
+### Listen aus Tuplen
 
 ```python
 #man kann auch Tupel in Listen umwandeln ...
 liste_aus_tupel = list(tupel)
 print(liste_aus_tupel)
 ```
+
+### Listen aus Strings
+
+Eine Operation, die einen String in eine Liste von Strings umwandelt, soll noch erwähnt werden. Mit ihrer Hilfe bricht man
+einen String an gewissen Trennzeichen in eine Liste von Strings auf.
+
+```python
+s = 'Hund,Katze,Maus'
+s.split(',')
+```
+
+```python
+l = ['Hund', 'Katze', 'Maus']
+' und '.join(l)
+```
+
 
 
 ### Zugehörigkeit
@@ -115,55 +140,6 @@ print(l[::])
 l[1::2] = [0, 0, 0, 0, 0]  #hier findet eine Neuzuweisung statt!
 ```
 
-
-Da Listen der wohl wichtigste Datentyp in Python sind, hier eine Übersicht der Listen-Methoden (dabei sei `l` eine Liste). 
-
-Darin bezeichnen die eckigen Klammern in den Argumenten der Funktionen ”optionale” Argumente, die man weglassen kann.
-
-    l[i] = x                               Element i von l durch x ersetzen      
-    l[i:j] = t                             "slice" von l von i bis j wird durch  t ersetzt     
-    del l[i:j]                             dasselbe wie l[i:j] = []    
-    l[i:j:k] = t                           die Elemente von l[i:j:k] werden durch die von t ersetzt     
-    del l[i:j:k]                           entfernt die Elemente l[i:j:k] aus der Liste      
-    l.append(x)                            dasselbe wie l[len(l):len(l)] = [x] 
-    l.extend(x)                            dasselbe wie l[len(l):len(l)] = x 
-    l.insert(i, x)                         dasselbe wie l[i:i] = [x]  
-    l.remove(x )                           dasselbe wie del l[l.index(x)]   
-    l.reverse()                            kehrt die Reihenfolge der Elemente von l um 
-    l.sort([cmp[, key[, reverse]]])        sortiert die Elemente von l
-
-Durch `sum(l)` erhält man die Summe der Elemente der Liste, wenn diese definiert ist. 
-Bei lauter Zahlen wäre das die gewöhnliche Summe, bei Strings die Aneinanderkettung aller Strings.
-
-Sehr nützlich ist es, zu wissen, wie man eine Funktion auf jedes Element einer Liste anwenden kann: 
-Wenn `f` eine Funktion ist und `l=[a_0,a_1,..., a_n]` eine Liste von Objekten, für die diese Funktion definiert ist, so liefert `list(map(f,l))` die Liste `[f(a_0),f(a_1),...,f(a_n)]`.'
-
-### Listen aus Strings
-
-Eine Operation, die einen String in eine Liste von Strings umwandelt, soll noch erwähnt werden. Mit ihrer Hilfe bricht man
-einen String an gewissen Trennzeichen in eine Liste von Strings auf.
-
-Das ist ungemein nützlich zum Einlesen von Tabellen oder zum Zerlegen von Nutzereingaben.
-
-
-```python
-s = 'Hund,Katze,Maus'
-s.split(',')
-```
-
-
-```python
-s = 'Hund        Katze  Maus'
-s.split()
-```
-
-Eine Umkehrung dieser Operation liefert `join`:
-
-
-```python
-l = ['Hund', 'Katze', 'Maus']
-' und '.join(l)
-```
 
 ## 3. Wörterbücher
 
