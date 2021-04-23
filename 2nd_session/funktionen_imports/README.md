@@ -51,12 +51,14 @@ Damit ist es möglich, Matrizen, Vektoren, Tensoren als so genannte Arrays zu de
 
 
 ```python
-A = np.zeros((2,3)) # numpy macht aus Listen und Tupeln Matrizen!
 B = np.array([[1, 2, 3], [4, 5, 6]])
-v = np.array([1.0, 3.0, 5.0]) #man kann auch einen leeren Vektor einer gewissen "shape" erstellen
+A = np.zeros((2,3))
+v = np.array([1.0, 3.0, 5.0])
 ```
 
-`A` ist dann eine $2\times 3$-Matrix, die Nullen (als Fließkommazahlen) enthält, `B` ist eine solche Matrix, die in der ersten Zeile $1,2,3$, sowie in der zweiten $4,5,6$ enthält. `v` ist ein Vektor, dessen 3 Einträge 1.0, 3.0 und 5.0 sind.
+* `B` ist eine solche Matrix, die in der ersten Zeile $1,2,3$, sowie in der zweiten $4,5,6$ enthält.
+* `A` ist eine $2\times 3$-Matrix, die Nullen (als Fließkommazahlen) enthält.
+* `v` ist ein Vektor, dessen 3 Einträge 1.0, 3.0 und 5.0 sind.
 
 ### matplotlib
 
@@ -71,30 +73,11 @@ x_werte = [0, 1, 2, 3, 4, 5]
 y_werte1 = [0, 0, 2, 2, 4, 4]
 y_werte2 = [3, 3, 1, 1, 0, 0]
 
-plt.clf()
 plt.scatter(x_werte,y_werte1) #erzeugt punkte
 plt.plot(x_werte,y_werte1) #erzeugt verbindungslinien
 plt.scatter(x_werte,y_werte2, marker = "x") #erzeugt kreuze
 plt.plot(x_werte,y_werte2) #erzeugt verbindungslinien
 plt.show()
-```
-
-### Fortgeschrittenes Beispiel: Funktion zum Plotten einer Funktion
-
-```python
-from matplotlib import pyplot as plt
-import numpy as np
-
-def plotfunction(f, x0, x1):
-    x = np.linspace(x0, x1, 1000)
-    y = f(x)
-    plt.figure()
-    plt.plot(x, y)
-    plt.show()
-
-plotfunction(np.sin, -10, 10)
-plotfunction(np.cos, -10, 10)
-plotfunction(np.arctan, -100, 100)
 ```
 
 ## Schall
