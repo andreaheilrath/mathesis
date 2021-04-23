@@ -374,6 +374,6 @@ Schreibe ein Programm, das eine Regel als Zahl 0 bis 255 einliest und die Entwic
 
 Die Anfangspopulation kann zufällig belegt werden. Hierfür bietet sich `random.random()` aus dem Modul `random` an, welches (Pseudo-)Zufallszahlen von 0.0 bis (ausschließlich) 1.0 liefert.
 
-Verschiedene Regeln ergeben verschiedene Verläufe https://en.wikipedia.org/wiki/Elementary_cellular_automaton
+Verschiedene Regeln ergeben verschiedene Verläufe [https://en.wikipedia.org/wiki/Elementary_cellular_automaton](https://en.wikipedia.org/wiki/Elementary_cellular_automaton)
 
-Erklärung in *The Nature of Code* https://natureofcode.com/book/chapter-7-cellular-automata/
+Erklärung in [The Nature of Code](https://natureofcode.com/book/chapter-7-cellular-automata/)
