@@ -28,7 +28,8 @@ def flaeche(a, b):
 
 Form des Imports | Abruf der Funktionen | guter Stil?
 --- | --- | ---
-`from math import * ` oder `from math import sin, cos` | `sin(pi)` | in speziellen Fällen
+`from math import * ` oder
+`from math import sin, cos` | `sin(pi)` | in speziellen Fällen
 `import math` | `math.sin(math.pi)` | ja
 `import math as m` | `m.sin(m.pi)` | ja
 
