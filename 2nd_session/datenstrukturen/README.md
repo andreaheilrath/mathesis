@@ -46,7 +46,6 @@ l.append(4)             # append verändert die Liste l direkt
 
 ## Mehr zu Listen
 
-
 [Python List Methods](https://www.w3schools.com/python/python_ref_list.asp)
 
 Operation | Effekt
@@ -62,65 +61,39 @@ Operation | Effekt
 `list(map(f,l))` | wendet die Funktion `f` auf alle Einträge von `l` an.
 
 
-### Listen aus Tuplen
+### Listen aus Tupeln
 
 ```python
-#man kann auch Tupel in Listen umwandeln ...
 liste_aus_tupel = list(tupel)
-print(liste_aus_tupel)
 ```
 
-### Listen aus Strings
-
-Eine Operation, die einen String in eine Liste von Strings umwandelt, soll noch erwähnt werden. Mit ihrer Hilfe bricht man
-einen String an gewissen Trennzeichen in eine Liste von Strings auf.
+### Listen aus Strings und andersrum
 
 ```python
 s = 'Hund,Katze,Maus'
-s.split(',')
+wortliste = s.split(',') # hier wir die Liste ['Hund', 'Katze', 'Maus'] erzeugt
+','.join(wortliste)      # stellt den ursprünglichen String wieder her
 ```
-
-```python
-l = ['Hund', 'Katze', 'Maus']
-' und '.join(l)
-```
-
-
 
 ### Zugehörigkeit
 
 Die Zugehörigkeit zu einer Liste prüft man mit `in`:
 
-
 ```python
-print(kohl)
-print("Wirsing" in kohl)
-print("Kartoffel" in kohl)
-print([1, 2] in kohl)
-print([1, 2, 3] in kohl)
+l = [1, 2, 3]
+print(1 in l) # True
+print(8 in l) # False
 ```
 
 ### Slicing
 
-Wichtig sind noch Ausdrücke, die einen Teil einer Liste liefern. Ist `l` eine Liste, so liefert `l[a:e]` die Liste aller Einträge von `l` mit Index $i$, wobei $a\leq i<e$. Beachte die Zeichen $\leq$ und $<$! 
-
-Lässt man $a$ oder $e$ weg, so fällt die enstprechende Bedingung weg, also liefert `l[:e]` alle Einträge von `l` mit Index kleiner e, sowie `l[a:]` alle Einträge von $l$ mit Index $\geq a$. 
-
-Wollen Sie in einem solchen Indexbereich nur jedes $s.$ Zeichen, so schreiben Sie `l[a:e:s]`.
-
-
 ```python
 l = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-```
 
-
-```python
-print(l[2:7])
-print(l[8:])
-print(l[:-3])
-print(l[-5::-1])
-print(l[::])
-l[1::2] = [0, 0, 0, 0, 0]  #hier findet eine Neuzuweisung statt!
+print(l[2:7])  # [3, .., 7]
+print(l[8:])   # [9, 10]
+print(l[:-3])  # [8, 9, 10]
+print(l[1::2]) # [2, 4, 6, 8, 10]
 ```
 
 
@@ -130,14 +103,10 @@ l[1::2] = [0, 0, 0, 0, 0]  #hier findet eine Neuzuweisung statt!
 **Wörterbücher** oder **Dictionaries** sind ein praktischer Datentyp, um irgendwelchen Daten (*keys*) irgendwelche
 anderen Daten zuzuordnen (*values*). 
 
-Ein Wörterbuch wird durch geschwungene Klammern gekennzeichnet und kann folgendermaßen angelegt:
-
-    wb = {key1:value1, key2:value2, key3:value3} 
-    wb = {}
-
-Nun kann man durch `wb[key1]=value1` ein Paar `key1:value1` dem Wörterbuch hinzufügen, durch `wb[key2]=value2`
-ein weiteres Paar `key2:value2`, etc. Durch `w[key1]` erhält man anschließend den Wert `value1`, etc. Ein Beispiel:
-
+```python
+wb = {key1:value1, key2:value2, key3:value3} 
+wb[key4]=value4`
+```
 
 ```python
 wb = {} 
@@ -146,29 +115,10 @@ wb["black"] = "schwarz"
 wb["cat"] ="Katze"
 ```
 
-
-```python
-wb["cat"]
-```
-
-
 ```python
 list(wb.keys()) #damit bekommt man eine Liste aller keys aus dem dictionary
 ```
 
-
-```python
-wb["pi"] = 3.1415
-wb[3] = ["drei","vier"]
-wb[1.23] = [42]
-print(wb)
-```
-
-
-```python
-wb[3].append('Ratte')
-print(wb)
-```
 
 Als **Keys** kommen Strings, ganze Zahlen, Bruchzahlen, Tupel von solchen und Objekte anderer grundlegender Datentypen in Frage (aber beispielsweise keine Listen.)
 
@@ -186,9 +136,7 @@ Ob ein gewisser **Key** im Wörterbuch vorkommt, lässt sich so abfragen:
 
 ## 4. Mengen (Zusatz)
 
-Python kennt außer Listen auch Mengen. Eine Menge kann man entweder durch die Auflistung der Elemente in Mengenklammern angeben oder, indem man die den Typ umwandelnde Funktion `set` auf eine Menge anwendet.
-
-Mengen sind nicht geordnet, jedes Element kommt nur einmal vor. Die üblichem Mengenoperationen (Vereinigung, Schnitt, Differenz) sind verfügbar.   
+Python kennt außer Listen auch Mengen. Eine Menge kann man entweder durch die Auflistung der Elemente in Mengenklammern angeben oder, indem man die den Typ umwandelnde Funktion `set` auf eine Menge anwendet. Mengen sind nicht geordnet, jedes Element kommt nur einmal vor. Die üblichem Mengenoperationen (Vereinigung, Schnitt, Differenz) sind verfügbar.   
 
 Wie bei Listen prüft man mit `in`, ob ein Objekt Element einer Menge ist. Mit $<=$, $>=$ prüft man, ob eine Menge Teilmenge, bzw. Obermenge ist, mit $<$, $>$, ob es sich um eine echte Teilmenge / Obermenge handelt.
 
@@ -221,21 +169,4 @@ print(set1.union(set2))
 print("Intersection")
 print(set1.intersection(set2))
 #print(set1 & set2)  # alternative Kurzschreibweise
-```
-
-
-```python
-print('a' in set1)
-print(set1 < set2)
-```
-
-
-```python
-print({'a', 'b'} < set1)
-print((set1 > set1))
-```
-
-
-```python
-
 ```
