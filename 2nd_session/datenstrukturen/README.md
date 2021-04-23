@@ -27,12 +27,11 @@ immutable | mutable
 --- | --- 
 `int`, `float`, `str`, `bool`, `tuple` | `list`,  `dict`, `set`
 
+Vergleiche das Verhalten von Listen und Tupeln
 
 ```python
 var_tuple = (1, 2, 3)
 var_list = [1, 2, 3]
-
-print(var_tuple[0], var_list[0]) #ergibt beides die Ausgabe 1
 
 var_tuple[0] = 2   # fuehrt zu einem TypeError - tuple sind immutable!
 var_list[0] = 2    # kein Problem, die Liste ist jetzt [2, 2, 3]
@@ -41,42 +40,26 @@ var_list[0] = 2    # kein Problem, die Liste ist jetzt [2, 2, 3]
 Vergleich von String-Methoden und Listen-Methoden
 
 ```python
-s = s.replace('a', 'i') #hier erfolgt eine Zuweisung!!
-l.append(4)  #hier erfolgt keine Zuweisung!!
+s = s.replace('a', 'i') # Neuzuweisung des Strings in s
+l.append(4)             # append verändert die Liste l direkt
 ```
-
 
 ## Mehr zu Listen
 
-### Listen verändern
 
-```python
-l.append('Romanesco') 
-l.extend(l)
-l.remove(x)   
-del l[i:j]
-l[i:j:k] = t                           die Elemente von l[i:j:k] werden durch die von t ersetzt    
-l.insert(i, x)                         dasselbe wie l[i:i] = [x]  
-```
+[Python List Methods](https://www.w3schools.com/python/python_ref_list.asp)
 
-
-### Listen kopieren
-
-```python
-from copy import deepcopy
-liste1 = [2, 3, 4]
-liste2 = deepcopy(liste1)
-liste2[1] = 7
-print(liste2)
-print(liste1)
-```
-
-Durch `sum(l)` erhält man die Summe der Elemente der Liste, wenn diese definiert ist. 
-Bei lauter Zahlen wäre das die gewöhnliche Summe, bei Strings die Aneinanderkettung aller Strings.
-
-Sehr nützlich ist es, zu wissen, wie man eine Funktion auf jedes Element einer Liste anwenden kann: 
-Wenn `f` eine Funktion ist und `l=[a_0,a_1,..., a_n]` eine Liste von Objekten, für die diese Funktion definiert ist, so liefert `list(map(f,l))` die Liste `[f(a_0),f(a_1),...,f(a_n)]`.'
-
+Operation | Effekt
+--- | --- 
+`l.append(x)`| einzelnes Element `x` an `l` anhängen
+`l.extend(l2)`| Elemente der Liste `l2` einzeln an `l` anhängen
+`l.insert(i, x)`| einzelnes Element `x` an Stelle `i` von `l` hinzufügen
+`del l[i]` | Element von `l` an Stelle `i` löschen
+`l2 = l1` | `l2` __ist__ `l1`
+`l2 = copy(l1)` | erstellt eine Kopie von `l1` in `l2` auf oberster Ebene
+ `l2 = deepcopy(l1)` | erstellt auch Kopien von verschachtelten Listen
+ `sum(l)` | summiert `l` falls möglich
+`list(map(f,l))` | wendet die Funktion `f` auf alle Einträge von `l` an.
 
 
 ### Listen aus Tuplen
