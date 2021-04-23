@@ -50,6 +50,3 @@ Objektorientieres Programmieren, Klassen in Python, Dateien und Exceptions, ande
 * [Learn Python on Kaggle](https://www.kaggle.com/learn/python)
 * [Programiz - Learn Python Programming](https://www.programiz.com/python-programming)
 * [SoloLearn - Python 3](https://www.sololearn.com/Course/Python/) (gibt es auch als App!)
-
-### Praktisches
-* [Anaconda Prompt im Kontext-Menu](https://gist.github.com/jiewpeng/8ba446acf329b1801bf91db767d179ea) (Windows only)
