@@ -91,7 +91,7 @@ Daran lässt sich die Sprache erkennen, probier es aus!
 
 
 ```python
-with open("das_urteil.txt","r") as f:
+with open("das_urteil.txt", "r", encoding="UTF8") as f:
     text=f.read()
 ```
 
