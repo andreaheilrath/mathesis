@@ -23,28 +23,8 @@ Wie eine  **Funktion** in Python deklariert wird, sei an zwei Beispielen gezeigt
 ```python
 def flaeche(a, b):
     return a*b                  # diese Funktione gibt einen Wert zurücl
-
-def ruehme(s):
-    print(s + " sei gelobt!")    # diese Funktion "tut nur etwas"
-
-def fluche():                 # diese Funktion hat kein Argument
-    print("*x!####!")
 ```
 
-
-```python
-flaeche(2, 3)
-```
-
-
-```python
-ruehme("Die Maus")
-```
-
-
-```python
-fluche()
-```
 
 ## Imports
 
@@ -55,12 +35,8 @@ Bevor wir diese Module benutzen können, müssen wie sie **importieren**, bisher
     import math
     import random
 
-Python kommt mit einer großen Standardbibliothek, in der bereits viele nützliche Module enthalten sind. Darüber hinaus gibt es eine Community, die für die verschiedensten Gebiete weitere externe Module entwickelt und pflegt (Linguistik, Numerik, Astronomie, Spiele,...).
-
-Für Imports gibt es **verschiedene Möglichkeiten**. Einige seien hier vorgestellt.
 
 ### Variante 1
-
 
 ```python
 from math import *  # Alle Funktionen und Variablen des Moduls math werden direkt importiert
@@ -68,25 +44,8 @@ from math import *  # Alle Funktionen und Variablen des Moduls math werden direk
 
 Dies ist die einfachste, aber manchmal gefährliche Methode.  Sie bedeutet, dass alle in dem Modul `math` definierten Namen von Variablen, Konstanten, Funktionen, Klassen nun direkt benutzt werden können (z.B. `sin, cos, exp, log, tan,...`). Sie sind jetzt im **Namensraum (name space)** des Programms.  Das heißt aber auch, dass eine vor dem Import definierte Variable durch den Import überschrieben werden kann.
 
-
-```python
-pi, e
-```
-
-
 ```python
 sin(pi)
-```
-
-
-```python
-# Achtung, man kann die importierten Variablen und Funktionen überschreiben
-pi = 3
-```
-
-
-```python
-pi
 ```
 
 Übersichtlicher wird diese Form des Imports, wenn nur bestimmte Objekte importiert werden:
@@ -102,47 +61,31 @@ importiert **nur die Funktionen `sin` und `cos`**.
 
 Grundsätzlich **sicherer** ist die folgende Form des Imports:
 
-
 ```python
 import math
 ```
 
 Danach sind alle Namen nur sozusagen über ihren 'Vornamen' `math` benutzbar, also etwa `math.sin, math.cos. math.exp, math.log,...`.
 
-
 ```python
-math.pi
-```
-
-
-```python
-math.cos(math.pi)
+math.sin(math.pi)
 ```
 
 ### Variante 3
 
 Die dritte Variante erlaubt, einen alternativen ('aka') 'Vornamen' zu verwenden:
 
-
 ```python
 import math as m
 ```
 
 Danach sind alle Funktionen mit dem alternativen Vornamen erreichbar, also `m.sin, m.cos, m.exp`.
-
 Korrekter als von Namen mit einem 'Vornamen' wäre  von Namen in einem  **Namensraum - oder name space** zu sprechen.
 
 
 ```python
-m.cos(23)
+m.sin(m.pi)
 ```
-
-
-```python
-m.e
-```
-
-**Aufgabe:** Verwenden Sie die Funktionen des Moduls `math`, um herauszubekommen, wieviele Dezimalstellen 2\*\*10000 hat. (Zählen taugt nicht so gut, wie Sie sehen werden.)
 
 ## Weitere wichtige Bibliotheken
 
@@ -273,54 +216,14 @@ Wer mit Daten von Tonaufnahmen umgehen will, könnte das interessant finden.
 
 **Hinweis:** um das Modul `schallwerkzeuge` zu benutzen, muss das Modul `pyaudio` mit dem Befehl `conda install pyaudio` in der Konsole installiert werden!
 
-
 ```python
-from schallwerkzeuge import *
-```
-
-
-```python
-help(recordsnd)
-```
-
-
-```python
-y = recordsnd(None, 2)
-```
-
-
-```python
-y.shape
-```
-
-
-```python
-
-```
-
-
-```python
-%matplotlib notebook
 import matplotlib.pyplot as plt
-```
+from schallwerkzeuge import *
 
-
-```python
+y = recordsnd(None, 2)
 plt.plot(y)
 plt.show()
-```
 
-
-```python
-help(playsnd)
-```
-
-
-```python
 playsnd(y, RATE)
-```
-
-
-```python
 playsnd(y, 2*RATE)
 ```
