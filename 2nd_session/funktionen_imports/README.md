@@ -25,38 +25,14 @@ def flaeche(a, b):
 
 ## Imports
 
-### Variante 1 (besser nicht benutzen)
 
-Alle Funktionen eines Moduls direkt importieren:
-```python
-from math import *  # Alle Funktionen und Variablen des Moduls math werden direkt importiert
-sin(pi)
-```
+Form des Imports | Abruf der Funktionen | guter Stil?
+--- | --- | ---
+`from math import * ` oder `from math import sin, cos` | `sin(pi)` | in speziellen Fällen
+`import math` | `math.sin(math.pi)` | ja
+`import math as m` | `m.sin(m.pi)` | ja
 
-Einzelne Funktionen eines Moduls importieren:
-```python
-from math import sin, cos
-sin(pi)
-```
 
-### Variante 2
-
-Grundsätzlich **sicherer** ist die folgende Form des Imports, da für das Modul ein eigener Namensraum geschaffen wird.
-Alle Funktionen und Variablen aus dem Modul sind jetzt unter dem Präfix `math` erreichbar.
-
-```python
-import math
-math.sin(math.pi)
-```
-
-### Variante 3
-
-Die dritte Variante erlaubt, einen alternativen ('aka') 'Vornamen' zu verwenden:
-
-```python
-import math as m
-m.sin(m.pi)
-```
 
 ## Weitere wichtige Bibliotheken
 
