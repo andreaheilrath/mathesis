@@ -232,7 +232,7 @@ Schreiben Sie ein Programm, das aus einer Liste von Zahlen $x_1,\ldots, x_n$ den
 Der Gini-Index ist ein  Maß für die Abweichung einer Verteilung (bspsw. einer Einkommensverteilung) von der Gleichverteilung, das von internationalen Organisationen als Ungleichheitsindikator verwendet wird.
 Der Gini-Index lässt sich so berechnen:
 
-$ G = \frac{\sum_{i=1}^n\sum_{j=1}^n |x_j-x_i|}{2n\sum_{i=1}^n x_i} \; . $
+$$ G = \frac{\sum_{i=1}^n\sum_{j=1}^n |x_j-x_i|}{2n\sum_{i=1}^n x_i} \; . $$
 
 Testen Sie, ob $G$ für eine Liste gleicher Zahlen tatsächlich 0 ist. Bestimmen Sie weiterhin den Gini-Index von $\{1,\ldots, n\}$ für $n=100,1000,10000$.
 
