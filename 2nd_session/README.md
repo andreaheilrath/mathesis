@@ -10,6 +10,7 @@ permalink: /2nd_session/
 
 Du lernst in dieser Einheit etwas über 
 
+* Grundbegriffe aus der Informatik: Algorithmen und Laufzeit
 * Datenstrukturen: Tupel, Listen, Wörterbücher und Mengen
 * Bedingungen: if, elif, else & while, Boolesche Variablen und Vergleiche
 * Funktionen und Imports (numpy, matplotlib, schallwerkzeuge)
