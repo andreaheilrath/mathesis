@@ -27,23 +27,22 @@ def flaeche(a, b):
 
 ### Variante 1 (besser nicht benutzen)
 
+Alle Funktionen eines Moduls direkt importieren:
 ```python
 from math import *  # Alle Funktionen und Variablen des Moduls math werden direkt importiert
-
 sin(pi)
 ```
 
-Dies ist die einfachste, aber manchmal gefährliche Methode.  Sie bedeutet, dass alle in dem Modul `math` definierten Namen von Variablen, Konstanten, Funktionen, Klassen nun direkt benutzt werden können (z.B. `sin, cos, exp, log, tan,...`). 
-
+Einzelne Funktionen eines Moduls importieren:
 ```python
 from math import sin, cos
+sin(pi)
 ```
-
-importiert **nur die Funktionen `sin` und `cos`**.
 
 ### Variante 2
 
-Grundsätzlich **sicherer** ist die folgende Form des Imports:
+Grundsätzlich **sicherer** ist die folgende Form des Imports, da für das Modul ein eigener Namensraum geschaffen wird.
+Alle Funktionen und Variablen aus dem Modul sind jetzt unter dem Präfix `math` erreichbar.
 
 ```python
 import math
@@ -68,11 +67,6 @@ Für numerische Berechnungen werden wir häufig das Modul `numpy` (Numerical Pyt
 
 ```python
 import numpy as np
-np.__version__
-```
-
-
-```python
 np.sin(np.pi / 2.0)
 ```
 
@@ -86,41 +80,6 @@ v = np.array([1.0, 3.0, 5.0]) #man kann auch einen leeren Vektor einer gewissen 
 ```
 
 `A` ist dann eine $2\times 3$-Matrix, die Nullen (als Fließkommazahlen) enthält, `B` ist eine solche Matrix, die in der ersten Zeile $1,2,3$, sowie in der zweiten $4,5,6$ enthält. `v` ist ein Vektor, dessen 3 Einträge 1.0, 3.0 und 5.0 sind.
-
-
-```python
-A
-```
-
-
-```python
-B
-```
-
-
-```python
-v
-```
-
-
-```python
-A.shape
-```
-
-
-```python
-B.shape
-```
-
-
-```python
-v.shape
-```
-
-
-```python
-B.dot(v) # bezeichnet das Produkt aus B mit v
-```
 
 ### matplotlib
 
@@ -143,31 +102,11 @@ plt.plot(x_werte,y_werte2) #erzeugt verbindungslinien
 plt.show()
 ```
 
-
-```python
-import math
-import matplotlib.pyplot as plt
-
-# %matplotlib inline #gibt ins Notebook integrierte Pixelgraphik
-# %matplotlib notebook gibt ins Notebook integrierte Graphik mit Zoom-Möglichkeit
-# %matplotlib qt gibt eigenes Fenster mit Zoom-Möglichkeit
-
-listx = list(range(100))
-listy = list(map(math.sin, listx))
-plt.clf()
-plt.plot(listx, listy)
-plt.show()
-```
-
 ### Fortgeschrittenes Beispiel: Funktion zum Plotten einer Funktion
-
-Versuche den unten dargestellten Code zu verstehen und zu manipulieren.
-
 
 ```python
 from matplotlib import pyplot as plt
 import numpy as np
-
 
 def plotfunction(f, x0, x1):
     x = np.linspace(x0, x1, 1000)
@@ -175,7 +114,6 @@ def plotfunction(f, x0, x1):
     plt.figure()
     plt.plot(x, y)
     plt.show()
-
 
 plotfunction(np.sin, -10, 10)
 plotfunction(np.cos, -10, 10)
