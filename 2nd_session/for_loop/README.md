@@ -72,8 +72,7 @@ for i in range(100):
 
 ### Nützliche Funktionen (= Generatoren ) für for-Schleifen (optional)
 
-1. enumerate
-
+**enumerate**
 ```python
 alle_kuchen = ['Apfelkuchen','Streuselkuchen', 'Pflaumenkuchen']
 
@@ -81,8 +80,7 @@ for i, kuchen in enumerate(alle_kuchen):
     print('%i. %s'%(i+1,kuchen))
 ```
 
-2. zip
-
+**zip**
 ```python
 alle_getraenke = ['Tee', 'Kaffee', 'Wasser']
 
@@ -90,7 +88,7 @@ for kuchen, getraenk in zip(alle_kuchen, alle_getraenke):
     print(kuchen, ' mit ', getraenk)
 ```
 
-3. Noch mehr davon: itertools
+**Noch mehr davon: itertools**
 
 In dem Paket der Standardbibliothek `itertools` gibt es noch mehr nützliche Generatoren.
 [https://docs.python.org/3/library/itertools.html](https://docs.python.org/3/library/itertools.html)
