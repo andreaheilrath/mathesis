@@ -4,6 +4,7 @@ parent: 2. Session
 nav_order: 3
 permalink: /2nd_session/funktionen_imports/
 ---
+# Funktionen & Imports
 
 ## Vorweg etwas über Funktionen
 
