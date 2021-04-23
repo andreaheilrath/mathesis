@@ -112,7 +112,7 @@ wb["cat"] ="Katze"
 ```python
 list(wb.keys())    # damit bekommt man eine Liste aller keys aus dem dictionary
 "cat" in wb        # True, da "cat" ein Key des Wörterbuchs ist
-"Katze" in wb       # False, da "Katze" KEIN Key des Wörterbuchs ist - "Katze" taucht nur als Value auf
+"Katze" in wb      # False, da "Katze" KEIN Key des Wörterbuchs ist - "Katze" taucht nur als Value auf
 ```
 
 ## Mengen (Zusatz)
