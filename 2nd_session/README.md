@@ -21,7 +21,7 @@ Du lernst in dieser Einheit etwas über
 Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien) sind in einer ZIP-Datei zusammengefasst.
 Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleiner Guide.
 
-[2nd_Session.zip]()
+[2nd_Session.zip](./2nd_Session.zip)
 
 
 ## Praktisches
