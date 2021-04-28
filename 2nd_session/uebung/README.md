@@ -377,3 +377,7 @@ Die Anfangspopulation kann zufällig belegt werden. Hierfür bietet sich `random
 Verschiedene Regeln ergeben verschiedene Verläufe [https://en.wikipedia.org/wiki/Elementary_cellular_automaton](https://en.wikipedia.org/wiki/Elementary_cellular_automaton)
 
 Erklärung in [The Nature of Code](https://natureofcode.com/book/chapter-7-cellular-automata/)
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/1Vwi5zKIjpU" allowfullscreen></iframe>
+</div>
