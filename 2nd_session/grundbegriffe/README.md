@@ -40,3 +40,9 @@ Tatsächlich lässt sich im Allgeinen nicht vorhersagen, ob ein Algorithmus übe
 
 [Alan Turing](https://de.wikipedia.org/wiki/Alan_Turing) gelang der Beweis, dass es keinen Algorithmus gibt, der diese Frage für alle möglichen Algorithmen und beliebige Eingaben beantwortet. Wie viele theoretische Betrachtungen, wurde der Beweis anhand einer *abstrakten Maschine* vollzogen - die bekannteste ist die von Turing selbst entworfene
 [Turingmaschine](https://de.wikipedia.org/wiki/Turingmaschine).
+
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/6WtKehQqrLs" allowfullscreen></iframe>
+</div>
+
