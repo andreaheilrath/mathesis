@@ -5,13 +5,13 @@ has_children: true
 permalink: /4th_session/
 ---
 
-## 4. Session
+# 4. Session
 
 **[Youtube Tutorial zu Session](https://youtu.be/1CKz3RLEmc8)**
 
-### Grundlagen
+## Grundlagen
 
-#### **[Objektorientierte Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung)**
+### **[Objektorientierte Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung)**
 
 [Alan Kay](https://de.wikipedia.org/wiki/Alan_Kay), der Erfinder der Programmiersprache Smalltalk und des Begriffs „object oriented“, definierte das objektorientierte Programmieren folgendermaßen:
 
@@ -22,13 +22,13 @@ permalink: /4th_session/
 5. The class holds the shared behavior for its instances (in the form of objects in a program list)
 6. To eval a program list, control is passed to the first object and the remainder is treated as its message
 
-#### Python Style Guide
+### Python Style Guide
 
 Da Programmcode häufiger gelesen als geschrieben wird, lohnt es sich, beim Schreiben von Code gleich die Python-Konventionen zu beachten:
 
 **[PEP8](https://www.python.org/dev/peps/pep-0008/)**
 
-### Crashkurs
+## Crashkurs
 
 * *[objekte_klassen_basics.ipynb](./crashkurs/objekte_klassen_basics.ipynb)*
   * Deklaration von Klassen
