@@ -1,7 +1,14 @@
+---
+title: Funktionen
+parent: 3. Session
+nav_order: 1
+permalink: /3rd_session/funktionen
+---
+
+
 # Funktionen
 
 ## Grundlagen
-
 
 Ein besonders wichtiges Hilfsmittel zur Strukturierung von Programmen ist die Definition von Funktionen.
 
@@ -123,7 +130,7 @@ f(1)
 konstante = 42
 
 def f(x):
-    y = x*konstante  # hier wird automatisch die Variable aus dem globalen Namensraum verwendet. 
+    y = x*konstante  # hier wird automatisch die Variable aus dem globalen Namensraum verwendet.
                      # Die Variable kann aber nicht geändert werden.
     return y
 
@@ -208,8 +215,8 @@ trapez(2, 3, 4)
 Es ist aber auch möglich, Funktionen so zu deklarieren, dass die Argumente mit Schlüsselwörtern übergeben werden können.
 
     def funktion(argument1=default1, argument2=default2,...)
-    
-Dabei muss jeweils ein Defaultwert angegeben werden, der für das Argument einsetzt wird, wenn nichts zu diesem Schlüsselwort übergeben wurde. 
+
+Dabei muss jeweils ein Defaultwert angegeben werden, der für das Argument einsetzt wird, wenn nichts zu diesem Schlüsselwort übergeben wurde.
 
 Man kann auch in diesem Fall noch die Argumente ohne Schlüsselwort übergeben. Sie werden dann in der Reihenfolge den Argumentvariablen zugeordnet, in der sie in der Deklaration stehen.
 
@@ -275,7 +282,7 @@ def integral(f=np.sin, a=0, b=1, n=1000):
     return (np.sum(f(x)) -0.5*f(a) - 0.5*f(b)) * (b-a)/n
 ```
 
-Diese Funktion kann ich immer noch so wie die vorige aufrufen. `integral(np.sin,0,2*np.pi,1000)` wird weiterhin die Variablen in der gegebenen Reihenfolge ersetzen. 
+Diese Funktion kann ich immer noch so wie die vorige aufrufen. `integral(np.sin,0,2*np.pi,1000)` wird weiterhin die Variablen in der gegebenen Reihenfolge ersetzen.
 
 Die Argumente lassen sich aber auch so übergeben: `f(f=np.cos,a=1,b=5,n=50)`. Hier werden die Variablen gemäß ihrer Namen
 (keywords) mit Werten gefüllt. Es ist aber insbesondere auch möglich manche dieser Argumente wegzulassen. Diese erhalten dann den default-Wert, der in der Definition steht. `f(np.sin,0,2)` verwendet also für $n$ den Defaultwert 1000.
@@ -319,7 +326,7 @@ integral(np.sin, 0, 1, n=1000000)
 #### das geht nur in Python 3: Obligatorische Schlüsselwortargumente ohne Default-Wert
 
 
-Bei den oben skizzierten Varianten der Übergabe von Argumenteen wurden diese entweder *ohne Default-Wert* nach ihrer Position übergeben oder *mit Default-Werten* über Schlüsselwörter. Es könnte aber wünschenswert sein, Argumente ohne Default-Wert über Schlüsselwörter zu übergeben. 
+Bei den oben skizzierten Varianten der Übergabe von Argumenteen wurden diese entweder *ohne Default-Wert* nach ihrer Position übergeben oder *mit Default-Werten* über Schlüsselwörter. Es könnte aber wünschenswert sein, Argumente ohne Default-Wert über Schlüsselwörter zu übergeben.
 
 Argumente ohne Default-Wert müssen tatsächlich übergeben werden, man kann sie nicht weglassen. In Python 3 geht das so:
 
@@ -327,7 +334,7 @@ Argumente ohne Default-Wert müssen tatsächlich übergeben werden, man kann sie
        print("a: ",a)
        print("b: ",b)
        print("c: ",c)
-       
+
 **Alle Argumente nach dem \* müssen über ihr Schlüsselwort** übergeben werden. Dabei kann man die Argumente mit Default-Wert (hier c) weglassen, b aber kann man nicht weglassen. Also z. B.
 
 
@@ -360,7 +367,7 @@ integral(np.cos, 1, 2, 1000)  # Fehler
 
 Wenn einer Funktion Argumente übergeben werden, so muss darauf geachtet werden, ob die Argumente **mutable** oder **immutable** sind.
 
-Wenn **Zahlen, Strings, Tupel** und einige andere Typen übergeben werden, die **immutable** sind, so besteht **keine Gefahr die Originale aus Versehen zu verändern**. 
+Wenn **Zahlen, Strings, Tupel** und einige andere Typen übergeben werden, die **immutable** sind, so besteht **keine Gefahr die Originale aus Versehen zu verändern**.
 
 Bei den **mutable-Typen Listen, Arrays, Mengen etc. dagegen ist das anders**. Sie werden als Referenzen ('call by reference') auf das veränderliche Original übergeben. Wenn also in der Funktion eine übergebene Liste verändert wird, verändert sich die ursprüngliche Liste.
 
@@ -423,7 +430,7 @@ Eine beliebige Zahl von durch ihre Position bestimmten Argumenten kann verpackt 
 
 Syntax bei der Funktionsdeklaration mit **Sternchen:**
 
-    
+
 
 
 
@@ -509,7 +516,7 @@ g(**wb)  # Wörterbuch wird beim Aufruf ausgepackt
 
 ### Kombination aller Arten von Argumenten (optional)
 
-In Python-Lehrbüchern werden Positions-Argumente häufig mit `pargs`, die keyword-Argumente mit `kwargs` abgekürzt. 
+In Python-Lehrbüchern werden Positions-Argumente häufig mit `pargs`, die keyword-Argumente mit `kwargs` abgekürzt.
 
 Man kann nun in einer **Funktionsdeklaration** einzelne Positionsargumente mit verpackten pargs und kwargs kombinieren:
 
@@ -549,7 +556,7 @@ woerterbuch = {'x': 10., 'y': 3.5}
 f(1, 4, *liste, **woerterbuch)
 ```
 
-Das musst du jetzt nicht sofort beherrschen, fürs erste werden wir meistens die Argumente direkt übergeben. 
+Das musst du jetzt nicht sofort beherrschen, fürs erste werden wir meistens die Argumente direkt übergeben.
 
 Du solltest aber diese Formen der Übergabe wiedererkennen und dich erinnern, dass es so etwas gibt, wenn größere Mengen oder eine unbestimmte Zahl von Argumenten übergeben werden müssen --- und dann gegebenenfalls noch einmal nachschlagen.
 

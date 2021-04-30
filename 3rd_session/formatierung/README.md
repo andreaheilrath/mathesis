@@ -1,6 +1,14 @@
+---
+title: Formatierung
+parent: 3. Session
+nav_order: 3
+permalink: /3rd_session/formatierung
+---
+
+
 # Ausgaben formatieren
 
-Bisher haben wir das so gemacht: 
+Bisher haben wir das so gemacht:
 
     s = 'Katze'
     a = 11
@@ -16,7 +24,7 @@ print("Die Länge der {} ist {} {}".format('Strecke', 213.12312, 'Meter'))
 ```
 
     Die Länge der Strecke ist 213.12312 Meter
-    
+
 
 
 ```python
@@ -26,7 +34,7 @@ print("Die Länge der {:10s} ist {:.2f} {:10s}.".format(
 ```
 
     Die Länge der Strecke    ist 213.12 Meter     .
-    
+
 
 
 ```python
@@ -34,14 +42,14 @@ print("Die Länge der {} ist {:.2e} {}".format('Strecke', 213.12312, 'Meter'))
 ```
 
     Die Länge der Strecke ist 2.13e+02 Meter
-    
+
 
 Die einfachste Version von Platzhalter hat die Form:
-     
+
      {:[sign][width][.precision]type}
-    
-Dabei kann man jeden der Teile in eckigen Klammern weglassen. `width` beschreibt die 
-Breite des Felds, `precision` die Anzahl der Nachkommastellen. Ist `sign` das Zeichen +, so werden 
+
+Dabei kann man jeden der Teile in eckigen Klammern weglassen. `width` beschreibt die
+Breite des Felds, `precision` die Anzahl der Nachkommastellen. Ist `sign` das Zeichen +, so werden
 Vorzeichen (von Zahlen) immer mit ausgegeben, ist es -, so werden nur negative Vorzeichen ausgegeben.
 Achtung: Benötigt die Zahl für ihre Darstellung eine größere Breite als `width`, wird sie breiter
 ausgegeben.
@@ -51,60 +59,60 @@ wobei `type` eines der folgenden Zeichen ist:
 ### Strings:
 
     s 	String format. This is the default type for strings and may be omitted.
-    
+
 Das s kann man weglassen, da Python das Format aus dem Typ erschließt.
 
 ### Integers:
-    
+
     b 	Binary format. Outputs the number in base 2.
-    c 	Character. Converts the integer to the corresponding 
+    c 	Character. Converts the integer to the corresponding
         unicode character before printing.
     d 	Decimal Integer. Outputs the number in base 10.
     o 	Octal format. Outputs the number in base 8.
-    x 	Hex format. Outputs the number in base 16, using 
+    x 	Hex format. Outputs the number in base 16, using
         lower- case letters for the digits above 9.
-    X 	Hex format. Outputs the number in base 16, using 
+    X 	Hex format. Outputs the number in base 16, using
         upper- case letters for the digits above 9.
-    n 	Number. This is the same as 'd', except that it uses 
-        the current locale setting to insert the appropriate 
+    n 	Number. This is the same as 'd', except that it uses
+        the current locale setting to insert the appropriate
         number separator characters.
- 
+
 Steht kein Zeichen, so bedeutet das für Integers 'd'.
- 
+
 ### Floats:
 
-    'e' 	Exponent notation. Prints the number in scientific 
-            notation using the letter ‘e’ to indicate 
+    'e' 	Exponent notation. Prints the number in scientific
+            notation using the letter ‘e’ to indicate
             the exponent. The default precision is 6.
-    'E' 	Exponent notation. Same as 'e' except it uses an upper 
+    'E' 	Exponent notation. Same as 'e' except it uses an upper
             case ‘E’ as the separator character.
-    'f' 	Fixed point. Displays the number as a fixed-point 
+    'f' 	Fixed point. Displays the number as a fixed-point
             number. The default precision is 6.
-    'F' 	Fixed point. Same as 'f', but converts nan to NAN and 
+    'F' 	Fixed point. Same as 'f', but converts nan to NAN and
             inf to INF.
     'g' 	
-            General format. For a given precision p >= 1, this rounds the number to p significant digits and 
-            then formats the result in either fixed-point format or in scientific notation, depending on 
+            General format. For a given precision p >= 1, this rounds the number to p significant digits and
+            then formats the result in either fixed-point format or in scientific notation, depending on
             its magnitude. The precise rules are as follows: suppose that the result formatted with presentation
             type 'e' and precision p-1 would have exponent exp. Then if -4 <= exp < p, the number is formatted
-            with presentation type 'f' and precision p-1-exp. Otherwise, the number is formatted with 
-            presentation type 'e' and precision p-1. In both cases insignificant trailing zeros are removed 
-            from the significand, and the decimal point is also removed if there are no remaining digits 
+            with presentation type 'f' and precision p-1-exp. Otherwise, the number is formatted with
+            presentation type 'e' and precision p-1. In both cases insignificant trailing zeros are removed
+            from the significand, and the decimal point is also removed if there are no remaining digits
             following it.
 
-            Positive and negative infinity, positive and negative zero, and nans, are formatted as inf, -inf, 0, 
+            Positive and negative infinity, positive and negative zero, and nans, are formatted as inf, -inf, 0,
             -0 and nan respectively, regardless of the precision.
 
             A precision of 0 is treated as equivalent to a precision of 1. The default precision is 6.
-    'G' 	General format. Same as 'g' except switches to 'E' if the number gets too large. The 
+    'G' 	General format. Same as 'g' except switches to 'E' if the number gets too large. The
             representations of infinity and NaN are uppercased, too.
-    'n' 	Number. This is the same as 'g', except that it uses the current locale setting to 
+    'n' 	Number. This is the same as 'g', except that it uses the current locale setting to
             insert the appropriate number separator characters.
-    '%' 	Percentage. Multiplies the number by 100 and displays in fixed ('f') format, followed 
+    '%' 	Percentage. Multiplies the number by 100 and displays in fixed ('f') format, followed
             by a percent sign.
 
 
-Steht kein Zeichen, so ist das ähnlich wie g, allerdings wird dafür gesorgt, dass in der Dezimaldarstellung mindestens eine Vorkommastelle steht. 
+Steht kein Zeichen, so ist das ähnlich wie g, allerdings wird dafür gesorgt, dass in der Dezimaldarstellung mindestens eine Vorkommastelle steht.
 
 
 ```python
@@ -113,7 +121,7 @@ print('Der Wert beträgt {:.10f}'.format(math.pi))
 ```
 
     Der Wert beträgt 3.1415926536
-    
+
 
 
 ```python
@@ -121,7 +129,7 @@ print('Der Wert beträgt {:n}'.format(math.pi))
 ```
 
     Der Wert beträgt 3.14159
-    
+
 
 ### Was hat es mit `locale` auf sich?
 
@@ -144,7 +152,7 @@ print('Der Wert beträgt {:n} .'.format(math.pi))
 ```
 
     Der Wert beträgt 3.14159 .
-    
+
 
 
 ```python
@@ -164,7 +172,7 @@ print('Der Wert beträgt {:n} .'.format(math.pi))
 ```
 
     Der Wert beträgt 3,14159 .
-    
+
 
 
 ```python
@@ -172,7 +180,7 @@ print('Der Wert beträgt {:n} .'.format(12346756765))
 ```
 
     Der Wert beträgt 12.346.756.765 .
-    
+
 
 
 ```python
@@ -192,7 +200,7 @@ print('Der Wert beträgt {:n} .'.format(math.pi))
 ```
 
     Der Wert beträgt 3.14159 .
-    
+
 
 
 ```python
@@ -200,7 +208,7 @@ print('Der Wert beträgt {:n} .'.format(12346756765))
 ```
 
     Der Wert beträgt 12346756765 .
-    
+
 
 ### Übergabe von Werten mit Feldnamen
 
@@ -215,7 +223,7 @@ print("Die Länge der {name:10s} ist {length:.2f} {unit:10s}.".format(
 ```
 
     Die Länge der Strecke    ist 213.12 Meter     .
-    
+
 
 ### Weitere Details zur Formatierung
 
@@ -268,7 +276,7 @@ for name,length,unit in zip(['Strecke','Katze','Straße'],[213.123,33.335,123213
     Die Länge der Strecke--- ist     213.12 Meter-------.
     Die Länge der Katze----- ist      33.34 Daumenbreit-.
     Die Länge der Straße---- ist  123213.32 Centimeter--.
-    
+
 
 ## Noch eine ander Art der Formatierung: f-Strings (Python >= 3.6)
 
@@ -288,7 +296,7 @@ print(satz)
 ```
 
     Die Katze sitzt auf der Matte
-    
+
 
 
 ```python
@@ -302,7 +310,7 @@ f"{tier} ist {laenge:.2f} Meter und damit {laenge/0.9144:.2f} yards lang."
 
     <ipython-input-17-5f98b1acdabc> in <module>
     ----> 1 f"{tier} ist {laenge:.2f} Meter und damit {laenge/0.9144:.2f} yards lang."
-    
+
 
     NameError: name 'laenge' is not defined
 

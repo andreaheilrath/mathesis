@@ -1,8 +1,16 @@
+---
+title: Numpy & Matplotlib
+parent: 3. Session
+nav_order: 2
+permalink: /3rd_session/numpy_matplotlib
+---
+
+
 # Numpy & Matplotlib
 
 **Numpy** ist eine Bibliothek, die eine einfache Handhabung von Vektoren, Matrizen oder generell großen mehrdimensionalen Arrays ermöglicht. Neben den Datenstrukturen bietet NumPy auch effizient implementierte Funktionen für numerische Berechnungen an.
 
-**Matplotlib** erlaubt es mathematische Darstellungen aller Art anzufertigen. 
+**Matplotlib** erlaubt es mathematische Darstellungen aller Art anzufertigen.
 
 ## Numpy
 
@@ -30,7 +38,7 @@ print(v)
 print(type(v))
 ```
 
-Ein **Array** ist eine Speicherstruktur, in der Zahlen (oder andere Objekte) in Abhängigkeit von einer gewissen Zahl von Indices gespeichert sind. 
+Ein **Array** ist eine Speicherstruktur, in der Zahlen (oder andere Objekte) in Abhängigkeit von einer gewissen Zahl von Indices gespeichert sind.
 
 Eine Matrix als rechteckige Anordnung von Zahlen ist der Spezialfall eines Arrays mit zwei Indices.
 
@@ -49,8 +57,8 @@ Ist `A` ein solches Array, so liefert das Attribut (Achtung! keine runden Klamme
 A.shape
 ```
 
-    
-ein Tupel, dessen Länge die Dimension des Arrays ist, die sich auch direkt mit `a.ndim` erfragen lässt. 
+
+ein Tupel, dessen Länge die Dimension des Arrays ist, die sich auch direkt mit `a.ndim` erfragen lässt.
 
 
 ```python
@@ -82,7 +90,7 @@ Weitere praktische Möglichkeiten sind die folgenden:
 
 
 ```python
-shape = (3,3)  # der Tupel shape wird im Folgenden benutzt um Numpy-Arrays zu erzeugen, die 3x3 Matrizen entsprechen 
+shape = (3,3)  # der Tupel shape wird im Folgenden benutzt um Numpy-Arrays zu erzeugen, die 3x3 Matrizen entsprechen
 ```
 
 
@@ -123,13 +131,13 @@ Möglichkeiten zur Füllung mit Zufallszahlen:
 
 
 ```python
-np.random.rand(*shape)  # erzeugt eine Matrix der gegeben Shape, 
+np.random.rand(*shape)  # erzeugt eine Matrix der gegeben Shape,
                         # die mit gleichverteilten Zufallszahlen zwischen [0,1] gefüllt ist
 ```
 
 
 ```python
-np.random.randn(*shape) # erzeugt eine Matrix der gegeben Shape, 
+np.random.randn(*shape) # erzeugt eine Matrix der gegeben Shape,
                         # die mit Zufallszahlen aus der Gauß'schen Normalverteilung gefüllt ist
 ```
 
@@ -161,13 +169,13 @@ plt.show()
 
 Bei den meisten graphischen "Backends" erscheint die Graphik erst beim Aufruf von `plt.show()` Vorher existiert sie nur als Datenstruktur.
 
-In Jupyter-Notebooks entfällt show() meistens, da es automatisch aufgerufen wird. 
+In Jupyter-Notebooks entfällt show() meistens, da es automatisch aufgerufen wird.
 Für eine interaktive Umgebung zur Datenanalyse (und zum Ausprobieren) ist das sinnvoll.
 
 
 ```python
 x = np.linspace(0, 10, 100)
-y = np.random.rand(100)  # das geht schief - die Arrays müssen immer gleich lang sein! 
+y = np.random.rand(100)  # das geht schief - die Arrays müssen immer gleich lang sein!
                         # Sonst ValueError("x and y must be the same size")
 
 plt.figure()
@@ -179,7 +187,7 @@ plt.show()
 
 ### Matrizen als Bilder darstellen
 
-Eine 2D Matrix kann als Bild interpretiert werden. Die farbliche Darstellung kann über 
+Eine 2D Matrix kann als Bild interpretiert werden. Die farbliche Darstellung kann über
 [Colormaps](https://matplotlib.org/3.1.0/tutorials/colors/colormaps.html) definiert werden.
 
 Hier wird eine Matrix aus Zufallszahlen erstellt und mit `plt.imshow()` visualisiert:
@@ -195,7 +203,7 @@ plt.show()
 
 ### Zugriff auf Teile des Arrays: slicing
 
-Wie bei Listen und Strings ist Slicing eine wichtige Operation, die hier noch flexibler ist, denn man kann auch 
+Wie bei Listen und Strings ist Slicing eine wichtige Operation, die hier noch flexibler ist, denn man kann auch
 mit einem Tupel (t1,t2,...,tk) für die entsprechende Dimension gerade die Einträge mit den Indices t1,...,tk auswählen.
 
 
@@ -241,7 +249,7 @@ plt.show()
 ```
 
 ### Aus Arrays neue Arrays machen:      
-                                           
+
 Zwei Funktionen, mit denen aus bereits bestehenden Arrays neue gemacht werden können, sind `concatenate` und `reshape`.
 
 `concatenate` fügt zwei Arrays hintereinander an
@@ -262,7 +270,7 @@ w = v.reshape((2, 10))  # beachtet: die neue Matrix wird zeilenweise befüllt
 w
 ```
 
-## Lineare Algebra 
+## Lineare Algebra
 
 [Matrizenmultiplikation](https://de.wikipedia.org/wiki/Matrizenmultiplikation) ist die zentrale algebraische Operation für Matrizen.
 
@@ -286,7 +294,7 @@ x
 
 
 ```python
-np.dot(M, x) # Matrix-Vektor-Produkt 
+np.dot(M, x) # Matrix-Vektor-Produkt
 ```
 
 
@@ -309,7 +317,7 @@ x.dot(x) # Skalarprodukt mit sich selbst
 x@x   # alternative Schreibweise
 ```
 
-**Transponieren** (Vertauschen von Zeilen und Spalten) geht nicht über eine Funktion, sondern über ein Attribut. 
+**Transponieren** (Vertauschen von Zeilen und Spalten) geht nicht über eine Funktion, sondern über ein Attribut.
 
 **Achtung!** Dieses legt kein neues Objekt im Speicher an, sondern nur eine anderen 'View' auf dasselbe Objekt. Wenn man also das Transponierte verändert, verändert sich das ursprüngliche Objekt auch. Alternativ mussen explizit mit `np.copy` eine Kopie angelegt werden.
 
@@ -403,7 +411,7 @@ v.shape
      numpy.sum(..., [axis=...])     summiert die Einträge, gegebenenfalls längs axis
      numpy.mean(..., [axis=...])    Mittelwert über die Einträge, ggf. längs axis
      numpy.std(..., [axis=...])     Standardabweichung ü.d. Einträge, ggf. längs axis
-     
+
 Dabei ist axis entweder eine Zahl oder ein Tupel, wenn über mehre Dimension summiert werden soll. Es gibt noch viel mehr solcher Funktionen, aber hier wird keine Vollständigkeit angestrebt.
 
 
@@ -594,7 +602,7 @@ playsnd(y[::-1], RATE) #reverse
 z = np.zeros(0)
 for i in range(2):
     z = np.concatenate((z, y, y[::-1], y2))
-    
+
 playsnd(z, RATE)
 ```
 
