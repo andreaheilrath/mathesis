@@ -13,23 +13,23 @@ permalink: /3rd_session/funktionen
 In Python kann man selbst Funktionen definieren. Das geht so:
 
 ```python
-def division(x, y):
-    '''Liefert x/y, falls y != 0
+def funktionsname(arg1, arg2 = 2):
+    '''Doc-String: wird angezeigt, wenn die Hilfe
+    help(funktionsname) aufgerufen wird.
     '''
-    if y != 0:  
-        return x/y
-    else:
-        print("Fehler. Division durch Null")
+    print('Die Funktion "funktionsname" wird ausgefuehrt')
+
+    return arg1 * arg2
 ```
 
-Mit `return ...` wird die Größe definiert, die anschließend als Wert der Funktion zurückgegeben wird. Wird kein Rückgabewert bei `return`definiert, wie das in der `else` Abfrage geschieht, wird der Wert `None` zurückgegeben.
+Mit `return ...` wird die Größe definiert, die anschließend als Wert der Funktion zurückgegeben wird. Wird kein Rückgabewert bei `return`definiert wird der Wert `None` zurückgegeben.
 
-Die Beschreibung in dreifachen Anführungszeichen wird als Doc-String bezeichnet und wird angezeigt, wenn man `help(f)` eingibt.
-
+Argumente, die der Funktion übergeben werden, können einen Defaultwert haben,
+wie das bei `arg2` der Fall ist.
 
 ## Lokale und globale Variablen
 
-Gewisse Funktionen in Python sollen **immer verfügbar** sein, z.B. `id()` oder `type()`. Diese Funktionen sind im **built-in namespace** zu finden. Variablen die **innerhalb des "Hauptkörpers"** des Programms definiert werden gehören zum **global namespace**. Alle Variablen, die **in einer Funktion** verändert oder zugewiesen werden, sind Teil des **local namespace**.
+Gewisse Funktionen in Python sollen immer verfügbar sein, z.B. `id()` oder `type()`. Diese Funktionen sind im *built-in namespace* zu finden. Variablen die innerhalb des "Hauptkörpers" des Programms definiert werden gehören zum *global namespace*. Alle Variablen, die in einer Funktion verändert oder zugewiesen werden, sind Teil des *local namespace*.
 
 ```python
 konstante = 42  #Variable "konstante" im global namespace
@@ -40,8 +40,7 @@ def f(x):
     return y
 ```
 
-Das Ergebnis von `f(1)` ist `1`, da die der Wert der lokalen `konstante` eins ist.
-Dabei wir die Variable `konstante` die vor der Funktionsdefinition steht nie verändert!
+Das Ergebnis von `f(1)` ist `1`, da die der Wert der lokalen `konstante` eins ist. Dabei wir die Variable `konstante` die vor der Funktionsdefinition steht nie verändert!
 
 
 Im Folgenden Beispiel wird die Variable aus dem globalen Namenstraum innerhalb der Funktion benutzt.
@@ -58,7 +57,7 @@ def f(x):
 f(1)
 ```
 
-<img src="namespaces.jpg" alt="Namespaces" style="width: 60%;"/>
+<img src="./namespaces.jpg" alt="Namespaces" style="width: 60%;"/>
 
 
 ## Argumente
@@ -104,7 +103,7 @@ def trapez(a=1, b=1, h=1):
 
 Das ist eine Funktion, die eine übergebene Funktion numerisch integriert. (Zugrunde liegt eine so genannte Quadraturformel, genauer eine der einfachsten, die Trapezregel.)
 
-<img src="integral.jpg" width=60%>
+<img src="./integral.jpg" width=60%>
 
 $\int^b_a f(x) \approx \sum^n_{i=0} f(a + i \, \Delta x) \Delta x - f(a)\frac{1}{2}\Delta x - f(b) \frac{1}{2} \Delta x $
 
@@ -213,14 +212,7 @@ integral(np.cos, 1, 2, 1000)  # Fehler
 
 ### Achtung: mutable und immutable
 
-Wenn einer Funktion Argumente übergeben werden, so muss darauf geachtet werden, ob die Argumente **mutable** oder **immutable** sind.
-
-Wenn **Zahlen, Strings, Tupel** und einige andere Typen übergeben werden, die **immutable** sind, so besteht **keine Gefahr die Originale aus Versehen zu verändern**.
-
-Bei den **mutable-Typen Listen, Arrays, Mengen etc. dagegen ist das anders**. Sie werden als Referenzen ('call by reference') auf das veränderliche Original übergeben. Wenn also in der Funktion eine übergebene Liste verändert wird, verändert sich die ursprüngliche Liste.
-
-Will man sicher sein, dass das nicht geschieht, müsst man selbst **eine Kopie des übergebenen Objekts anfertigen und nur noch damit arbeiten.** (Das entsprechende Verhalten nennt man im Zusammenhang anderer Programmiersprachen 'call by value').
-
+Wenn einer Funktion Argumente übergeben werden, so muss darauf geachtet werden, ob die Argumente mutable oder immutable sind.
 
 ```python
 from copy import copy
@@ -254,18 +246,6 @@ print(lf)
 ```
 
 
-```python
-l = [1, 2, 3]
-funktion2(l)
-print(return_wert, l)
-```
-
-
-```python
-l = [1, 2, 3]
-funktion3(l)
-print(l)
-```
 
 ### Argumente ein- und auspacken (optional)
 
