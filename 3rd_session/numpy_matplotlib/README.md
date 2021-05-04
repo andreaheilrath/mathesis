@@ -2,7 +2,7 @@
 title: Numpy & Matplotlib
 parent: 3. Session
 nav_order: 2
-permalink: /3rd_session/numpy_matplotlib
+permalink: /3rd_session/numpy_matplotlib/
 ---
 
 
@@ -14,71 +14,26 @@ permalink: /3rd_session/numpy_matplotlib
 
 ## Numpy
 
-### Zentrale Datenstruktur:  "array"
+### Zentrale Datenstruktur: array
 
-Ein Array kann auf verschiedene Art erzeugt werden, zum Beispiel mit der Funktion `array` aus einer Liste von Zahlen. Von anderen Arten wird gleich noch die Rede sein.
+Ein **Array** ist eine Speicherstruktur, in der Zahlen (oder andere Objekte) in Abhängigkeit von einer gewissen Zahl von Indices gespeichert sind. Eine Matrix als rechteckige Anordnung von Zahlen ist der Spezialfall eines Arrays mit zwei Indices.
+
+[<img src = "./array.png" width= 50%>](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
 
 In der [Dokumentation](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) findet ihr alle Attribute und Methoden, die ein Numpy Array hat.
 
-
-<img src = "array.png" width= 50%>
-
-Taken from [DataCamp CheatSheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
-
-
 ```python
 import numpy as np
-```
-
-
-```python
-v = np.array([1,2,3,4,5,6])
-
-print(v)
-print(type(v))
-```
-
-Ein **Array** ist eine Speicherstruktur, in der Zahlen (oder andere Objekte) in Abhängigkeit von einer gewissen Zahl von Indices gespeichert sind.
-
-Eine Matrix als rechteckige Anordnung von Zahlen ist der Spezialfall eines Arrays mit zwei Indices.
-
-
-```python
-A = np.array([[1,2],[3,4]]) #2x2 Matrix aus verschachtelten Listen
+v = np.array([1,2,3,4,5,6]) # Vektor mit 6 Einträgen
+A = np.array([[1,2],[3,4]]) # 2x2 Matrix aus verschachtelten Listen
 print(A)
 ```
 
-Allgemeiner ist ein Array dessen Einträge mit n Indices adressiert werden können, ein n-dimensionales Array.
-
-Ist `A` ein solches Array, so liefert das Attribut (Achtung! keine runden Klammern, keine Funktion!)
-
-
 ```python
 A.shape
-```
-
-
-ein Tupel, dessen Länge die Dimension des Arrays ist, die sich auch direkt mit `a.ndim` erfragen lässt.
-
-
-```python
 A.ndim
-```
-
-Auf die einzelnen Einträge lässt sich wieder mit Indizes zugreifen. Ein paar Beispiele:
-
-
-```python
 A[0] #wir nur ein Index angegeben, wird eine komplette Zeile ausgewählt
-```
-
-
-```python
 A[0][1] # Um ein einzelnes Element zu erhalten müssen so viele Indizes wie Dimensionen angegeben werden - in diesem Fall 2
-```
-
-
-```python
 A[0,1] #ist äquivalent zur oberen Abfrage
 ```
 
@@ -91,25 +46,9 @@ Weitere praktische Möglichkeiten sind die folgenden:
 
 ```python
 shape = (3,3)  # der Tupel shape wird im Folgenden benutzt um Numpy-Arrays zu erzeugen, die 3x3 Matrizen entsprechen
-```
-
-
-```python
 np.zeros(shape) # erzeugt ein Array aus Nullen, dessen Shape durch das Tupel `shape` gegeben ist
-```
-
-
-```python
 np.ones(shape)  # erzeugt ein Array aus Einsen, dessen Shape durch das Tupel `shape` gegeben ist
-```
-
-
-```python
 np.zeros_like(A) # erzeugt ein Array aus Nullen mit der selben Shape wie A
-```
-
-
-```python
 np.ones_like(A)  # erzeugt ein Array aus Einsen mit der selben Shape wie A
 ```
 
@@ -118,25 +57,9 @@ Neben den Varianten zur Erzeugung von Arrays, die nur aus Nullen oder Einsen bes
 
 ```python
 np.arange(10)  #erzeugt das Array mit Elementen 0...9
-```
-
-`np.linspace(anfang, ende, n)` erzeugt ein Array mit n Elementen und gleichen Abständen, das erste ist anfang, das letzte ist ende.
-
-
-```python
-np.linspace(0, 100, 11)
-```
-
-Möglichkeiten zur Füllung mit Zufallszahlen:
-
-
-```python
+np.linspace(0, 100, 11) # erzeugt ein Array mit 11 Elementen und gleichen Abständen, 0 ist anfang, 100 ist ende.
 np.random.rand(*shape)  # erzeugt eine Matrix der gegeben Shape,
                         # die mit gleichverteilten Zufallszahlen zwischen [0,1] gefüllt ist
-```
-
-
-```python
 np.random.randn(*shape) # erzeugt eine Matrix der gegeben Shape,
                         # die mit Zufallszahlen aus der Gauß'schen Normalverteilung gefüllt ist
 ```
@@ -146,22 +69,11 @@ np.random.randn(*shape) # erzeugt eine Matrix der gegeben Shape,
 
 ### klassische 2D Plots
 
-
 ```python
 import matplotlib.pyplot as plt
-%matplotlib inline
 
-# try (after restart) %matplotlib inline
-#                  or %matplotlib qt
-#                  or %matplotlib notebook
-```
-
-
-```python
 x = np.linspace(0, 10, 1000)
-y = np.sin(x)   # in diesem Schritt wird die Sinusfunktion auf jedes einzelne Element des Arrays angewandt.
-                # das geht zunächst nur mit 'universal functions' - eigene erstellt man mit numpy.vectorize
-
+y = np.sin(x)   # in diesem Schritt wird die Sinusfunktion auf jedes einzelne Element des Arrays angewandt. Das geht zunächst nur mit 'universal functions' - eigene erstellt man mit numpy.vectorize
 plt.figure()
 plt.plot(x, y)
 plt.show()
@@ -169,7 +81,7 @@ plt.show()
 
 Bei den meisten graphischen "Backends" erscheint die Graphik erst beim Aufruf von `plt.show()` Vorher existiert sie nur als Datenstruktur.
 
-In Jupyter-Notebooks entfällt show() meistens, da es automatisch aufgerufen wird.
+In Jupyter-Notebooks entfällt `show()` meistens, da es automatisch aufgerufen wird.
 Für eine interaktive Umgebung zur Datenanalyse (und zum Ausprobieren) ist das sinnvoll.
 
 
@@ -177,9 +89,7 @@ Für eine interaktive Umgebung zur Datenanalyse (und zum Ausprobieren) ist das s
 x = np.linspace(0, 10, 100)
 y = np.random.rand(100)  # das geht schief - die Arrays müssen immer gleich lang sein!
                         # Sonst ValueError("x and y must be the same size")
-
 plt.figure()
-#plt.plot(x, y)
 plt.scatter(x, y, marker ="x", color = "black", label = "zufällige Datenpunkte")
 plt.legend()
 plt.show()
@@ -203,52 +113,24 @@ plt.show()
 
 ### Zugriff auf Teile des Arrays: slicing
 
-Wie bei Listen und Strings ist Slicing eine wichtige Operation, die hier noch flexibler ist, denn man kann auch
-mit einem Tupel (t1,t2,...,tk) für die entsprechende Dimension gerade die Einträge mit den Indices t1,...,tk auswählen.
-
+Wie bei Listen und Strings ist Slicing eine wichtige Operation, die hier noch flexibler ist, denn man kann auch mit einem Tupel `(t1,t2,...,tk)` für die entsprechende Dimension gerade die Einträge mit den Indices t1,...,tk auswählen.
 
 ```python
 M = np.zeros((24,24))
-```
-
-
-```python
 M[0] = 1
-```
-
-
-```python
 M[0,0] = 0.5
-```
-
-
-```python
 M[4] = 1
-```
 
-
-```python
 M[:,1] = 1
-```
-
-
-```python
 M[2,0::2] = 1
-```
-
-
-```python
 M[10:15, 10:15] = 0.5
-```
 
-
-```python
 plt.figure()
 plt.imshow(M, cmap=plt.get_cmap('viridis'))
 plt.show()
 ```
 
-### Aus Arrays neue Arrays machen:      
+### Aus Arrays neue Arrays machen     
 
 Zwei Funktionen, mit denen aus bereits bestehenden Arrays neue gemacht werden können, sind `concatenate` und `reshape`.
 
@@ -283,37 +165,11 @@ In `numpy` wird diese Operation mit `np.dot(M,x)` bzw. `M.dot(x)` durchgeführt.
 
 ```python
 M = np.array([[1, 2], [3, 4]])
-print(M)
-```
-
-
-```python
 x = np.array([2,3])
-x
-```
-
-
-```python
 np.dot(M, x) # Matrix-Vektor-Produkt
-```
-
-
-```python
 M.dot(x)  # alternative Schreibweise
-```
-
-
-```python
 M@x # alternative Schreibweise
-```
-
-
-```python
 x.dot(x) # Skalarprodukt mit sich selbst
-```
-
-
-```python
 x@x   # alternative Schreibweise
 ```
 
@@ -324,22 +180,12 @@ x@x   # alternative Schreibweise
 
 ```python
 M.T  # transponieren
-```
-
-
-```python
-M
-```
-
-
-```python
 # M und M.T beziehen sich auf dasselbe Objekt im Speicher:
 N = M.T
 N[0,0] = 5  # verändert M und N
 print(N)
 print(M)
 ```
-
 
 ```python
 # Diesmal wird M.T kopiert: N bezieht sich auf ein anderes Objekt im Speicher.
@@ -349,13 +195,7 @@ print(N)
 print(M)
 ```
 
-Für weitergehende Operationen der linearen Algebra gibt es ein Unterpaket: `numpy.linalg`
-
-
-```python
-help(np.linalg)
-```
-
+Für weitergehende Operationen der linearen Algebra gibt es ein Unterpaket: `numpy.linalg`.
 Eine Funktion, die sehr wichtig ist, ist  `numpy.linalg.solve`. Sie löst ein lineares Gleichungssystem mit einer schnellen, in C programmierten Variante des Gauß'schen Algorithmus.
 
 **An dieser Stelle noch ein paar Hinweise zu Linearen Gleichungssystemen**
@@ -539,81 +379,4 @@ a = np.abs(bild[10:, :]-bild[:-10])
 ```python
 plt.figure()
 plt.imshow(a, cmap=plt.get_cmap('gray'))
-```
-
-### Schall und ein Beispiel für 'concatenate'
-
-
-```python
-from schallwerkzeuge import *
-```
-
-
-```python
-y = recordsnd(None, 2)
-```
-
-
-```python
-playsnd(y, RATE)
-```
-
-
-```python
-plt.figure()
-plt.plot(y)
-plt.show()
-```
-
-
-```python
-y.shape
-```
-
-
-```python
-x = np.linspace(0, 2, 88200) #erzeugt eine Liste die dann Sekunden entspricht
-```
-
-
-```python
-plt.figure()
-plt.plot(x, y)
-plt.show()
-```
-
-
-```python
-y2 = y*np.sin(40*2*np.pi*x)
-```
-
-
-```python
-playsnd(y2, RATE)
-```
-
-
-```python
-playsnd(y[::-1], RATE) #reverse
-```
-
-
-```python
-z = np.zeros(0)
-for i in range(2):
-    z = np.concatenate((z, y, y[::-1], y2))
-
-playsnd(z, RATE)
-```
-
-
-```python
-z = 0.5*(z+z[list(range(5000, z.shape[0]))+list(range(5000))])
-
-playsnd(z, RATE)
-```
-
-
-```python
-
 ```
