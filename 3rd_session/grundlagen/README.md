@@ -14,7 +14,7 @@ Bei der [rekursiven Programmierung](https://de.wikipedia.org/wiki/Rekursive_Prog
 Ein Beispiel hierfür sind die **[Fibonacci-Zahlen](https://de.wikipedia.org/wiki/Fibonacci-Folge)**.
 
 
-<img src="fib.jpg" alt="Fibonacci Folge" style="width: 50%;"/>
+<img src="fib.jpg" alt="Fibonacci Folge" style="width: 500em;"/>
 
 Durch die "Rekursionsanker" f<sub>0</sub> = 0, f<sub>1</sub> = 1 kann die Fibonacci-Folge auch rekursiv in einer Funktion berechnet werden:
 
@@ -52,7 +52,7 @@ Wie man hier schon erkennen kann, lassen sich damit besonders gut lineare Gleich
 
 Hier ein paar Rechenbeispiele für eine Matrixmultiplikation und ein Lineares Gleichungssystem:
 
-<img src="./Matrixmult.jpg" alt="Matrixmultiplikation" style="width: 60%;">
+<img src="./Matrixmult.jpg" alt="Matrixmultiplikation" style="width: 600em;">
 
-<img src="./LinearesGleichungssystem.jpg" alt="Lineares Gleichungssystem" style="width: 60%;">
+<img src="./LinearesGleichungssystem.jpg" alt="Lineares Gleichungssystem" style="width: 600em;">
 
