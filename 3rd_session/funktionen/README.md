@@ -106,9 +106,8 @@ f(1)
 ```
 
 <img src="./namespaces.jpg" alt="Namespaces" style="width: 60%;">
-<img src="./namespaces.jpg" width = "640em">
 
-### Achtung: mutable und immutable
+## Achtung: mutable und immutable
 
 Wenn einer Funktion Argumente übergeben werden, so muss darauf geachtet werden, ob die Argumente mutable oder immutable sind.
 
@@ -139,7 +138,7 @@ def funktion3(x):
 
 
 
-## Noch mehr zur Übergabe von Argumenten...
+## Noch mehr zur Übergabe von Argumenten (optional)
 
 ### Obligatorische Schlüsselwortargumente ohne Default-Wert
 
@@ -181,7 +180,7 @@ integral(np.cos, 1, 2, 1000)  # Fehler
 ```
 
 
-### Argumente ein- und auspacken (optional)
+### Argumente ein- und auspacken
 
 #### Durch  Position bestimmte Argumente: Listen und Tupel übergeben
 
@@ -234,7 +233,7 @@ wb = {'a': 5, 'b': 17}
 g(**wb)  # Wörterbuch wird beim Aufruf ausgepackt
 ```
 
-### Kombination aller Arten von Argumenten (optional)
+### Kombination aller Arten von Argumenten
 
 In Python-Lehrbüchern werden Positions-Argumente häufig mit `pargs`, die keyword-Argumente mit `kwargs` abgekürzt.
 
