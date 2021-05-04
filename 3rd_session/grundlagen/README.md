@@ -1,5 +1,5 @@
 ---
-title: Grundlagen
+title: Rekursion & LinAlg
 parent: 3. Session
 nav_order: 0
 permalink: /3rd_session/grundlagen/
