@@ -9,11 +9,7 @@ permalink: /3rd_session/
 
 Du lernst in dieser Einheit etwas über
 
-Grundbegriffe aus der Informatik: Algorithmen und Laufzeit
-Datenstrukturen: Tupel, Listen, Wörterbücher und Mengen
-Bedingungen: if, elif, else & while, Boolesche Variablen und Vergleiche
-Funktionen und Imports (numpy, matplotlib, schallwerkzeuge)
-
+* Grundbegriffe: Rekursion und Lineare Algebra
 * Funktionen: Definition, Doc-Strings, Namespaces, Argumente
 * Numpy & Matplotlib: Arrays, Slicing, Gleichungssysteme, Daten aus Tabelle lesen,
 Plots mit Matplotlib, Bilder bearbeiten, Schallbeispiele
