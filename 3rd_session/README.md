@@ -7,26 +7,24 @@ permalink: /3rd_session/
 
 # 3. Session
 
-## Crashkurs
+Du lernst in dieser Einheit etwas über
 
-* *[funktionen.ipynb](./crashkurs/funktionen.ipynb)*
-  * Definition
-  * Doc-Strings
-  * Namespaces
-  * Keywords, Argumente
+Grundbegriffe aus der Informatik: Algorithmen und Laufzeit
+Datenstrukturen: Tupel, Listen, Wörterbücher und Mengen
+Bedingungen: if, elif, else & while, Boolesche Variablen und Vergleiche
+Funktionen und Imports (numpy, matplotlib, schallwerkzeuge)
 
-* *[numpy_matplotlib_anderes.ipynb](./crashkurs/numpy_matplotlib_anderes.ipynb)*
-  * Numpy Array
-  * Plots mit Matplotlib
-  * Slicing
-  * Lineare Algebra & Gleichungssysteme
-  * Daten aus Tabelle lesen
-  * Bilder bearbeiten
-  * Schallbeispiele
-
-* *[formatierung.ipynb](./crashkurs/formatierung.ipynb)*
+* Funktionen: Definition, Doc-Strings, Namespaces, Argumente
+* Numpy & Matplotlib: Arrays, Slicing, Gleichungssysteme, Daten aus Tabelle lesen,
+Plots mit Matplotlib, Bilder bearbeiten, Schallbeispiele
+* Formatierung (optional)
 
 
-## Ressourcen
+## Dateien zum Download
+Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien) sind in einer ZIP-Datei zusammengefasst. Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleiner Guide.
+
+[3rd_Session.zip](./3rd_Session.zip)
+
+## Praktisches
 
 * [numpy Cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
