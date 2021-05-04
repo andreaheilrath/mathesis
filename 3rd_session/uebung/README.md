@@ -100,7 +100,7 @@ Bestimme durch Simulation, mit welcher Wahrscheinlichkeit beim Mischen
 eines Kartenstapels aus 52 Karten mindestens eine Karte an der alten Stelle zu liegen kommt.
 
 Schreibe dazu eine Funktion  `ziehe(l)`, die ein zufälliges Element
-der Liste `l` zurückgibt und dieses Element aus der Liste entfernt, eine Funktion `mische(n)`, die eine zufällige Anordnung der Zahlen $0,\ldots,n-1$ durch sukzessives Ziehen erzeugt und als Liste zurückgibt, eine Funktion `pruefe(l)`, die True zurückgibt, falls die übergebene Anornungs-Liste eine Karte an ihrer alten Stelle hat (d.h. falls es ein $i$ gibt, so dass $l[i]==i$) und ein Hauptprogramm, das mit Hilfe der Funktionen `mische` und `pruefe` das gegebene Problem löst.
+der Liste `l` zurückgibt und dieses Element aus der Liste entfernt, eine Funktion `mische(n)`, die eine zufällige Anordnung der Zahlen $0,\ldots,n-1$ durch sukzessives Ziehen erzeugt und als Liste zurückgibt, eine Funktion `pruefe(l)`, die True zurückgibt, falls die übergebene Anornungs-Liste eine Karte an ihrer alten Stelle hat (d.h. falls es ein `i` gibt, so dass `l[i]==i`) und ein Hauptprogramm, das mit Hilfe der Funktionen `mische` und `pruefe` das gegebene Problem löst.
 
 Für die Funktion `ziehe` können Sie `numpy.random.randint` benutzen.
 
@@ -122,7 +122,9 @@ Du kannst dazu turtle-Graphik verwenden.
 
 Erzeuge aus einem Bild ein Schwarz-Weiß-Bild, das nur die Kanten des Bilds zeigt.
 
-Benutze die Funktionen `scipy.ndimage` und `scipy.misc`.
+```python
+bild = imageio.imread('images/IMGP2821.JPG', pilmode='F')
+```
 
 ### 12. Schwerpunkt, Trägheitstensor
 
