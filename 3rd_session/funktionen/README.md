@@ -18,14 +18,62 @@ def funktionsname(arg1, arg2 = 2):
     help(funktionsname) aufgerufen wird.
     '''
     print('Die Funktion "funktionsname" wird ausgefuehrt')
-
     return arg1 * arg2
 ```
 
 Mit `return ...` wird die Größe definiert, die anschließend als Wert der Funktion zurückgegeben wird. Wird kein Rückgabewert bei `return`definiert wird der Wert `None` zurückgegeben.
 
-Argumente, die der Funktion übergeben werden, können einen Defaultwert haben,
-wie das bei `arg2` der Fall ist.
+Argumente, die der Funktion übergeben werden, können einen Defaultwert haben, wie das bei `arg2` der Fall ist.
+
+So wird die Funktion aufgerufen:
+```python
+funktionsname(2)
+funktionsname(2, 4)
+funktionsname(2, arg2 = 4)
+```
+
+## Argumente
+
+Werte die einer Funktion übergeben werden stehen in den runden Klammern nach dem Funktionsnamen.
+
+Wir den Argumenten kein Default-Wert zugewiesen, erfolgt die Übergabe durch die Position der Argumente (positional arguments)
+
+```python
+def pos_arg_fkt(arg1, arg2):
+    return arg1 * arg2
+
+pos_arg_fkt(1, 2) # hier wird arg1 = 1 und arg2 = 2
+pos_arg_fkt(1, arg2=2) # ist auch erlaubt
+
+pos_arg_fkt(arg1=1, 2) # syntax error!!
+```
+Man darf bei dieser Funktion auch Keywords benutzen, wichtig ist allerdings, dass niemals ein
+Positions-Argument nach einem Keyword-Argument kommt!
+
+Das gilt auch für Funktionen mit Keyword-Argumenten (also Default-Werten:
+
+```python
+def key_arg_fkt(arg1 = 1, arg2 = 2):
+    return arg1 * arg2
+
+key_arg_fkt() # hier wird arg1 = 1 und arg2 = 2
+key_arg_fkt(arg2=4) # ist auch erlaubt
+
+key_arg_fkt(arg1=2, 4) # syntax error!!
+```
+
+Man kann beide Arten auch mischen:
+
+```python
+def mixed_arg_fkt(arg1, arg2 = 2):
+    return arg1 * arg2
+
+mixed_arg_fkt(1) # hier wird arg1 = 1 und arg2 = 2
+mixed_arg_fkt(1, 2) # ist auch erlaubt
+
+mixed_arg_fkt(arg2=4) # error: missing 1 required positional argument
+mixed_arg_fkt(arg1=2, 4) # syntax error!!
+```
 
 ## Lokale und globale Variablen
 
@@ -60,118 +108,40 @@ f(1)
 <img src="./namespaces.jpg" alt="Namespaces" style="width: 60%;"/>
 
 
-## Argumente
+### Achtung: mutable und immutable
 
-### Übergabe durch Position
+Wenn einer Funktion Argumente übergeben werden, so muss darauf geachtet werden, ob die Argumente mutable oder immutable sind.
 
-**Beispiel:** Berechnung der Fläche eines Trapezes.
-
-<img src="trapez.png" width=40%>
-
+`funktion1` verändert die ihr übergebene Liste, `funktion2` tut das ebenfalls und gibt ein ganz anderes Objekt zurück. `funktion3` verändert die übergebene Liste nicht und gibt eine neue, abgeänderte Liste zurück.
 
 ```python
-def trapez(a, b, h):
-    '''berechnet Fläche eines Trapezes
-    Parameter a,b,h'''
-    return h*(a+b)/2
-```
+from copy import copy
 
-In der Funktion spielen `a`, `b` und `h` verschiedene Rollen. Wenn ich
-`f(1,2,5)` aufrufe, sollte ich wissen, dass 1 für `a`, 2 für `b` und 5 für `h`
-eingesetzt wird.
+def funktion1(x):
+    '''erwartet eine Liste'''
+    x.append(4)
+    print("f1 durchgefuehrt")
 
-### Übergabe durch Schlüsselwort (keyword)
+def funktion2(x):
+    '''erwartet eine Liste'''
+    x[1] = 'Huhn'
+    x = 3.33  # ab hier verliert 'x' die Verbindung
+    # zum übergebenen Objekt x
+    print("f2 durchgefuehrt")
+    return x
 
-Es ist aber auch möglich, Funktionen so zu deklarieren, dass die Argumente mit Schlüsselwörtern übergeben werden können.
-```python
-def funktion(argument1=default1, argument2=default2,...):
-    return 0
-```
-Dabei muss jeweils ein Defaultwert angegeben werden, der für das Argument einsetzt wird, wenn nichts zu diesem Schlüsselwort übergeben wurde.
-
-Man kann auch in diesem Fall noch die Argumente ohne Schlüsselwort übergeben. Sie werden dann in der Reihenfolge den Argumentvariablen zugeordnet, in der sie in der Deklaration stehen.
-
-
-```python
-def trapez(a=1, b=1, h=1):
-    '''brerechnet Fläche eines Trapezes
-    Parameter a,b,h'''
-    return h*(b+a)/2
-```
-
-#### Ein  weiteres Beispiel: Funktion für numerische Integration
-
-Das ist eine Funktion, die eine übergebene Funktion numerisch integriert. (Zugrunde liegt eine so genannte Quadraturformel, genauer eine der einfachsten, die Trapezregel.)
-
-<img src="./integral.jpg" width=60%>
-
-$\int^b_a f(x) \approx \sum^n_{i=0} f(a + i \, \Delta x) \Delta x - f(a)\frac{1}{2}\Delta x - f(b) \frac{1}{2} \Delta x $
-
-
-```python
-import numpy as np
-
-def integral(f, a, b, n):
-    '''Approximiert das Integral über die Funktion f von a bis b nach der Trapezregel
-    mit n Unterteilungen'''
-    x = np.linspace(a, b, n+1) #erzeugt ein Array mit gleichmäßigen Abständen in einem Intervall
-    return (np.sum(f(x)) -0.5*f(a) - 0.5*f(b)) * (b-a)/n
+def funktion3(x):
+    '''erwartet eine Liste'''
+    y = copy(x)
+    y.append('asdf')
+    print("f3 durchgefuehrt")
 ```
 
 
-```python
-integral(np.sin, 0, 2*np.pi, 100)
-```
 
+## Noch mehr zur Übergabe von Argumenten...
 
-```python
-integral(np.sin, 0, 2*np.pi, 1000)
-```
-
-Es ist aber - gerade bei Funktionen mit vielen Argumenten - praktisch, sich nicht deren Reihenfolge, sondern deren hoffentlich sprechende Namen merken zu müssen. Man könnte die Funktion also so deklarieren:
-
-
-```python
-def integral(f=np.sin, a=0, b=1, n=1000):
-    '''Approximiert das Integral über f von a bis b nach der Trapezregel
-    mit n Unterteilungen'''
-    x = np.linspace(a, b, n+1)
-    return (np.sum(f(x)) -0.5*f(a) - 0.5*f(b)) * (b-a)/n
-```
-
-Diese Funktion kann ich immer noch so wie die vorige aufrufen. `integral(np.sin,0,2*np.pi,1000)` wird weiterhin die Variablen in der gegebenen Reihenfolge ersetzen.
-
-Die Argumente lassen sich aber auch so übergeben: `f(f=np.cos,a=1,b=5,n=50)`. Hier werden die Variablen gemäß ihrer Namen
-(keywords) mit Werten gefüllt. Es ist aber insbesondere auch möglich manche dieser Argumente wegzulassen. Diese erhalten dann den default-Wert, der in der Definition steht. `f(np.sin,0,2)` verwendet also für $n$ den Defaultwert 1000.
-
-
-```python
-integral(f=np.cos, a=0, b=0.5*np.pi)
-```
-
-### Mischung der beiden Formen: Positionsargumente und Schlüsselwörter
-
-
-```python
-def funktion(arg1, arg2,... , kwarg1=default1, kwarg2=default2):
-  return 0
-```
-
-Beispiel: Eine Funktion, die eine übergebene Funktion numerisch integriert.
-
-<img src="integral.jpg" width=60%>
-
-$\int^b_a f(x) \approx \sum^n_{i=0} f(a + i \, \Delta x) \Delta x - f(a)\frac{1}{2}\Delta x - f(b) \frac{1}{2} \Delta x $
-
-```python
-def integral(f, a, b, n=1000):
-    '''Approximiert das Integral über f von a bis b nach der Trapezregel
-    mit n Unterteilungen'''
-    x = np.linspace(a, b, n+1)
-    return (np.sum(f(x)) -0.5*f(a) - 0.5*f(b)) * (b-a)/n
-```
-
-#### das geht nur in Python 3: Obligatorische Schlüsselwortargumente ohne Default-Wert
+### Obligatorische Schlüsselwortargumente ohne Default-Wert
 
 Bei den oben skizzierten Varianten der Übergabe von Argumenteen wurden diese entweder *ohne Default-Wert* nach ihrer Position übergeben oder *mit Default-Werten* über Schlüsselwörter. Es könnte aber wünschenswert sein, Argumente ohne Default-Wert über Schlüsselwörter zu übergeben.
 
@@ -209,42 +179,6 @@ integral(np.exp, a=1, b=2) # geht auch
 ```python
 integral(np.cos, 1, 2, 1000)  # Fehler
 ```
-
-### Achtung: mutable und immutable
-
-Wenn einer Funktion Argumente übergeben werden, so muss darauf geachtet werden, ob die Argumente mutable oder immutable sind.
-
-```python
-from copy import copy
-
-def funktion1(x):
-    '''erwartet eine Liste'''
-    x.append(4)
-    print("f1 durchgefuehrt")
-
-def funktion2(x):
-    '''erwartet eine Liste'''
-    x[1] = 'Huhn'
-    x = 3.33  # ab hier verliert 'x' die Verbindung
-    # zum übergebenen Objekt x
-    print("f2 durchgefuehrt")
-    return x
-
-def funktion3(x):
-    '''erwartet eine Liste'''
-    y = copy(x)
-    y.append('asdf')
-    print("f3 durchgefuehrt")
-```
-
-
-```python
-l = [1, 2, 3]
-lf = funktion1(l)
-print(l)
-print(lf)
-```
-
 
 
 ### Argumente ein- und auspacken (optional)
