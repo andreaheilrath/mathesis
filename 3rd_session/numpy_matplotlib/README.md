@@ -73,7 +73,8 @@ np.random.randn(*shape) # erzeugt eine Matrix der gegeben Shape,
 import matplotlib.pyplot as plt
 
 x = np.linspace(0, 10, 1000)
-y = np.sin(x)   # in diesem Schritt wird die Sinusfunktion auf jedes einzelne Element des Arrays angewandt. Das geht zunächst nur mit 'universal functions' - eigene erstellt man mit numpy.vectorize
+y = np.sin(x)   # in diesem Schritt wird die Sinusfunktion auf jedes einzelne Element des Arrays angewandt. 
+                # Das geht zunächst nur mit 'universal functions' - eigene erstellt man mit numpy.vectorize
 plt.figure()
 plt.plot(x, y)
 plt.show()
