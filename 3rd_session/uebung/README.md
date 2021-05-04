@@ -73,7 +73,7 @@ Beachte, dass numpy-Arrays die Indizierung bei Null beginnen lassen, während ma
 
 Löse das Gleichungssystem
 
-$M x = \begin{pmatrix} 1\\1\\ \ldots \\1 \end{pmatrix}$.
+$$M x = \begin{pmatrix} 1 \\ 1 \\ \ldots \\ 1 \end{pmatrix}$$.
 
 Mache jeweils die Probe, um festzustellen, ob die Lösung tatsächlich eine ist. Was fällt auf für $n=10$?
 
