@@ -13,7 +13,7 @@ Bei der [rekursiven Programmierung](https://de.wikipedia.org/wiki/Rekursive_Prog
 
 Ein Beispiel hierfür sind die **[Fibonacci-Zahlen](https://de.wikipedia.org/wiki/Fibonacci-Folge)**.
 
-<img src="fib.jpg" width=50%>
+<img src="./fib.jpg" width=50%>
 
 Durch die "Rekursionsanker" f<sub>0</sub> = 0, f<sub>1</sub> = 1 kann die Fibonacci-Folge auch rekursiv in einer Funktion berechnet werden:
 
