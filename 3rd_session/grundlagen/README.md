@@ -43,8 +43,6 @@ Ein weiteres Beispiel ist die **[Drachenkurve](https://de.wikipedia.org/wiki/Dra
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Dragon_Curve_adding_corners_trails_rectangular_numbered_R.gif/300px-Dragon_Curve_adding_corners_trails_rectangular_numbered_R.gif">
 
-[Quelle](https://commons.wikimedia.org/wiki/File:Dragon_Curve_adding_corners_trails_rectangular_numbered_R.gif)
-
 Eine anschauliche Methode, diese Kurve zu erzeugen, ist folgende:
 
 Man nehme einen Papierstreifen und falte ihn in der Mitte, sodass sich seine Länge halbiert. Dies wiederhole man beliebig oft, dabei ist darauf zu achten, dass jedes Mal in dieselbe Richtung gefaltet wird. Zum Schluss falte man das Papier auseinander und ordne es so an, dass die Innenwinkel der Falze immer 90° betragen.
