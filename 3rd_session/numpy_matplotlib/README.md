@@ -18,7 +18,7 @@ permalink: /3rd_session/numpy_matplotlib/
 
 Ein **Array** ist eine Speicherstruktur, in der Zahlen (oder andere Objekte) in Abhängigkeit von einer gewissen Zahl von Indices gespeichert sind. Eine Matrix als rechteckige Anordnung von Zahlen ist der Spezialfall eines Arrays mit zwei Indices.
 
-[<img src = "./array.png" width= 50%>](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+<img src="array.png" alt="Visualisierung eines Arrays" style="width: 500em;"/>
 
 In der [Dokumentation](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html) findet ihr alle Attribute und Methoden, die ein Numpy Array hat.
 
@@ -135,9 +135,7 @@ plt.show()
 
 Zwei Funktionen, mit denen aus bereits bestehenden Arrays neue gemacht werden können, sind `concatenate` und `reshape`.
 
-`concatenate` fügt zwei Arrays hintereinander an
-
-`reshape` transferiert die Einträge eines Arrays in eine neues Array mit anderer Shape
+`concatenate` fügt zwei Arrays hintereinander an, `reshape` transferiert die Einträge eines Arrays in eine neues Array mit anderer Shape
 
 
 ```python
@@ -145,12 +143,7 @@ v = np.arange(20)
 v2 = np.concatenate((v, v))  # Aneinanderhängen zweier Vektoren
 print(v2)
 print(v2.shape)
-```
-
-
-```python
 w = v.reshape((2, 10))  # beachtet: die neue Matrix wird zeilenweise befüllt
-w
 ```
 
 ## Lineare Algebra
@@ -199,51 +192,22 @@ print(M)
 Für weitergehende Operationen der linearen Algebra gibt es ein Unterpaket: `numpy.linalg`.
 Eine Funktion, die sehr wichtig ist, ist  `numpy.linalg.solve`. Sie löst ein lineares Gleichungssystem mit einer schnellen, in C programmierten Variante des Gauß'schen Algorithmus.
 
-**An dieser Stelle noch ein paar Hinweise zu Linearen Gleichungssystemen**
-<img src="LinearesGleichungssystem.jpg" width=85%>
-
 
 ```python
 M = np.array([[3, 2, 1], [4, -5, 18], [-7, 8, -2]])
 y = np.array([7, 12, 42])
-
 print(M, y)
-```
-
-
-```python
 x = np.linalg.solve(M, y)
 print(x)
 ```
 
-
 ```python
 # Probieren wir mal, wie lange ein 10000x10000-Gleichungssystem dauert
 v = np.random.rand(10000)
-```
-
-
-```python
-v[:100]
-```
-
-
-```python
 A = np.random.rand(10000, 10000)
-```
-
-
-```python
 A.shape
-```
-
-
-```python
 v.shape
-```
 
-
-```python
 %time np.linalg.solve(A, v)  #das dauert eine Weile ...
 ```
 
@@ -255,26 +219,6 @@ v.shape
 
 Dabei ist axis entweder eine Zahl oder ein Tupel, wenn über mehre Dimension summiert werden soll. Es gibt noch viel mehr solcher Funktionen, aber hier wird keine Vollständigkeit angestrebt.
 
-
-
-```python
-np.sum(A, axis=1)
-```
-
-
-```python
-np.sum(A, axis=0)
-```
-
-
-```python
-np.mean(A)
-```
-
-
-```python
-np.mean(A, axis=1)
-```
 
 ### Daten aus Tabelle lesen und darstellen
 
