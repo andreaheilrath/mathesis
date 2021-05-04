@@ -152,7 +152,7 @@ w = v.reshape((2, 10))  # beachtet: die neue Matrix wird zeilenweise befüllt
 
 Hier zwei Beispiele für die Multiplikation einer Matrix mit einem Vektor, die wiederum einen Vektor liefert und der Multiplikation zweier Vektoren, welche ein Skalar ergibt.
 
-<img src="Matrixmult.jpg" width=80%>
+<img src="Matrixmult.jpg" alt="Rechenschritte Matrixmultiplikation" style="width: 500em;"/>
 
 In `numpy` wird diese Operation mit `np.dot(M,x)` bzw. `M.dot(x)` durchgeführt.
 
