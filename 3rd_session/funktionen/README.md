@@ -36,7 +36,7 @@ funktionsname(2, arg2 = 4)
 
 Werte die einer Funktion übergeben werden stehen in den runden Klammern nach dem Funktionsnamen.
 
-Wir den Argumenten kein Default-Wert zugewiesen, erfolgt die Übergabe durch die Position der Argumente (positional arguments)
+Wird den Argumenten kein Default-Wert zugewiesen, erfolgt die Übergabe durch die Position der Argumente (positional arguments)
 
 ```python
 def pos_arg_fkt(arg1, arg2):
@@ -105,8 +105,8 @@ def f(x):
 f(1)
 ```
 
-<img src="./namespaces.jpg" alt="Namespaces" style="width: 60%;"/>
-
+<img src="./namespaces.jpg" alt="Namespaces" style="width: 60%;">
+<img src="./namespaces.jpg" width = "640em">
 
 ### Achtung: mutable und immutable
 
