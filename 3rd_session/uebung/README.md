@@ -2,7 +2,7 @@
 title: Übung
 parent: 3. Session
 nav_order: 4
-permalink: /3rd_session/uebung
+permalink: /3rd_session/uebung/
 ---
 
 
