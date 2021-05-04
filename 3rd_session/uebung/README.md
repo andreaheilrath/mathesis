@@ -69,7 +69,7 @@ $M v_1 = v_2$
 
 Erstelle für $n=2,3,4,10$ die Matrix 
 
-$$M=(m_{ij})_{1\leq i,j\leq n}, /quad m_{i,j}=1/(i+j-1)$$.
+$$M=(m_{ij})_{1\leq i,j\leq n}, \quad m_{i,j}=1/(i+j-1)$$.
 
 Beachte, dass numpy-Arrays die Indizierung bei Null beginnen lassen, während man in der Mathematik mit 1 anfängt.
 
