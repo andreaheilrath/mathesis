@@ -2,7 +2,7 @@
 title: Funktionen
 parent: 3. Session
 nav_order: 1
-permalink: /3rd_session/funktionen
+permalink: /3rd_session/funktionen/
 ---
 
 
