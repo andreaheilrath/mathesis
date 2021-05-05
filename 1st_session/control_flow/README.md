@@ -13,7 +13,7 @@ Bedingungen werden über Boolsche Variablen abgefragt, also `True` und `False`.
 
 In vielen anderen Programmiersprachen wird Code mit Klammern strukturiert - in Python allerdings funktioniert die Struktur über **Einrückungen von Blöcken**.
 
-## Coder unter Bedingungen ausführen
+## Code unter Bedingungen ausführen
 
 ### if .. elif .. else
 
