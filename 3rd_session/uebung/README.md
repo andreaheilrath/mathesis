@@ -236,3 +236,7 @@ bestimmt. Verwende `numpy` und speziell `numpy.linalg`.
 Welcher Trend ist aus dem Ergebnis abzulesen (Temperaturveränderung/Jahr)? Das kann man natürlich auch für die Maximaltemperatur und  Minimaltemperatur machen.
 
 Plotte außerdem die Koeffizienten $b[1],\ldots,b[366]$ und interpretiere den Plot.
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/6345NFxXTXE" allowfullscreen></iframe>
+</div>
