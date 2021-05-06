@@ -15,6 +15,8 @@ Du lernst in dieser Einheit etwas über
 * Bedingungen: if, elif, else & while, Boolesche Variablen und Vergleiche
 * Funktionen und Imports (numpy, matplotlib, schallwerkzeuge)
 
+[Zur YouTube Playlist](https://www.youtube.com/watch?v=cwZzrNUwTLc&list=PLTS-X17mUJ0tkQUtqcC26anLR30YJdLnb&index=11)
+
 
 ## Dateien zum Download
 
