@@ -325,3 +325,9 @@ a = np.abs(bild[10:, :]-bild[:-10])
 plt.figure()
 plt.imshow(a, cmap=plt.get_cmap('gray'))
 ```
+
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/41iWont_drg" allowfullscreen></iframe>
+</div>
+
