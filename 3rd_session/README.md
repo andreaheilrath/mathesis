@@ -24,3 +24,9 @@ Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien
 ## Praktisches
 
 * [numpy Cheatsheet](https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf)
+
+
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/wMAMJX_BMiM" allowfullscreen></iframe>
+</div>
