@@ -15,6 +15,8 @@ Du lernst in dieser Einheit etwas über
 Plots mit Matplotlib, Bilder bearbeiten, Schallbeispiele
 * Formatierung (optional)
 
+[Zur YouTube Playlist](https://www.youtube.com/watch?v=wMAMJX_BMiM&list=PLTS-X17mUJ0tkQUtqcC26anLR30YJdLnb&index=17)
+
 
 ## Dateien zum Download
 Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien) sind in einer ZIP-Datei zusammengefasst. Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleiner Guide.
