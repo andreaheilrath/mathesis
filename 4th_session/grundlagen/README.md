@@ -21,11 +21,25 @@ permalink: /4th_session/grundlagen/
 
 Beim Objektorientierten Programmieren wird Code anders strukturiert als bei der Prozeduralen Programmierung, die wir bisher genutzt haben. Mit beiden Varianten lassen sich gleiche Ergebnisse erzielen, aber auf anderem Weg.
 
-Jedes Objekt gehört dabei zu einer Klasse. Die Klasse ist eine Art "Blaupause" für alle Objekte die zu dieser Klasse gehören. 
+Jedes Objekt gehört dabei zu einer Klasse. Die Klasse ist eine Art "Blaupause" für alle Objekte die zu dieser Klasse gehören. Die einzelnen Objekte einer Klasse werden auch **Instanzen** genannt.
 
-Wir werden uns ein Beispiel ansehen, bei dem eine Klasse für Katzen erstellt wird. Jede Katze hat ähnliche Eigenschaften, die unabhängig von der indivituellen Katze sind. Dabei unterscheiden wir zwischen Funktionen, die im Kontext von OOP **Methoden** heißen und Variablen, den **Attributen**. Im Beispiel der Katze gibt des die Methoden `play` und `meow` und die Attribute `mood`, `enegery`, `hunger`, `sounds`.
+Instanzen einer Klasse unterscheiden sich in ihrem Zustand, nicht aber in ihrem Verhalten. Zustandsvariablen eines Objekts werden **Attribute** genannt. Funktionen (also das Verhalten) die zu einem Objekt gehören sind dessen **Methoden**.
 
-<img src="cat_class.png" style="width:50em">
+Ein Beispiel für ein Objekt in Python sind die Numpy-Arrays.
+```python
+import numpy as np
+
+a = np.array([0, 1, 2, 3])  # erstellt eine Instanz der Klasse Numpy
+print(a.shape)              # Printet das Attribut shape
+b = a.reshape(2,2)          # Aufruf der Methode reshape
+print(b.shape)              # Printet das Attribut shape von b
+```
+
+Wir werden uns ein Beispiel ansehen, bei dem eine Klasse für Katzen erstellt wird. Jede Katze hat ähnliche Eigenschaften, die unabhängig von der indivituellen Katze sind. 
+
+Unsere Klasse `Cat` hat die Methoden `play` und `meow` und die Attribute `mood`, `enegery`, `hunger`, `sounds`.
+
+<img src="cat_class.png" style="width:20em">
 
 
 ## Grundkonzepte der OOP
