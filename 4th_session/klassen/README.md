@@ -49,8 +49,7 @@ miez.meow()         # Da miez ein Objekt der Klasse Cat ist, besitzt es die Meth
 miez.play()         # In der Methode .play() wird auch die Methode .meow() aufgerufen
 print(miez.mood)    # mood ist keine Methode, sondern ein Attribut. Daher wird es ohne Klammern () aufgerufen.
 ```
-
-<img src="cat_class.png" style="width:20em">
+<img src="cat_class.png" style="width:100em">
 
 
 ### Public and non-Public
@@ -223,7 +222,7 @@ print(garfield.mood)
 ```
 
 
-<img src = "Pet_inheritance.png" style="width:55em">
+<img src = "Pet_inheritance.png" style="width:100em">
 
 
 ### Polymorphismus (Vielgestaltigkeit)
