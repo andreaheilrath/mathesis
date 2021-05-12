@@ -39,7 +39,7 @@ Wir werden uns ein Beispiel ansehen, bei dem eine Klasse für Katzen erstellt wi
 
 Unsere Klasse `Cat` hat die Methoden `play` und `meow` und die Attribute `mood`, `enegery`, `hunger`, `sounds`.
 
-<img src="cat_class.png" style="width:40em">
+<img src="cat_class.png" style="width:100em">
 
 
 ## Grundkonzepte der OOP
