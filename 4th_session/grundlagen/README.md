@@ -19,11 +19,13 @@ permalink: /4th_session/grundlagen/
 
 ## Worum geht es hier?
 
-Objektorientiertes Programmieren steht im Kontrast zur Prozeduralen Programmierung was die Struktur eures Codes angeht. Mit beiden Varianten könnt ihr die gleichen Ergebnisse erzielen, aber auf anderem Weg.
+Beim Objektorientierten Programmieren wird Code anders strukturiert als bei der Prozeduralen Programmierung, die wir bisher genutzt haben. Mit beiden Varianten lassen sich gleiche Ergebnisse erzielen, aber auf anderem Weg.
 
-Bei der OOP 
+Jedes Objekt gehört dabei zu einer Klasse. Die Klasse ist eine Art "Blaupause" für alle Objekte die zu dieser Klasse gehören. 
 
-<img src="cat_class.png" style="width:500em">
+Wir werden uns ein Beispiel ansehen, bei dem eine Klasse für Katzen erstellt wird. Jede Katze hat ähnliche Eigenschaften, die unabhängig von der indivituellen Katze sind. Dabei unterscheiden wir zwischen Funktionen, die im Kontext von OOP **Methoden** heißen und Variablen, den **Attributen**. Im Beispiel der Katze gibt des die Methoden `play` und `meow` und die Attribute `mood`, `enegery`, `hunger`, `sounds`.
+
+<img src="cat_class.png" style="width:50em">
 
 
 ## Grundkonzepte der OOP
