@@ -10,7 +10,18 @@ permalink: /4th_session/files_exceptions/
 
 Hier ein paar Code-Schnipsel, die vielleicht hilfreich sein werden ...
 
-### Write to file
+## Python Code auslagern
+
+Funktionen und auch Klassen lassen sich in gesonderten `.py` Dateien speichen und über `import` laden. Die oben stehende Klassendeklaration habe ist in der Datei `pet.py` gespeichert und kann wie folgt verwendet werden:
+
+
+```python
+import pet as p
+katze = p.Cat()
+katze.play()
+```
+
+## Write to file
 
 Häufig möchte man Ergebnisse einer Berechnung in einer Datei speichern. Das kann man z.B. mit `.write` machen:
 
@@ -23,7 +34,7 @@ with open(filename, 'w') as file_object:
     file_object.write("Another line.")
 ```
 
-### Exceptions
+## Exceptions
 
 Wenn ein Code einen Fehler ausgibt, bricht es ab.
 Da es aber vorhersehbare Fehler gibt, kann man solche Error-Messages mit `try` ... `except` abfangen.
@@ -46,8 +57,7 @@ except FileNotFoundError:
     print(f"Sorry, the file {filename} does not exist.")
 ```
 
-### Python Objekte speichern und Abrufen: Pickle
-
+## Python Objekte speichern und Abrufen: Pickle
 
 ```python
 import pickle
@@ -61,7 +71,7 @@ favorite_color = pickle.load( open( "save.p", "rb" ) )
 print(favorite_color)
 ```
 
-### Daten / Tabellen: Pandas
+## Daten / Tabellen: Pandas
 
 
 ```python
@@ -71,7 +81,7 @@ dataframe = pd.read_csv("algebuei.csv", delimiter = ";")
 print(dataframe)
 ```
 
-### Andere nützliche Module
+## Andere nützliche Module
 
 Referenz auf python.org: https://wiki.python.org/moin/UsefulModules
 
