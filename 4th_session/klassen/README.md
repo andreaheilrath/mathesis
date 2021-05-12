@@ -279,14 +279,4 @@ rex.play()
 garfield.play()
 ```
 
-### Python Code auslagern
-
-Funktionen und auch Klassen lassen sich in gesonderten `.py` Dateien speichen und über `import` laden. Die oben stehende Klassendeklaration habe ist in der Datei `pet.py` gespeichert und kann wie folgt verwendet werden:
-
-
-```python
-import pet as p
-katze = p.Cat()
-katze.play()
-```
 
