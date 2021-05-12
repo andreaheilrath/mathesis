@@ -7,7 +7,7 @@ permalink: /4th_session/
 
 # 4. Session
 
-* Grundlagen [Objektorientierte Programmierung](https://de.wikipedia.org/wiki/Objektorientierte_Programmierung)
+* Grundlagen Objektorientierte Programmierung
 * Klassen in Python (Deklaration, Methoden und Attribute, Vererbung)
 * Beispiele für Klassen (Telefonbuch, Hello World, Mulitagentensimulation, Bilder (operator overloading), Buch (getitem & setitem), Sapel, Datenverarbeitungspipeline
 * Dateien, Exceptions, Pickle, Pandas, andere Bibliotheken
