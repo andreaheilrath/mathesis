@@ -46,39 +46,28 @@ except FileNotFoundError:
     print(f"Sorry, the file {filename} does not exist.")
 ```
 
-### Python Objekte speichern und Abrufen
-
-* pickle
+### Python Objekte speichern und Abrufen: Pickle
 
 
 ```python
 import pickle
 
 favorite_color = { "lion": "yellow", "kitty": "red" }
-
 pickle.dump( favorite_color, open( "save.p", "wb" ) )
 ```
-
 
 ```python
 favorite_color = pickle.load( open( "save.p", "rb" ) )
 print(favorite_color)
 ```
 
-### Daten / Tabellen
-
-* Pandas https://pandas.pydata.org/docs/
-
+### Daten / Tabellen: Pandas
 
 
 ```python
 import pandas as pd
 
 dataframe = pd.read_csv("algebuei.csv", delimiter = ";")
-```
-
-
-```python
 print(dataframe)
 ```
 
