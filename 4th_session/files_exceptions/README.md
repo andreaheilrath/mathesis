@@ -1,5 +1,5 @@
 ---
-title: Dateien, Exceptions, Module
+title: Nützliches
 nav_order: 4
 parent: 4. Session
 permalink: /4th_session/files_exceptions/
