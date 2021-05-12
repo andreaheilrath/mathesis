@@ -116,41 +116,13 @@ class HelloWorld():
 ```python
 h = HelloWorld()
 print(h.language)
-```
-
-
-```python
 h.say()
-```
-
-
-```python
 h.set_language('de')
-```
-
-
-```python
 print(h.language)
-```
-
-
-```python
 h.say()
-```
-
-
-```python
 h.set_language('tk')
 h.say()
-```
-
-
-```python
-h.set_language('es')
-```
-
-
-```python
+h.set_language('es') # erzeugt eine Fehlermeldung
 h.say()
 ```
 
@@ -256,11 +228,6 @@ plt.ion()
 v.simulate(300)
 ```
 
-
-```python
-plt.close('all')
-```
-
 ## Special Methods: operator overloading
 
 In der Deklaration von Klassen lassen sich "special methods" definieren, die aufgerufen werden, wenn man die Objekte dieser Klassen mit Rechenoperatoren `*,+,-,/, %,//`, etc. vernüpft. Außerdem lässt sich mit solchen Methoden entscheiden, wie das Objekt dargestellt wird, wenn man es (bei `print`) in einen String umwandelt oder in anderen Zusammenhängen als String repräsentiert.
@@ -316,34 +283,14 @@ class Bild(object):
 bild = Bild()
 bild.read_from_file('tu_berlin.jpg')
 print(bild)
-```
-
-
-```python
 bild.show()
-```
-
-
-```python
 bild_links = Bild(
     bild.daten[:, :-1], info="linker Teil, rechte äußere Zeile weggelassen")
 bild_rechts = Bild(
     bild.daten[:, 1:], info="rechter Teil, linke äußere Zeile weggelassen")
 print(bild_links, "\n", bild_rechts)
-```
-
-
-```python
 bild2 = bild_links-bild_rechts
-```
-
-
-```python
 print(bild2)
-```
-
-
-```python
 bild2.show()
 ```
 
@@ -379,31 +326,11 @@ class MyBook(object):
             f.write(value)
 ```
 
-
 ```python
 book=MyBook('book_page_')
-```
-
-
-```python
 book[0]='Maus'
 book[1]='Katze'
 book[2]='Schnabeligel'
-```
-
-
-```python
-book[2]
-```
-
-
-```python
-%ls *.txt
-```
-
-
-```python
-%load book_page_2.txt
 ```
 
 #### Wenn das geht, funktioniert dann eine for-Schleife ?
@@ -467,13 +394,6 @@ Ein leerer Stapel besteht aus einem einzigen Waggon, der keinen Inhalt hat und k
 Wagen. Um das besser formulieren zu können, definieren wir ein besonders **NOTHING**-Objekt. (Wir könnten auch das Python-Objekt `None` nehmen, aber da dieses in Python an diversen Stellen vorkommt, könnte es zu Verwechslungen kommen.)
 
 
-
-
-
-
-
-
-
 ```python
 class Nothing:
     pass
@@ -513,10 +433,6 @@ wobei `stapel3.oben`  den Wert 'Manguste' von `stapel.oben` übernimmt und
 Und `stapel.rest` soll nun  `stapel3` sein.
 
 
-
-
-
-
 ```python
 class Stapel(object):
     '''LiFo'''
@@ -529,8 +445,6 @@ class Stapel(object):
         '''legt x oben auf den Stapel'''
         self.rest = Stapel(oben=self.oben, rest=self.rest)
         self.oben = x
-
-
 ```
 
 Wie müsste nun die Methode `nimm` aussehen, die das oberste Element vom Stapel wegnimmt?
@@ -547,8 +461,6 @@ als Attribut `oben` 'Nebelparder' haben, das Attribut `rest` soll auf `stapel1` 
     stapel2 = stapel.rest
     stapel.oben = stapel2.oben
     stapel.rest = stapel2.rest
-
-
 
 
 ```python
@@ -583,25 +495,9 @@ class Stapel(object):
 
 ```python
 s = Stapel()
-```
-
-
-```python
 s.lege_ab('Katze')
-```
-
-
-```python
 s.lege_ab(3.1415)
-```
-
-
-```python
 s.lege_ab('Spam Spam Spam')
-```
-
-
-```python
 s.nimm()
 ```
 
@@ -609,7 +505,6 @@ Um ein weiteres Beispiel für **special methods** zu geben: Wenn wir
 eine `__getitem__`-Methode implementieren, können wir wie bei Strings
 oder Listen per  `[]` auf Elemente zugreifen und mit einer for-Schleife
 iterieren.
-
 
 
 
@@ -832,9 +727,4 @@ analyser.STOP = True
 source.inStream.stop_stream()
 del(viewer)
 plt.close('all')
-```
-
-
-```python
-
 ```
