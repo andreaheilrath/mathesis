@@ -39,14 +39,14 @@ Wir werden uns ein Beispiel ansehen, bei dem eine Klasse für Katzen erstellt wi
 
 Unsere Klasse `Cat` hat die Methoden `play` und `meow` und die Attribute `mood`, `enegery`, `hunger`, `sounds`.
 
-<img src="cat_class.png" style="width:20em">
+<img src="cat_class.png" style="width:40em">
 
 
 ## Grundkonzepte der OOP
 
-* Verkapselung
-* Abstraktion
-* Vererbung
-* Polymorphismus
+* Verkapselung: Strukturen werden einen Container verpackt
+* Abstraktion: Komplexe Vorgänge werden einfach dargestellt
+* Vererbung: Klassen können auf anderen Klassen aufbauen
+* Polymorphismus: Verschiedene Klassen können ähnliches Verhalten zeigen
 
 Einige Beispiele und Konzepte sind aus diesem [FreeCodeCamp Post](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/) entnommen.
