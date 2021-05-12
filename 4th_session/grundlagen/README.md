@@ -30,10 +30,9 @@ Wir werden uns ein Beispiel ansehen, bei dem eine Klasse für Katzen erstellt wi
 
 ## Grundkonzepte der OOP
 
-### Verkapselung
+* Verkapselung
+* Abstraktion
+* Vererbung
+* Polymorphismus
 
-### Abstraktion
-
-### Vererbung
-
-### Polymorphismus
+Einige Beispiele und Konzepte sind aus diesem [FreeCodeCamp Post](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/) entnommen.
