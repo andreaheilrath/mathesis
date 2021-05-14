@@ -6,9 +6,9 @@ permalink: /4th_session/files_exceptions/
 ---
 
 
-# Hinweis zu Dateien, Exceptions und andere Module ...
+# Nützliche Hinweise zum Schluss
 
-Hier ein paar Code-Schnipsel, die vielleicht hilfreich sein werden ...
+Hier ein paar Code-Schnipsel, die vielleicht hilfreich sein werden.
 
 ## Python Code auslagern
 
@@ -151,3 +151,9 @@ import this
     If the implementation is hard to explain, it's a bad idea.
     If the implementation is easy to explain, it may be a good idea.
     Namespaces are one honking great idea -- let's do more of those!
+    
+    
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/3uu4LA97k8U" allowfullscreen></iframe>
+</div>
