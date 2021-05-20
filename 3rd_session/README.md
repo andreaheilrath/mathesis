@@ -22,6 +22,7 @@ Plots mit Matplotlib, Bilder bearbeiten, Schallbeispiele
 Alle Dateien die ihr braucht (Jupyter Notebooks, ein paar Bilder und Textdateien) sind in einer ZIP-Datei zusammengefasst. Diese müsst ihr entpacken. Falls ihr nicht wisst, wie das geht, hier ein kleiner Guide.
 
 [3rd_Session.zip](./3rd_Session.zip)
+[iris.csv](./iris.csv)
 
 ## Praktisches
 
