@@ -41,7 +41,7 @@ Wenn man mit der Maus an eine Stelle klickt, soll sich die Turtle zur neuen Posi
 
 Verwende dazu `screen=turtle.Screen()`, `screen.onclick(...)`,  `turtle.mainloop()`
 
-Lese die Verwendung von 'onclick' in der Dokumentation nach.
+Lies die Verwendung von 'onclick' in der Dokumentation nach.
 
 Du kannst dir auch noch alle möglichen Erweiterungen ausdenken.
 
@@ -59,7 +59,7 @@ $$\begin{pmatrix} 1\\2\\3 \end{pmatrix} \rightarrow \begin{pmatrix} 2\\1\\1 \end
 \begin{pmatrix} 1\\1\\0 \end{pmatrix} \rightarrow \begin{pmatrix} 1\\0\\0 \end{pmatrix} \quad, \quad
 \begin{pmatrix} 0\\0\\-1 \end{pmatrix} \rightarrow \begin{pmatrix} 0\\-1\\-1 \end{pmatrix} \quad$$
 
-Gesucht ist eine Matrix $M$, die folgende Bedingung für alle paare von Vektoren erfüllt:
+Gesucht ist eine Matrix $M$, die folgende Bedingung für alle Paare von Vektoren erfüllt:
 
 $M v_1 = v_2$
 
