@@ -17,7 +17,7 @@ Abgabe im ISIS-Kurs, spätestes Abgabedatum wird dort angegeben, Gruppenpartner 
 ### Klasse Würfel
 
 Erstelle eine Klasse `Die` (Würfel) mit einem Attribut namens `sides`, das standardmäßig
-Wert 6h hat. Schreibe eine Methode namens `roll_die()`, die eine Zufallszahl ausgibt, zwischen 1 und der Anzahl der Seiten, die der Würfel hat. Erstelle auch einen 10-seitigen und einen 20-seitigen Würfel.
+Wert 6 hat. Schreibe eine Methode namens `roll_die()`, die eine Zufallszahl ausgibt, zwischen 1 und der Anzahl der Seiten, die der Würfel hat. Erstelle auch einen 10-seitigen und einen 20-seitigen Würfel.
 
 Würfel jeden Würfel 10 mal.
 
