@@ -10,23 +10,23 @@ permalink: /4th_session/uebung/
 
 Objekte und Klassen
 
-Hausaufgabe: Löse mindestens **eine der folgenden Aufgaben oder schreibe eine Klasse die dur dir selbst ausgedacht hast**. Ihr dürft die Aufgaben in Gruppen bearbeiten.
+Hausaufgabe: Löse mindestens **eine der folgenden Aufgaben oder schreibe eine Klasse die du dir selbst ausgedacht hast**. Ihr dürft die Aufgaben in Gruppen bearbeiten.
 
 Abgabe im ISIS-Kurs, spätestes Abgabedatum wird dort angegeben, Gruppenpartner bitte bei der Abgabe vermerken.
 
 ### Klasse Würfel
 
 Erstelle eine Klasse `Die` (Würfel) mit einem Attribut namens `sides`, das standardmäßig
-Wert 6h hat. Scrheibe eine Methode namens `roll_die()`, die eine Zufallszahl ausgibt, zwischen zwischen 1 und der Anzahl der Seiten, die der Würfel hat. Erstelle auch 10-seitige und eine 20-seitige Würfel.
+Wert 6h hat. Schreibe eine Methode namens `roll_die()`, die eine Zufallszahl ausgibt, zwischen 1 und der Anzahl der Seiten, die der Würfel hat. Erstelle auch einen 10-seitigen und einen 20-seitigen Würfel.
 
 Würfel jeden Würfel 10 mal.
 
 ### Restaurant
 
-Erstelle eine Klasse mit dem Namen `Restaurant`. Die Methode `__init__()` für ein Restaurant sollte zwei Attribute speichern: den Namen des Restaurands und die Küchenart (italienisch, indisch, ...).
+Erstelle eine Klasse mit dem Namen `Restaurant`. Die Methode `__init__()` für ein Restaurant sollte zwei Attribute speichern: den Namen des Restaurants und die Küchenart (italienisch, indisch, ..., denkt euch was aus).
 Erstelle eine Methode namens `describe_restaurant()`, die diese beiden Informationen ausgibt und eine Methode namens `open_restaurant()`, die aussagt, dass das Restaurant geöffnet ist.
 
-Erstelle eine Instanz der Klasse und teste alle Funktionen.
+Erstelle eine Instanz der Klasse und teste all ihre Methoden.
 
 ### Eine Klasse für Daten
 
