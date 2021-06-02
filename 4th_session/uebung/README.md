@@ -35,15 +35,15 @@ der Bezeichnungen der bisher gespeicherten Daten enthält, sowie eine Methode `s
 
 **Zusatz:**
 
-Weiterhin soll es noch eine Methode `set_properties` und eine Methode `get_properties` geben, die zu einem Namen ein Dictionary von Eigenschaften speichert. Außerdem soll die Klasse Methoden `pickle` und `unpickle`haben, die einen Dateinamen übergeben bekommen und das Objekt mit Hilfe des Moduls `pickle` speichern bzw. lesen.
+Weiterhin soll es noch eine Methode `set_properties` und eine Methode `get_properties` geben, die zu einem Namen ein Dictionary von Eigenschaften speichert. Außerdem soll die Klasse Methoden `pickle` und `unpickle` haben, die einen Dateinamen übergeben bekommen und das Objekt mit Hilfe des Moduls `pickle` speichern bzw. lesen.
 
-Wenn eine besondere Art von Daten gespeichert werden soll, kann man von dieser Klasse eine andere ableiten, z.B. `EKGData`,
-und dort noch spezielle Methoden zum Lesen von Daten in gewissen Formaten und zum Auswerten, Anzeigen, etc. hinzufügen.  Dabei ist es wichtig, sich die Eigenschaften der entsprechenden Daten zu überlegen (z.B. bei einer Tabelle die Namen der Spalten oder
+Wenn eine besondere Art von Daten gespeichert werden soll, kann man von dieser Klasse eine andere ableiten, z. B. `EKGData`,
+und dort noch spezielle Methoden zum Lesen von Daten in gewissen Formaten und zum Auswerten, Anzeigen dieser hinzufügen.  Dabei ist es wichtig, sich die Eigenschaften der entsprechenden Daten zu überlegen (z. B. bei einer Tabelle die Namen der Spalten oder
 der Zeilen, Einheiten, ...), um diese Eigenschaften in den Auswertungsfunktionen benutzen zu können.
 
 ### Eine Klasse für Himmelskörper
 
-Definiere eine Klasse `Body`, die als Attribute die Masse, den Radius, den Namen des Himmelskörpers enthält.
+Definiere eine Klasse `Body`, die als Attribute die Masse, den Radius sowie den Namen des Himmelskörpers enthält.
 Der Konstruktor sollte diese Parameter übergeben bekommen. Weitere mögliche Attribute: Bahnparameter, um die Keplerschen
 Bahnen zu berechnen, oder die Position und Geschwindigkeit zu einem gewissen Zeitpunkt, was ebenfalls die Berechnung der Bahnen
 erlaubt.
@@ -52,9 +52,9 @@ erlaubt.
 
 Definiere eine Klasse `Viewer`, die in ihrem Konstruktor eine Liste von Himmelskörpern bekommt und Methoden `visualize` und `update`, die diese Himmelskörper 3d visualisieren, bzw. die Positionen aktualisieren.
 Da in galaktischen Maßstäben die Himmelskörper oft furchtbar klein sind, sollte die Methode `visualize` einen
-optionalen Paramter `scale` haben, mit dem man die Himmelskörper vergrößern kann. Am besten eignet sich dafür das Moduld `vpython` (es heißt auch 'visual python' oder 'visual'.)
+optionalen Paramter `scale` haben, mit dem man die Himmelskörper vergrößern kann. Am besten eignet sich dafür das Modul `vpython` (es heißt auch 'visual python' oder 'visual'.)
 
 ### Game of Life
 
-Programmieren Sie das Game of Life. Dafür ist es angemessen, eine Klasse `Welt`  zu definieren, die den Zustand
+Programmiere das Game of Life. Dafür ist es angemessen, eine Klasse `Welt` zu definieren, die den Zustand
 der Welt in einem Attribut speichert und eine Methode `schritt` hat, die einen Entwicklungssschritt beschreibt. Weiterhin kann die Klasse eine Methode `anzeige` haben, die mit Hilfe von matplotlib den Zustand anzeigt.
