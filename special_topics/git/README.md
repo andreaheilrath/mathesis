@@ -5,6 +5,14 @@ parent: Special Topics
 permalink: special_topics/git
 ---
 
-[Video GIT Basics](https://www.youtube.com/watch?v=BpDUvAmgkbE)
+# GIT
 
-More is about to come ...
+"Git [ɡɪt] ist eine freie Software zur verteilten Versionsverwaltung von Dateien, die durch Linus Torvalds initiiert wurde."
+
+[Git auf Wikipedia](https://de.wikipedia.org/wiki/Git)
+
+[Git Homepage](https://git-scm.com)
+
+<div class="iframe-container">
+<iframe src="https://www.youtube.com/embed/v=BpDUvAmgkbE" allowfullscreen></iframe>
+</div>
