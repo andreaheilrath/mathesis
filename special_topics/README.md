@@ -5,14 +5,7 @@ has_children: true
 permalink: special_topics
 ---
 
-## Themenbasierte Sammlung
+# Themenbasierte Sammlung
 
-Themen, die etwas mehr Platz brauchen und daher einen eigenen Ordner bekommen haben:
+Hier gibt es Artikel zu Themen, die in Mathesis immer wieder aufkommen und daher eine eigene Unterseite bekommen haben.
 
-* [GIT](./git)
-* [Machine Learning](./machine_learning)
-* [Physik Simulationen](./physikssimulation)
-
-### Naturwissenschaften und Ästhetik
-* [The Nature of Code](https://natureofcode.com/book/introduction/)
-* [Digital Morphogenesis](https://github.com/jasonwebb/morphogenesis-resources)
