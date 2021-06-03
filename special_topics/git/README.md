@@ -14,5 +14,5 @@ permalink: special_topics/git
 [Git Homepage](https://git-scm.com)
 
 <div class="iframe-container">
-<iframe src="https://www.youtube.com/embed/v=BpDUvAmgkbE" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/BpDUvAmgkbE" allowfullscreen></iframe>
 </div>
