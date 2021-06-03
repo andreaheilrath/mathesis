@@ -7,5 +7,5 @@ permalink: special_topics
 
 # Themenbasierte Sammlung
 
-Hier gibt es Artikel zu Themen, die in Mathesis immer wieder aufkommen und daher eine eigene Unterseite bekommen haben.
+Hier werden Themen behandelt, die in Mathesis immer wieder aufkommen und daher eine eigene Unterseite bekommen haben.
 
