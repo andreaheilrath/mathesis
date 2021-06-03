@@ -1,6 +1,6 @@
 ---
 title: Machine Learning
-nav_order: 1
+nav_order: 3
 parent: Special Topics
 permalink: special_topics/machine_leraning
 ---
