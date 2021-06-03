@@ -5,9 +5,11 @@ parent: Special Topics
 permalink: special_topics/physik_simulation
 ---
 
-## Physik Simulationen
+# Physik Simulationen
 
-### Verfahren für Differentialgleichungen 2. Ordnung
+
+
+## Verfahren für Differentialgleichungen 2. Ordnung
 
 * [Euler-Verfahren](https://de.wikipedia.org/wiki/Explizites_Euler-Verfahren)
 * [Leapfrog-Verfahren](https://de.wikipedia.org/wiki/Leapfrog-Verfahren)
