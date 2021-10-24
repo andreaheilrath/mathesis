@@ -9,7 +9,11 @@ permalink: /0th_session/
 
 In dieser Session geht es primär darum, dass ihr Python auf eurem Rechner installiert und etwas über Computer im Allgemeinen erfahrt. Gegen Ende werdet ihr aber erste kleine Skripte schreiben können.
 
-Zum Einstieg geht es zunächst um die [>>Geschichte](./geschichte) von Computern, ein paar Grundlagen zur Funktionsweise von Rechnern [>>Computer Science](./computer_science), die Installation von Python [>>Python Quickstart](./python_quickstart) und [>>Jupyter Notebooks](./jupyter_notebooks).
+Die Themen dieser Woche sind:
+* [>>Geschichte](./geschichte) von Computern
+* ein paar Grundlagen zur Funktionsweise von Rechnern: [>>Computer Science](./computer_science)
+* die Installation von Python [>>Python Quickstart](./python_quickstart) und 
+* [>>Jupyter Notebooks](./jupyter_notebooks).
 
 [>> Hier gehts zu den Youtube Tutorials!](https://youtube.com/playlist?list=PLTS-X17mUJ0tkQUtqcC26anLR30YJdLnb)
 
