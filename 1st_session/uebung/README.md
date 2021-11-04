@@ -138,7 +138,7 @@ Schreibe ein kleines Programm, das das längste Code-Stück sucht, das (übersch
 
 
 ```python
-%ls *.txt #dieser Befehl wird in der Konsole ausgeführt. Hier sollte die datei "pritein_exoli.txt" auftauchen
+%ls *.txt #dieser Befehl wird in der Konsole ausgeführt. Hier sollte die datei "protein_exoli.txt" auftauchen
 ```
 
 
